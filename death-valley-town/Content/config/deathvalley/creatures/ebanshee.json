@@ -1,0 +1,139 @@
+{
+	"ebanshee": {
+		"name" : {
+			"plural" : "Night Witches", 
+			"singular" : "Night Witch"
+		},
+		"faction" : "deathvalley",
+		"level" : 5,
+		"cost" : {
+			"gold" : 600
+		},
+		"speed" : 7,
+		"hitPoints" : 40,
+		"attack" : 13,
+		"defense" : 10,
+		"damage" : {
+			 "max" : 15,
+			 "min" : 11
+		},
+		"doubleWide" : false,
+		"hasDoubleWeek" : true,
+		"growth" : 3,
+		"shots" : 8,
+		"aiValue" : 916,
+		"fightValue" : 920,
+		"advMapAmount" : {
+			 "max" : 12,
+			 "min" : 8
+		},
+		"abilities" : {
+			"IS_UNDEAD" : 
+			{
+				"type" : "UNDEAD"
+			},	
+			"castWeakness" :
+			{
+				"addInfo" : 1000,
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.weakness",
+				"val" : 100
+			},
+			"resurrection20hp" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.animateDead",
+				"val" : 20
+			},
+			"resurrects" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.animateDead",
+				"val" : 3
+			},
+			"spellpoints" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"canshoot" :
+			{
+				"type" : "SHOOTER"
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+			}
+		],
+		"graphics" : {
+			"animation" : "deathvalley/battle/creatures/bansheeUpg.def",
+			"map" : "deathvalley/map/bansm2.def",
+			"iconSmall" : "deathvalley/iconsSmall/bansma1.bmp",
+			"iconLarge" : "deathvalley/iconsBig/banbig1.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"missile" :
+			{
+				"projectile" : "deathvalley/battle/creatures/projectile/bansh.def",
+				"attackClimaxFrame" : 4,
+				"offset" :
+				{
+					"lowerX" : 62,
+					"lowerY" : -93,
+					"middleX" : 62,
+					"middleY" : -93,
+					"upperX" : 62,
+					"upperY" : -93
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "deathvalley/bansheeattk.wav",
+			"defend" : "deathvalley/bansheedfnd.wav",
+			"shoot" : "deathvalley/bansheeshoot.wav",
+			"killed" : "deathvalley/WITHKILL.wav",
+			"move" : "PLCHMOVE.wav",
+			"wince" : "deathvalley/WITHWNCE.wav"
+		}
+	}
+}

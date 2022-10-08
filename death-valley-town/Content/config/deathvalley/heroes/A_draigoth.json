@@ -1,0 +1,72 @@
+{
+	"a_dvDraigoth" :
+	{
+		"class" : "dvDeathlord",
+		"female" : false,
+
+
+		"images" :
+		{
+			"specialtySmall" : "deathvalley/heroes/draigoth/Un32Hound.png",
+			"specialtyLarge" : "deathvalley/heroes/draigoth/Un44Hound.png",
+			"large" : "deathvalley/heroes/draigoth/DraigothL.png",
+			"small" : "deathvalley/heroes/draigoth/DraigothS.png"
+		},
+
+
+		"army" : [
+			{
+				"creature" : "skelh",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "skelh",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "skelh",
+				"max" : 15,
+				"min" : 10
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			},
+			{
+				"level" : "basic",
+				"skill" : "necromancy"
+			}
+		],
+		"specialty" : {
+			"creature" : "skelh",
+			"base" : {
+				"addInfo" : "creature.leaper",
+				"type" : "SPECIAL_UPGRADE"
+			},
+			"bonuses" : {
+				"walkingDead2leaper" : { "subtype" : "creature.skeleton" },
+				"zombieLord2leaper" : { "subtype" : "creature.skeletonWarrior" },
+				"raiseSkeletons" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "creature.skelh",
+					"addInfo" : [1, 1]
+               }
+			}
+		},
+		"texts" : {
+				"biography" : "Draigoth is often called the 'Lord of the Wasteland' by his peers, a term that is half derisive, half respectful. He cares little though as he prefers the company of his 'canine' companions over his peers.",
+			"name" : "Draigoth",
+			"specialty" : {
+				"description" : "Can upgrade Skeletons and Skeleton Warriors into Grave Beasts.",
+				"name" : "Bone Hounds",
+				"tooltip" : "Free upgrades: Death Valleys' hounds"
+			}
+		}
+	}
+}
+

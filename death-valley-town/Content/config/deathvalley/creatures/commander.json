@@ -1,0 +1,113 @@
+{
+	"commander": {
+		"name" : {
+			"plural" : "Death Lords",
+			"singular" : "Death Lord"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 16,
+			 "max" : 25
+		},
+		"faction" : "neutral",
+		"aiValue" : 1000,
+		"special" : true,
+		"doubleWide" : true,
+		"attack" : 5,
+		"damage" :
+		{
+			 "max" : 10,
+			 "min" : 10
+		},
+		"defense" : 5,
+		"fightValue" : 1000,
+		"growth" : 9,
+		"hasDoubleWeek": false,
+		"hitPoints" : 50,
+		"shots" : 24,
+		"cost" :
+		{
+			"gold" : 140
+		},
+		"level" : 0,
+		"speed" : 5,
+		"abilities" :
+		{
+		"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.fortune",
+				"val" : 3
+                  },
+                  "IS_UNDEAD" :
+                  {
+                    "type" : "UNDEAD"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			}
+		},
+		"graphics" : {
+			"animation" : "deathvalley/battle/creatures/dkchamp.def",
+//			"map" : "deathvalley/map/dkchampmini.def",
+			"iconSmall" : "deathvalley/iconsSmall/dkchamps.bmp",
+			"iconLarge" : "deathvalley/iconsBig/dkchampl.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"missile" :
+			{
+				"projectile" : "PMAGEX.DEF",
+				"attackClimaxFrame" : 4,
+				"offset" :
+				{
+					"lowerX" : 62,
+					"lowerY" : -93,
+					"middleX" : 62,
+					"middleY" : -93,
+					"upperX" : 62,
+					"upperY" : -93
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "BKNTATTK.wav",
+			"defend" : "BKNTDFND.wav",
+			"killed" : "BKNTKILL.wav",
+			"move" : "BKNTMOVE.wav",
+			"wince" : "BKNTWNCE.wav"
+		}
+	}
+}

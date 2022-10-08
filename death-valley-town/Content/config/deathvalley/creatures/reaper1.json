@@ -1,0 +1,99 @@
+{
+	"reaper1": {
+		"name" : {
+			"plural" : "Reapers",
+			"singular" : "Reaper"
+		},
+		"faction" : "deathvalley",
+		"level" : 6,
+		"upgrades": ["reaper2"],
+		"cost" : {
+			"gold" : 1000
+		},
+		"speed" : 7,
+		"hitPoints" : 80,
+		"attack" : 16,
+		"defense" : 16,
+		"damage" : {
+			 "max" : 20,
+			 "min" : 15
+		},
+		"doubleWide" : false,
+		"hasDoubleWeek" : true,
+		"growth" : 2,
+		"aiValue" : 1810,
+		"fightValue" : 1561,
+		"advMapAmount" : {
+			 "max" : 12,
+			 "min" : 5
+		},
+		"abilities" : {
+			"IS_UNDEAD" : {
+				"type" : "UNDEAD"
+			},
+			"flies" :
+			{
+				"type" : "FLYING",
+				"subtype" : 0
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			}
+		],
+		"graphics" : {
+			"animation" : "deathvalley/battle/creatures/reaper1.def",
+			"map" : "deathvalley/map/reaper1mini.def",
+			"iconSmall" : "deathvalley/iconsSmall/CPrS066N.bmp",
+			"iconLarge" : "deathvalley/iconsBig/CPrL066N.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "deathvalley/reaperatk.wav",
+			"defend" : "deathvalley/reaperdfnd.wav",
+			"killed" : "deathvalley/reaperdie.wav",
+			"move" : "deathvalley/reapermove.wav",
+			"wince" : "deathvalley/reaperhurt.wav"
+		}
+	}
+}

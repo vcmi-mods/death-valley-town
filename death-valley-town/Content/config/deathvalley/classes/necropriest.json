@@ -1,0 +1,85 @@
+{
+	"dvNecropriest" :
+	{
+		"name" : "Dark Priest",
+		"faction" : "deathvalley",
+		"affinity" : "magic",
+		"defaultTavern" : 5,
+
+		"commander" : "commander2",
+		
+		"mapObject" : {
+			"templates" : {
+				"default" : {
+					"animation" : "deathvalley/battle/heroes/AH09_.def",
+					"editorAnimation" : "deathvalley/battle/heroes/AH09_E.def"
+				}
+			}
+		},
+		"animation" : {
+			"battle" : {
+				"female" : "deathvalley/battle/heroes/HeroNecro.DEF",
+				"male" : "deathvalley/battle/heroes/HeroMale.DEF"
+			}
+		},
+		"primarySkills" : {
+			"attack" : 1,
+			"defence" : 1,
+			"knowledge" : 2,
+			"spellpower" : 2
+		},
+		"highLevelChance" : {
+		"attack" : 25,
+		"defence" : 25,
+		"knowledge" : 25,
+		"spellpower" : 25
+		},
+		"lowLevelChance" : {
+			"attack" : 15,
+			"defence" : 15,
+			"knowledge" : 35,
+			"spellpower" : 35
+		},
+		"secondarySkills" : {
+			"airMagic" : 3,
+			"archery" : 4,
+			"armorer" : 4,
+			"artillery" : 5,
+			"ballistics" : 5,
+			"diplomacy" : 3,
+			"eagleEye" : 7,
+			"earthMagic" : 7,
+			"estates" : 3,
+			"fireMagic" : 5,
+			"firstAid" : 3,
+			"intelligence" : 6,
+			"leadership" : 0,
+			"learning" : 4,
+			"logistics" : 4,
+			"luck" : 0,
+			"mysticism" : 7,
+			"navigation" : 5,
+			"necromancy" : 8,
+			"offence" : 3,
+			"pathfinding" : 6,
+			"resistance" : 4,
+			"scholar" : 5,
+			"scouting" : 2,
+			"sorcery" : 6,
+			"tactics" : 2,
+			"waterMagic" : 3,
+			"wisdom" : 6
+		},
+		"tavern" : {
+			"castle" : 5,
+			"conflux" : 6,
+			"dungeon" : 6,
+			"fortress" : 6,
+			"inferno" : 6,
+			"necropolis" : 6,
+			"rampart" : 5,
+			"stronghold" : 5,
+			"tower" : 5
+		}
+	}
+}

@@ -1,0 +1,121 @@
+{
+	"gghost": {
+		"name" : {
+			"plural" : "Shades",
+			"singular" : "Shade"
+		},
+		"faction" : "deathvalley",
+		"level" : 4,
+		"upgrades": ["cghost"],
+		"cost" : {
+			"gold" : 325
+		},
+		"speed" : 7,
+		"hitPoints" : 25,
+		"attack" : 8,
+		"defense" : 8,
+		"damage" : {
+			 "max" : 8,
+			 "min" : 5
+		},
+		"doubleWide" : false,
+		"hasDoubleWeek" : true,
+		"growth" : 4,
+		"aiValue" : 437,
+		"fightValue" : 429,
+		"advMapAmount" : {
+			 "max" : 20,
+			 "min" : 10
+		},
+		"abilities" : {
+			"FLYING_ARMY" : {
+				"type" : "FLYING"
+			},
+			"IS_UNDEAD" : {
+				"type" : "UNDEAD"
+            }
+		},
+    "stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_BEFORE_ATTACK",
+					"subtype" : 45, //"spell.weakness"
+					"addInfo" : [3, 2]
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
+			},
+			{
+				"bonus" :
+				{
+					"type" : "MAGIC_RESISTANCE"
+				},
+				"values" : [ 6, 12, 18, 24, 30, 36, 42, 48, 54, 60 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			}
+		]
+,
+		"graphics" : {
+			"animation" : "deathvalley/battle/creatures/gghost.def",
+			"map" : "deathvalley/map/gghostmini.def",
+			"iconSmall" : "deathvalley/iconsSmall/CPrS062N.bmp",
+			"iconLarge" : "deathvalley/iconsBig/CPrL062N.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "deathvalley/bansheeattk.wav",
+			"defend" : "deathvalley/bansheedfnd.wav",
+			"killed" : "deathvalley/bansheedie.wav",
+			"move" : "deathvalley/bansheemove.wav",
+			"wince" : "deathvalley/bansheehurt.wav"
+		}
+	}
+}

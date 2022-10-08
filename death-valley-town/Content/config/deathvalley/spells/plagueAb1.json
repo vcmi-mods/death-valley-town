@@ -1,0 +1,109 @@
+{
+	"plagueAb1":
+	{
+		"type": "ability", 
+		"targetType": "CREATURE", 
+		"name": "Plague",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 5,
+		"power": 10,
+		
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+
+ 
+		"animation":{
+			"affect":["deathvalley/spells/skill3.def",]
+		},
+ 
+		"flags" : { "offensive": true, "damage": true, "negative" : true },
+		
+		"targetCondition" : {
+		"noneOf" : {
+				"bonus.NON_LIVING" : "normal",
+				"bonus.GARGOYLE" : "normal",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.UNDEAD" : "absolute"
+			}
+		},
+
+ 
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconEffect": "deathvalley/spells/skill 3-2.bmp"
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds": {
+			"cast": "DISEASE"
+		},
+ 
+		"levels" : {
+			"base":{
+				"cost": 0,
+				"range": "0-1",
+				"power": 1,
+				"aiValue": 70,
+				"targetModifier":{"smart":false},
+				"effects" : {
+					"poison" : {
+						"val" : 30,
+						"type" : "POISON",
+						"valueType" : "INDEPENDENT_MAX",
+						"duration" : "N_TURNS",
+						"turns" : 3
+					},
+					"stackHealth" : {
+						"val" : -5,
+						"type" : "STACK_HEALTH",
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS",
+						"turns" : 3
+					},
+					"attack" : {
+						"val" : -2,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.attack",
+						"duration" : "N_TURNS",
+						"turns" : 3
+					},
+					"defence" : {
+						"val" : -2,
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primSkill.defence",
+						"duration" : "N_TURNS",
+						"turns" : 3
+					}
+				}
+			},
+			"none":
+			{
+				"description": "{Plague}\n\nNo description.",				
+			},
+			"basic":
+			{
+				"description": "{Plague}\n\nNo description.",
+				},
+			"advanced":
+			{
+				"description": "{Plague}\n\nNo description.",
+				},
+			"expert":
+			{
+				"description": "{Plague}\n\nNo description.",
+				}
+		}
+	}
+ 
+ }

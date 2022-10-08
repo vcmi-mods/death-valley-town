@@ -1,0 +1,74 @@
+{
+	"m_dvMinerva" :
+	{
+		"class" : "dvNecropriest",
+		"female" : true,
+
+
+		"images" :
+		{
+			"specialtySmall" : "deathvalley/heroes/minerva/Un32Anim.bmp",
+			"specialtyLarge" : "deathvalley/heroes/minerva/Un44Anim.bmp",
+			"large" : "deathvalley/heroes/minerva/MinervaL.png",
+			"small" : "deathvalley/heroes/minerva/MinervaS.png"
+		},
+
+                  "army" : [
+			{
+				"creature" : "skelh",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "boneHook",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "mums",
+				"max" : 7,
+				"min" : 5
+			}
+		],
+		"spellbook" :
+		[
+			"animateDead"
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "necromancy"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"animateDead" : {
+					"subtype" : "spell.animateDead",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				},
+				"raiseSkells" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "creature.skelh",
+					"addInfo" : [1, 1]
+				}				
+			}
+		},
+			
+		"texts" : {
+			"biography" : "Minerva is one of the more sane priestesses. She tends to her troops as if they are her own children, constantly looking out for their well being, and constantly looking to grow her 'family'.",
+			"name" : "Minerva",
+			"specialty" : {
+				"description" : "{Animate Dead}\r\n\r\nCasts Animate Dead with increased effect, based on hero level compared to the level of the target unit.",
+				"tooltip" : "Spell bonus: Animate Dead",
+				"name" : "Animate Dead"
+			}
+		}
+	}
+}
+

@@ -1,0 +1,74 @@
+{
+	"m_dvTakesha" :
+	{
+		"class" : "dvNecropriest",
+		"female" : true,
+
+		"images" :
+		{
+			"specialtySmall" : "deathvalley/heroes/takesha/Un32Inte.bmp",
+			"specialtyLarge" : "deathvalley/heroes/takesha/Un44Inte.bmp",
+			"large" : "deathvalley/heroes/takesha/TakeshaL.png",
+			"small" : "deathvalley/heroes/takesha/TakeshaS.png"
+		},
+
+
+		"army" : [
+			{
+				"creature" : "skelh",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "boneHook",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "mums",
+				"max" : 7,
+				"min" : 5
+			}
+		],
+		"spellbook" :
+		[
+			"magicArrow"
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "necromancy"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"intelligence" : {
+					"subtype" : "skill.intelligence",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				"raiseSkells" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "creature.skelh",
+					"addInfo" : [1, 1]
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "Takesha is a highly intelligent priestess, who is said to be so keen in her ability to observe the tactics of her enemies that she can even learn the spells they cast by observing them.",
+			"name" : "Takesha",
+			"specialty" : {
+				"description" : "{Intelligence}\r\n\r\nReceives a 7% per level bonus to Intelligence skill.",
+				"tooltip" : "Receives a 7% per level bonus to Intelligence skill.",
+				"name" : "Intelligence"
+			}
+		}
+	}
+}
+

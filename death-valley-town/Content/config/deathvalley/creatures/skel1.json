@@ -1,0 +1,117 @@
+{
+  "skel1": {
+    "name": {
+      "plural": "Skeleton Guards",
+      "singular": "Skeleton Guard"
+    },
+    "advMapAmount": {
+ "max" : 38,
+ "min" : 25
+    },
+    "faction": "deathvalley",
+    "aiValue": 192,
+    "attack": 6,
+    "cost": {
+      "gold": 80
+    },
+    "damage": {
+ "max" : 3,
+ "min" : 1
+    },
+    "defense": 5,
+    "fightValue": 203,
+    "graphics": {
+      "animation": "deathvalley/battle/creatures/skel1.def",
+      "map": "deathvalley/map/skel1mini.def",
+      "iconSmall": "deathvalley/iconsSmall/skel1s.bmp",
+      "iconLarge": "deathvalley/iconsBig/skel1l.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1.00,
+        "attack": 1,
+        "idle": 10,
+        "flight": 1
+      }
+    },
+    "hasDoubleWeek": true,
+    "growth": 12,
+    "hitPoints": 7,
+    "level": 1,
+    "upgrades": ["skel2"],
+    "sound": {
+      "attack": "SKLWATTK.wav",
+      "defend": "SKLWDFND.wav",
+      "killed": "SKLWKILL.wav",
+      "move": "SKLWMOVE.wav",
+      "wince": "SKLWWNCE.wav"
+    },
+    "speed": 5,
+    "abilities": {
+      "IS_UNDEAD": {
+        "type": "UNDEAD"
+			}
+		},
+		"stackExperience" :
+
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : 28 //"spell.airshield", 
+				},
+				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]			
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_IMMUNITY", 
+					"subtype" : 35 //"spell.dispel", 
+				},
+				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]			
+			}
+		]
+	}
+}
+	

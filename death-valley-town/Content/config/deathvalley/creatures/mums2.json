@@ -1,0 +1,131 @@
+{
+	"mums2": {
+		"name" : {
+			"plural" : "Decayeds", //Decayed
+			"singular" : "Decayed"
+		},
+		"faction" : "deathvalley",
+		"level" : 3,
+		"cost" : {
+			"gold" : 250
+		},
+		"speed" : 6,
+		"hitPoints" : 30,
+		"attack" : 8,
+		"defense" : 7,
+		"damage" : {
+			 "max" : 5,
+			 "min" : 4
+		},
+		"doubleWide" : false,
+		"hasDoubleWeek" : true,
+		"growth" : 7,
+		"aiValue" : 908,
+		"fightValue" : 839,
+		"advMapAmount" : {
+			 "max" : 20,
+			 "min" : 12
+		},
+		"abilities":
+		{
+			"undead" :
+			{
+				"type" : "UNDEAD"
+			},
+			"castDisease" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.plagueAb1",//plagueAb1
+				"val" : 100
+			},
+			"plaguePoints" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.plagueAb1",
+				"val" : 2
+			},
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : 42, //"spell.curse",
+					"addInfo" : [1,0] 
+				},
+				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : -1
+				},
+				"values" : [ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+			}
+		],
+		"graphics" : {
+			"animation" : "deathvalley/battle/creatures/mums.def",
+			"map" : "deathvalley/map/mumsmini.def",
+			"iconSmall" : "deathvalley/iconsSmall/CPrS064N.bmp",
+			"iconLarge" : "deathvalley/iconsBig/CPrL064N.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack": "MUMYATTK.wav",
+			"defend": "MUMYDFND.wav",
+			"killed": "MUMYKILL.wav",
+			"move": "MUMYMOVE.wav",
+			"wince": "MUMYWNCE.wav"
+		}
+	}
+}

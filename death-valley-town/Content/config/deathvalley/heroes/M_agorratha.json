@@ -1,0 +1,74 @@
+{
+	"m_dvAgorratha" :
+	{
+		"class" : "dvNecropriest",
+		"female" : true,
+
+		"images" :
+		{
+			"specialtySmall" : "deathvalley/heroes/agorratha/Un32Deat.bmp",
+			"specialtyLarge" : "deathvalley/heroes/agorratha/Un44Deat.bmp",
+			"large" : "deathvalley/heroes/agorratha/AgorrathaL.png",
+			"small" : "deathvalley/heroes/agorratha/AgorrathaS.png"
+		},
+
+
+		"army" : [
+			{
+				"creature" : "skelh",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "boneHook",
+				"max" : 9,
+				"min" : 7
+			},
+			{
+				"creature" : "mums",
+				"max" : 7,
+				"min" : 5
+			}
+		],
+		"spellbook" :
+		[
+			"deathRipple"
+		],
+		"skills" : [
+			{
+				"level" : "advanced",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "necromancy"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"deathRipple" : {
+					"subtype" : "spell.deathRipple",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				},
+				"raiseSkells" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "creature.skelh",
+					"addInfo" : [1, 1]
+				}
+			}
+		},
+			
+		"texts" : {
+			"biography" : "Agorratha is said to hold the very power of death itself, destroying large swaths of her foes with a wave of her hand.",
+			"name" : "Agorratha",
+			"specialty" : {
+				"description" : "{Death Ripple}\r\n\r\nCasts Death Ripple with increased effect, based on hero level compared to the level of the target unit.",
+				"tooltip" : "Spell bonus: Death Ripple",
+				"name" : "Death Ripple"
+			}
+		}
+	}
+}
+

@@ -1,0 +1,146 @@
+{
+	"flayer":
+	{
+		"name" :
+		{
+			"plural" : "Horror Archers",
+			"singular" : "Horror Archer"
+		},
+		"advMapAmount" :
+		{
+
+			 "max" : 25,
+			 "min" : 16
+		},
+		"faction" : "deathvalley",
+		"aiValue" : 291,
+		"attack" : 6,
+		"cost" :
+		{
+			"gold" : 150
+		},
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 3
+		},
+		"defense" : 6,
+		"fightValue" : 291,
+		"level" : 2,
+		"shots" : 24,
+                "graphics" :
+		{
+			"animation" : "deathvalley/battle/creatures/Flayer.def",
+			"map" : "deathvalley/map/Flayer.def",
+			"iconSmall" : "deathvalley/iconsSmall/Flayer.bmp",
+			"iconLarge" : "deathvalley/iconsBig/Flayer.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			},
+			"missile" :
+			{
+				"projectile" : "PLCBOWX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"growth" : 8,
+		"hitPoints" : 15,
+		"speed" : 6,
+		"sound" :
+		{
+			"attack": "SKLWATTK.wav",
+			"defend": "SKLWDFND.wav",
+			"killed": "SKLWKILL.wav",
+			"shoot": "LCRSSHOT.wav",
+			"move": "SKLWMOVE.wav",
+			"wince": "SKLWWNCE.wav"
+                },
+		"abilities" :
+		{
+			"canshoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"UNDEAD" : 
+			{
+				"type" : "UNDEAD"
+			}
+		},
+		"stackExperience" :
+
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : 73, //"spell.disease",
+					"addInfo" : 1001 //73 - disease
+				},
+				"values" : [ 8, 16, 24, 32, 40, 48, 56, 64, 72, 80 ]				
+			},
+			{
+				"bonus" :
+				{
+					"type" : "LEVEL_SPELL_IMMUNITY"
+				},
+				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+			}
+		]
+	}
+}

@@ -1,0 +1,118 @@
+{
+	"leaper": {
+		"name" : {
+			"plural" : "Grave Beasts",
+			"singular" : "Grave Beast"
+		},
+		"faction" : "deathvalley",
+		"level" : 1,
+		"cost" : {
+			"gold" : 70
+		},
+		"speed" : 6,
+		"hitPoints" : 10,
+		"attack" : 6,
+		"defense" : 6,
+		"damage" : {
+			 "max" : 3,
+			 "min" : 1
+		},
+		"doubleWide" : true,
+	        "horde" : 6,
+		"growth" : 12,
+		"aiValue" : 158,
+		"fightValue" : 167,
+		"advMapAmount" : {
+			 "max" : 30,
+			 "min" : 20
+		},
+		"abilities" : {
+            
+			"IS_UNDEAD" : {
+				"type" : "UNDEAD"
+			}
+		},
+		"stackExperience" :
+
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1, //min
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2, //max
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : 28 //"spell.airshield", 
+				},
+				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]			
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_IMMUNITY", 
+					"subtype" : 35 //"spell.dispel", 
+				},
+				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]			
+			}
+		],
+		"graphics" : {
+			"animation" : "deathvalley/battle/creatures/gravebeast.def",
+			"map" : "deathvalley/map/gravebeastmini.def",
+			"iconSmall" : "deathvalley/iconsSmall/gravebeasts.bmp",
+			"iconLarge" : "deathvalley/iconsBig/gravebeastl.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "deathvalley/skelhatk.wav",
+			"defend" : "deathvalley/DTHHDFND.wav",
+			"killed" : "deathvalley/DTHHKILL.wav",
+			"move": "deathvalley/DTHHMOVE.wav",
+			"wince" : "deathvalley/skelhhit.wav"
+		}
+	}
+}

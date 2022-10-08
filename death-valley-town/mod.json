@@ -1,0 +1,72 @@
+{
+	"name" : "Death Valley",
+	"description" : "New necro town",
+	"author" : "VCMI ROFL and Turbanellos(Ben Yan)",
+	"contact" : "forum.vcmi.eu",
+	"version" : "1.10",
+	"modType" : "Town",
+	"changelog" :
+    {
+		"1.00"   : [ "Initial release" ],
+		"1.10"	: [" changes for town screen, map objects, seige screen, creatures"]
+    },
+    "factions" : [ "config/deathvalley/town.json" ],
+	
+	"creatures" :
+	[
+		"config/deathvalley/creatures/skel1.json",
+		"config/deathvalley/creatures/skel2.json",
+		"config/deathvalley/creatures/Bone Hook.json",
+		"config/deathvalley/creatures/Flayer.json",
+		"config/deathvalley/creatures/banshee.json",
+		"config/deathvalley/creatures/ebanshee.json",
+		"config/deathvalley/creatures/gghost.json",
+		"config/deathvalley/creatures/cghost.json",
+		"config/deathvalley/creatures/leaper.json",
+		"config/deathvalley/creatures/skelh.json",
+		"config/deathvalley/creatures/reaper1.json",
+		"config/deathvalley/creatures/reaper2.json",
+		"config/deathvalley/creatures/mums.json",
+		"config/deathvalley/creatures/mums2.json",
+		"config/deathvalley/creatures/bonegolem.json",
+		"config/deathvalley/creatures/ghostgolem.json",
+		"config/deathvalley/creatures/commander.json",
+		"config/deathvalley/creatures/commander2.json"
+	],  
+	
+	"heroClasses" :
+	[
+		"config/deathvalley/classes/deathlord.json",
+		"config/deathvalley/classes/necropriest.json"
+	],
+
+	"heroes" :
+	[
+		"config/deathvalley/heroes/A_barraka.json",
+		"config/deathvalley/heroes/A_crightoth.json",
+		"config/deathvalley/heroes/A_draigoth.json",
+		"config/deathvalley/heroes/A_dreygo.json",
+		"config/deathvalley/heroes/A_mortadela.json",
+		"config/deathvalley/heroes/A_roakshar.json",
+		"config/deathvalley/heroes/A_sylvanus.json",
+		"config/deathvalley/heroes/A_valleante.json",
+		"config/deathvalley/heroes/M_agorratha.json",
+		"config/deathvalley/heroes/M_duella.json",
+		"config/deathvalley/heroes/M_jacen.json",
+		"config/deathvalley/heroes/M_minerva.json",
+		"config/deathvalley/heroes/M_norman.json",
+		"config/deathvalley/heroes/M_rezzileante.json",
+		"config/deathvalley/heroes/M_sorcha.json",
+		"config/deathvalley/heroes/M_takesha.json",
+		"config/deathvalley/heroes/M_darkNova.json"
+	],
+	"spells" :
+	[
+		"config/deathvalley/spells/plagueAb1.json",
+		"config/deathvalley/spells/bansheeAb1.json",
+		"config/deathvalley/spells/boneskill01.json",
+		"config/deathvalley/spells/boneskill02.json",
+		"config/deathvalley/spells/reaperAb1.json"
+	],
+	"objects" : [ "config/deathvalley/dwellings" ]
+}

@@ -1,0 +1,72 @@
+{
+	"m_dvJacen" :
+	{
+		"class" : "dvNecropriest",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "deathvalley/heroes/jacen/Un32Myst.bmp",
+			"specialtyLarge" : "deathvalley/heroes/jacen/Un44Myst.bmp",
+			"large" : "deathvalley/heroes/jacen/JacenL.png",
+			"small" : "deathvalley/heroes/jacen/JacenS.png"
+		},
+		"army" : [
+			{
+				"creature" : "skelh",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "boneHook",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "mums",
+				"max" : 7,
+				"min" : 5
+			}
+		],
+		"spellbook" :
+		[
+			"magicArrow"
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			},
+			{
+				"level" : "basic",
+				"skill" : "necromancy"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"mysticism" : {
+					"subtype" : "skill.mysticism",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				"raiseSkells" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "creature.skelh",
+					"addInfo" : [1, 1]
+				}
+			}
+		},
+		
+		"texts" : {
+			"biography" : "Jacen is said to be a devout Necropriest, favored by the Death Gods. He is cunning and cruel in battle, and is more than willing to destroy his enemies in the persuit of more souls for the gods.",
+			"name" : "Jacen",
+			"specialty" : {
+				"description" : "{Mysticism}\r\n\r\nReceives a 5% per level bonus to Mysticism skill.",
+				"tooltip" : "Receives a 5% per level bonus to Mysticism skill.",
+				"name" : "Mysticism"
+			}
+		}
+	}
+}
+

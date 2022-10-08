@@ -1,0 +1,59 @@
+{
+	"a_dvSylvanus" :
+	{
+		"class" : "dvDeathlord",
+		"female" : true,
+
+		"images" :
+		{
+			"specialtySmall" : "deathvalley/heroes/sylvanus/Un32Bansh.png",
+			"specialtyLarge" : "deathvalley/heroes/sylvanus/Un44Bansh.png",
+			"large" : "deathvalley/heroes/sylvanus/SylvanusL.png",
+			"small" : "deathvalley/heroes/sylvanus/SylvanusS.png"
+		},
+
+
+		"army" : [
+			{
+				"creature" : "skelh",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "banshee",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "necromancy"
+			}
+		],
+		"specialty" : {
+			"creature" : "banshee",
+			"bonuses" : {
+				"raiseSkeletons" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "creature.skelh",
+					"addInfo" : [1, 1]
+               }
+			}
+		},		
+		"texts" : {
+			"biography" : "Sylvanus is the queen of all witches. A fierce warrior in her own right, she leads her devoted armies with skill and grace, conducting them with a tactical precision that is the envy of many of her opponents.",
+			"name" : "Sylvanus",
+			"specialty" : {
+				"description" : "{Dark Witches and Night Witches}\r\n\r\nIncreases the Attack and Defence of any Dark Witches and Night Witches for each level attained after 5th level.",
+				"tooltip" : "Increases the Attack and Defence of any Dark Witches and Night Witches for each level attained after 5th level.",
+				"name" : "Dark Witches"
+			}
+		}
+	}
+}
+

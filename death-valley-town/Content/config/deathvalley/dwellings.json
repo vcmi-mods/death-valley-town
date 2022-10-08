@@ -1,0 +1,78 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"dvGraveyard" : {
+				"name" : "Cemetery",
+				"creatures" : [[ "skelh" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "deathvalley/adventure-map/dwelling-1.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"dvWasteMountain" : {
+				"name" : "Barrow Mound",
+				"creatures" : [[ "boneHook" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "deathvalley/adventure-map/dwelling-2.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"dvPyramid" : {
+				"name" : "Steeple",
+				"creatures" : [[ "mums" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "deathvalley/adventure-map/dwelling-3.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"dvValley" : {
+				"name" : "Haunted Canyon",
+				"creatures" : [[ "gghost" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "deathvalley/adventure-map/dwelling-4.def",
+						"mask" : [ "VVV", "VBB", "VAB" ]
+					}
+				}
+			},
+			"dvAbode" : {
+				"name" : "Abode of Night",
+				"creatures" : [[ "banshee" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "deathvalley/adventure-map/dwelling-5.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"dvHallOfDarkness" : {
+				"name" : "Hall of Darkness",
+				"creatures" : [[ "reaper1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "deathvalley/adventure-map/dwelling-6.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"dvTemple" : {
+				"name" : "Temple of Death",
+				"creatures" : [[ "bonegolem" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "deathvalley/adventure-map/dwelling-7.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

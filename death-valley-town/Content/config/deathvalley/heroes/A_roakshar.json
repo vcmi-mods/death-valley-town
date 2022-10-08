@@ -1,0 +1,72 @@
+{
+	"a_dvRoakshar" :
+	{
+		"class" : "dvDeathlord",
+		"female" : false,
+
+		"images" :
+		{
+			"specialtySmall" : "deathvalley/heroes/roakshar/Un32Offe.bmp",
+			"specialtyLarge" : "deathvalley/heroes/roakshar/Un44Offe.bmp",
+			"large" : "deathvalley/heroes/roakshar/RoaksharL.png",
+			"small" : "deathvalley/heroes/roakshar/RoaksharS.png"
+		},
+
+
+		"army" : [
+			{
+				"creature" : "skelh",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "boneHook",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "mums",
+				"max" : 7,
+				"min" : 5
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "advanced",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "necromancy"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"offence" : {
+					"subtype" : "skill.offence",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				"raiseSkells" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "creature.skelh",
+					"addInfo" : [1, 1]
+				}
+			}
+		},
+			
+		"texts" : {
+			"biography" : "Roakshar is a mighty hunter. When he is tasked to lead an army, he usually seeks out the enemy with a single-minded zeal and fierceness that is unrivaled in all the lands.",
+			"name" : "Roakshar",
+			"specialty" : {
+				"description" : "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill.",
+				"tooltip" : "Receives a 5% per level bonus to Offence skill.",
+				"name" : "Offence"
+			}
+		}
+	}
+}
+

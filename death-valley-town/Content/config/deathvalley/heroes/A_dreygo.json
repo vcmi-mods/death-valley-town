@@ -1,0 +1,64 @@
+{
+	"a_dvDreygo" :
+	{
+		"class" : "dvDeathlord",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "deathvalley/heroes/dreygo/Un32Mummy.png",
+			"specialtyLarge" : "deathvalley/heroes/dreygo/Un44Mummy.png",
+			"large" : "deathvalley/heroes/dreygo/dreygoL.png",
+			"small" : "deathvalley/heroes/dreygo/dreygoS.png"
+		},
+
+
+		"army" : [
+			{
+				"creature" : "skelh",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "mums",
+				"max" : 7,
+				"min" : 2
+			},
+			{
+				"creature" : "mums",
+				"max" : 7,
+				"min" : 2
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "necromancy"
+			}
+		],
+		"specialty" : {
+			"creature" : "mums",
+			"bonuses" : {
+				"raiseSkeletons" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "creature.skelh",
+					"addInfo" : [1, 1]
+               }
+			}
+		},		
+		"texts" : {
+			"biography" : "Dreygo was once a ruler of the valley. He was overthrown due to a treasonous plot. He his royal family, guards, and all of his loyal supporters were slaughtered, and entomed in the pyramids. However, his rage was so great he rose, animated his subjects, and slaughtered the disloyal cowards who betrayed him. He has led his loyal mummy subjects ever since.",
+			"name" : "Dreygo",
+			"specialty" : {
+				"description" : "{Mummies and Crypt Guards}\r\n\r\nIncreases the Attack and Defence of any Mummies and Crypt Guards for each level attained after 3rd level.",
+				"tooltip" : "Increases the Attack and Defence of any Embalmeds and Decayeds for each level attained after 3rd level.",
+				"name" : "Embalmeds"
+			}
+		}
+	}
+}
+

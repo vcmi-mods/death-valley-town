@@ -1,0 +1,132 @@
+{
+	"banshee":
+	{
+		"name" :
+		{
+			"plural" : "Dark Witches",
+			"singular" : "Dark Witch"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 8
+		},
+		"faction" : "deathvalley",
+		"aiValue" : 881,
+		"attack" : 13,
+		"cost" :
+		{
+			"gold" : 550
+		},
+		"damage" :
+		{
+			 "max" : 13,
+			 "min" : 11
+		},
+		"defense" : 10,
+		"fightValue" : 885,
+		"graphics" :
+		{
+			"animation" : "deathvalley/battle/creatures/banshee.def",
+			"map" : "deathvalley/map/bansheemini.def",
+			"iconSmall" : "deathvalley/iconsSmall/banshees.bmp",
+			"iconLarge" : "deathvalley/iconsBig/bansheel.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.40,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			},
+		    "missile" :
+			{
+				"attackClimaxFrame" : 8,
+				"projectile" : "deathvalley/battle/creatures/projectile/bansh.def",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},		
+         },
+		"growth" : 3,
+		"hitPoints" : 30,
+		"level" : 5,
+		"shots" : 6,
+		"upgrades":
+		[
+			"ebanshee"
+		],
+	
+		"sound" :
+		{
+			"attack" : "deathvalley/bansheeattk.wav",
+			"defend" : "deathvalley/bansheedfnd.wav",
+			"shoot" : "deathvalley/bansheeshoot.wav",
+			"killed" : "deathvalley/WITHKILL.wav",
+			"move" : "PLCHMOVE.wav",
+			"wince" : "deathvalley/WITHWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" : {
+			"canshoot" :
+			{
+				"type" : "SHOOTER"
+			},	
+				"castWeakness" :
+			{
+				"addInfo" : 1000,
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.weakness",
+				"val" : 100
+			},
+			"IS_UNDEAD" :
+			{
+				"type" : "UNDEAD"
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+			}
+		]
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"dvDeathlord" :
+	{
+		"name" : "Reaver",
+		"faction" : "deathvalley",
+		"affinity" : "might",
+		"defaultTavern" : 5,
+
+		"commander" : "commander",
+		
+		"mapObject" : {
+			"templates" : {
+				"default" : {
+					"animation" : "deathvalley/battle/heroes/dkmap.def",
+					"editorAnimation" : "deathvalley/battle/heroes/dkmape.def"
+				}
+			}
+		},
+		"animation" : {
+			"battle" : {
+				"female" : "deathvalley/battle/heroes/HeroNecro.DEF",
+				"male" : "deathvalley/battle/heroes/HeroMale.DEF"
+			}
+		},
+		"primarySkills" : {
+			"attack" : 2,
+			"defence" : 2,
+			"knowledge" : 1,
+			"spellpower" : 1
+		},
+		"highLevelChance" : {
+			"attack" : 25,
+			"defence" : 25,
+			"knowledge" : 25,
+			"spellpower" : 25
+		},
+		"lowLevelChance" : {
+			"attack" : 30,
+			"defence" : 25,
+			"knowledge" : 25,
+			"spellpower" : 20
+		},
+		"secondarySkills" : {
+			"airMagic" : 2,
+			"archery" : 5,
+			"armorer" : 6,
+			"artillery" : 7,
+			"ballistics" : 7,
+			"diplomacy" : 3,
+			"eagleEye" : 4,
+			"earthMagic" : 4,
+			"estates" : 0,
+			"fireMagic" : 3,
+			"firstAid" : 4,
+			"intelligence" : 5,
+			"leadership" : 2,
+			"learning" : 4,
+			"logistics" : 5,
+			"luck" : 0,
+			"mysticism" : 4,
+			"navigation" : 8,
+			"necromancy" : 7,
+			"offence" : 7,
+			"pathfinding" : 4,
+			"resistance" : 5,
+			"scholar" : 2,
+			"scouting" : 4,
+			"sorcery" : 4,
+			"tactics" : 5,
+			"waterMagic" : 3,
+			"wisdom" : 6
+		},
+		"tavern" : {
+			"castle" : 5,
+			"conflux" : 5,
+			"dungeon" : 6,
+			"fortress" : 5,
+			"inferno" : 6,
+			"necropolis" : 6,
+			"rampart" : 5,
+			"stronghold" : 6,
+			"tower" : 5
+		}
+	}
+}

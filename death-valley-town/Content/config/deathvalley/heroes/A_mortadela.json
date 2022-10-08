@@ -1,0 +1,70 @@
+{
+	"a_dvMortadella" :
+	{
+		"class" : "dvDeathlord",
+		"female" : true,
+
+		"images" :
+		{
+			"specialtySmall" : "deathvalley/heroes/mortadella/Un32Firs.bmp",
+			"specialtyLarge" : "deathvalley/heroes/mortadella/Un44Firs.bmp",
+			"large" : "deathvalley/heroes/mortadella/mortadellaL.png",
+			"small" : "deathvalley/heroes/mortadella/mortadellaS.png"
+		},
+
+
+		"army" : [
+			{
+				"creature" : "skelh",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "boneHook",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "mums",
+				"max" : 7,
+				"min" : 5
+			}
+		],
+		"skills" : [
+			{
+				"level" : "advanced",
+				"skill" : "firstAid"
+			},
+			{
+				"level" : "basic",
+				"skill" : "necromancy"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"firstAid" : {
+					"subtype" : "skill.firstAid",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				"raiseSkells" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "creature.skelh",
+					"addInfo" : [1, 1]
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "Mortadella is the chief designer of the Bone Labs, and takes great pride in her work. It is said she had a hand in the creation of many of the undead in the kingdom, and that she takes personal pride in presiding over many of their 'births'.",
+			"name" : "Mortadella",
+			"specialty" : {
+				"description" : "{First Aid}\r\n\r\nReceives a 5% per level bonus to First Aid skill.",
+				"tooltip" : "Receives a 5% per level bonus to First Aid skill.",
+				"name" : "First Aid"
+			}
+		}
+	}
+}
+

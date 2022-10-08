@@ -1,0 +1,119 @@
+{
+	"skelh": {
+		"name" : {
+			"plural" : "Skeleton Hounds",
+			"singular" : "Skeleton Hound"
+		},
+		"faction" : "deathvalley",
+		"level" : 1,
+		"upgrades": ["leaper"],
+		"cost" : {
+			"gold" : 60
+		},
+		"speed" : 5,
+		"hitPoints" : 8,
+	        "horde" : 6,
+		"attack" : 5,
+		"defense" : 4,
+		"damage" : {
+			 "max" : 3,
+			 "min" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 12,
+		"aiValue" : 146,
+		"fightValue" : 155,
+		"advMapAmount" : {
+			 "max" : 50,
+			 "min" : 20
+		},
+		"abilities" : {
+		
+			"IS_UNDEAD" : {
+				"type" : "UNDEAD"
+			}
+		},
+		"stackExperience" :
+
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1, //min
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2, //max
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : 28 //"spell.airshield", 
+				},
+				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]			
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_IMMUNITY", 
+					"subtype" : 35 //"spell.dispel", 
+				},
+				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]			
+			}
+		],
+		"graphics" : {
+			"animation" : "deathvalley/battle/creatures/skelhound.def",
+			"map" : "deathvalley/map/skelhoundmini.def",
+			"iconSmall" : "deathvalley/iconsSmall/skelhounds.bmp",
+			"iconLarge" : "deathvalley/iconsBig/skelhoundl.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "deathvalley/skelhatk.wav",
+			"defend" : "deathvalley/DTHHDFND.wav",
+			"killed" : "deathvalley/skelhdie.wav",
+			"move": "deathvalley/DTHHMOVE.wav",
+			"wince" : "deathvalley/skelhhit.wav"
+		}
+	}
+}

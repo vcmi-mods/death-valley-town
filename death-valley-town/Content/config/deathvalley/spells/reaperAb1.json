@@ -1,0 +1,90 @@
+{
+ "reaperAb1":
+	{
+		"type": "ability", 
+		"targetType": "CREATURE", 
+		"name": "Harmful Touch",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 5,
+		"power": 1, //this times spell power
+		
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+
+ 
+		"animation":{
+			"affect":[{ "defName":"deathvalley/spells/skill6.def", "verticalPosition":"bottom"}]
+		},
+ 
+		"flags" : { "offensive": true, "damage": true, "negative" : true, "special" : true },
+		
+		"targetCondition" : {
+		"noneOf" : {
+				"bonus.NON_LIVING" : "normal",
+				"bonus.GARGOYLE" : "normal",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.UNDEAD" : "absolute"
+			}
+		},
+
+ 
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconEffect": "deathvalley/spells/skill 4-2.bmp"
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds": {
+			"cast": "DEATHRIP"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"cost": 5,
+				"range": "0",
+				"power": 1, //base dmg
+				"aiValue": 70,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"description": "Kill one creature after attack",
+	 
+				"battleEffects" : {
+					"directDamage" : {"type":"core:damage", "val": 1, "killByCount" : true, "valueType": 	"INDEPENDENT_MIN"},
+				},
+			},
+			"none":
+			{
+				"description": "IMMOLATION DAMAGE",
+			},
+			"basic":
+			{
+				"description": "IMMOLATION DAMAGE",
+			},
+			"advanced":
+			{
+				"description": "IMMOLATION DAMAGE",
+			},
+			"expert":
+			{
+				"description": "IMMOLATION DAMAGE",
+			}
+		}
+	}
+ 
+ 
+}

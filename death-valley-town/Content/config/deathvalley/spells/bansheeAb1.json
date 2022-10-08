@@ -1,0 +1,123 @@
+{
+	
+	
+	"bansheeAb1":
+	{
+		"type": "ability", 
+		"targetType": "CREATURE", 
+		"name": "Insubstantial",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 1,
+		"power": 45,
+		
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+
+ 
+		"animation":{
+			"affect":["deathvalley/spells/skill4.def",]
+		},
+		
+		"targetCondition" : {
+			"anyOf" : {
+				"deathvalley:creature.cghost" : "absolute"
+			}
+		},
+ 
+		"flags" : { "positive": true },
+
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconEffect": "deathvalley/spells/skill 4-2.bmp"
+			//  ! will be moved to bonus type config in next bonus config version
+			//  iconImmune - OPTIONAL; string; 
+			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
+		},
+
+		"sounds": {
+			"cast": "SACBRETH"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"cost": 0,
+				"range": "0",
+				"power": 1,
+				"aiValue": 70,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"effects":
+				{
+					"damageReduction" : {
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"subtype" : 0,
+						"val" : 100,
+						"duration" : [
+							"UNTIL_ATTACK",
+							"N_TURNS"
+						],
+						"turns" : 3
+					},
+					"damageReductionShots" : {
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"subtype" : 1,
+						"val" : 100,
+						"duration" : [
+							"UNTIL_ATTACK",
+							"N_TURNS"
+						],
+						"turns" : 3
+					},
+					"magicDamageReduction" : {
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : -1,
+						"val" : 100,
+						"duration" : [
+							"UNTIL_ATTACK",
+							"N_TURNS"
+						],
+						"turns" : 3
+					},
+					"noRetaliation" : {
+					"type" : "NO_RETALIATION",
+						"duration" : [
+							"UNTIL_ATTACK",
+							"N_TURNS"
+						],
+						"turns" : 3
+					}
+				}
+			},
+			"none":
+			{
+				"description": "{Insubstantial}\n\nReduce damage by 100% for 3 turns.",				
+			},
+			"basic":
+			{
+				"description": "{Insubstantial}\n\nReduce damage by 100% for 3 turns.",
+				},
+			"advanced":
+			{
+				"description": "{Insubstantial}\n\nReduce damage by 100% for 3 turns.",
+				},
+			"expert":
+			{
+				"description": "{Insubstantial}\n\nReduce damage by 100% for 3 turns.",
+				}
+		}
+	}
+ 
+}

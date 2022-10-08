@@ -1,0 +1,114 @@
+{
+	"commander2": {
+		"name" : {
+			"plural" : "Tormentors",
+			"singular" : "Tormentor"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 16,
+			 "max" : 25
+		},
+		"faction" : "neutral",
+		"aiValue" : 1000,
+		"special" : true,
+		"doubleWide" : true,
+		"attack" : 5,
+		"damage" :
+		{
+			 "max" : 10,
+			 "min" : 10
+		},
+		"defense" : 5,
+		"fightValue" : 1000,
+		"growth" : 9,
+		"hasDoubleWeek": false,
+		"hitPoints" : 50,
+		"shots" : 24,
+		"cost" :
+		{
+			"gold" : 140
+		},
+		"level" : 0,
+		"speed" : 5,
+		"abilities" :
+		{
+		"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.fortune",
+				"val" : 3
+                  },
+                  "IS_UNDEAD" :
+                  {
+                    "type" : "UNDEAD"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			}
+		},
+		"graphics" : {
+			"animation" : "deathvalley/battle/creatures/kel.def",
+//			"map" : "deathvalley/map/kelmini.def",
+			"iconSmall" : "deathvalley/iconsSmall/kels.bmp",
+			"iconLarge" : "deathvalley/iconsBig/kell.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 2,
+				"idle" : 20,
+				"walk" : 2
+			},
+			"missile" :
+			{
+				"projectile" : "PMAGEX.DEF",
+				"attackClimaxFrame" : 4,
+				"offset" :
+				{
+					"lowerX" : 62,
+					"lowerY" : -93,
+					"middleX" : 62,
+					"middleY" : -93,
+					"upperX" : 62,
+					"upperY" : -93
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack" : "LICHATTK.wav",
+			"defend" : "LICHDFND.wav",
+			"killed" : "LICHKILL.wav",
+			"move" : "deathvalley/reapermove.wav",
+			"shoot": "AMAGSHOT.wav",
+			"wince" : "LICHWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,73 @@
+{
+	"m_dvRezziLeAnte" :
+	{
+		"class" : "dvNecropriest",
+		"female" : true,
+
+		"images" :
+		{
+			"specialtySmall" : "deathvalley/heroes/rezzileante/Un32Ston.bmp",
+			"specialtyLarge" : "deathvalley/heroes/rezzileante/Un44Ston.bmp",
+			"large" : "deathvalley/heroes/rezzileante/RezziLeAnteL.png",
+			"small" : "deathvalley/heroes/rezzileante/RezziLeAnteS.png"
+		},
+
+
+		"army" : [
+			{
+				"creature" : "skelh",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "boneHook",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "mums",
+				"max" : 7,
+				"min" : 5
+			}
+		],
+		"spellbook" :
+		[
+			"stoneSkin"
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "necromancy"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"stoneSkin" : {
+					"subtype" : "spell.stoneSkin",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3 //2
+				},
+				"raiseSkells" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "creature.skelh",
+					"addInfo" : [1, 1]
+				}				
+			}
+		},
+		"texts" : {
+			"biography" : "Rezzi believes the best offense is a army that is able to absorb massive amounts of damage and keep marching at its enemies. To that end she enhances her troops with a resilience seldom seen in the kingdoms.",
+			"name" : "Rezzi LeAnte",
+			"specialty" : {
+				"description" : "{Stone Skin}\r\n\r\nCasts Stone Skin with increased effect, based on hero level compared to the level of the target unit.",
+				"tooltip" : "Spell bonus: Stone Skin",
+				"name" : "Stone Skin"
+			}
+		}
+	}
+}
+

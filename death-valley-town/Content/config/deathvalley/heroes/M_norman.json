@@ -1,0 +1,70 @@
+{
+	"m_dvNorman" :
+	{
+		"class" : "dvNecropriest",
+		"female" : false,
+
+		"images" :
+		{
+			"specialtySmall" : "deathvalley/heroes/norman/Un32Bers.png",
+			"specialtyLarge" : "deathvalley/heroes/norman/Un44Bers.png",
+			"large" : "deathvalley/heroes/norman/NormanL.png",
+			"small" : "deathvalley/heroes/norman/NormanS.png"
+		},
+
+
+		"army" : [
+			{
+				"creature" : "skelh",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "boneHook",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "mums",
+				"max" : 7,
+				"min" : 5
+			}
+		],
+		"spellbook" :
+		["berserk"],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "necromancy"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"berserk" : {
+						"type": "MAXED_SPELL",
+						"subtype": "spell.berserk"
+				},
+				"raiseSkells" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "creature.skelh",
+					"addInfo" : [1, 1]
+				}				
+			}
+		},
+		
+		"texts" : {
+			"biography" : "Norman is known as the Mad General, sending his troops into battle, and even using his magics to cause his enemies to attack everyone around them. He revels in death and destruction, regardless of who is doing the dying.",
+			"name" : "Norman",
+			"specialty" : {
+				"description" : "{Berserk}\r\n\r\nCasts Berserk always at expert effect.",
+				"tooltip" : "Spell bonus: Berserk",
+				"name" : "Berserk"
+			}
+		}
+	}
+}
+

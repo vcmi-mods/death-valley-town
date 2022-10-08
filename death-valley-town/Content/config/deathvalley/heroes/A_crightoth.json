@@ -1,0 +1,65 @@
+{
+	"a_dvCrightoth" :
+	{
+		"class" : "dvDeathlord",
+		"female" : false,
+
+		"images" :
+		{
+			"specialtySmall" : "deathvalley/heroes/crightoth/Un32Ball.bmp",
+			"specialtyLarge" : "deathvalley/heroes/crightoth/Un44Ball.bmp",
+			"large" : "deathvalley/heroes/crightoth/crightothL.png",
+			"small" : "deathvalley/heroes/crightoth/crightothS.png"
+		},
+
+
+		"army" : [
+			{
+				"creature" : "skelh",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "ballista",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "boneHook",
+				"max" : 7,
+				"min" : 5
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "ballistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "necromancy"
+			}
+		],
+		"specialty" : {
+			"creature" : "ballista",
+			"bonuses" : {
+				"raiseSkeletons" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "creature.skelh",
+					"addInfo" : [1, 1]
+               }
+			}
+		},		
+		"texts" : {
+			"biography" : "Crightoth is the craftiest general in the land. He is the main instructor of the war academy, and when he takes the field he often educates his enemies on why they shouldn't mess with his kingdom.",
+			"name" : "Crightoth",
+			"specialty" : {
+				"description" : "{Ballista}\r\n\r\nIncreses the Attack and Defense skill of any Ballista for each level attained after 4th level.",
+				"tooltip" : "Ballista bonus",
+				"name" : "Ballista"
+			}
+		}
+	}
+}
+

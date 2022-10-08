@@ -1,0 +1,153 @@
+{
+	"skel2":
+	{
+		"name" :
+		{
+			"plural" : "Skeleton Mages",
+			"singular" : "Skeleton Mage"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 30,
+			 "min" : 20
+		},
+		"faction" : "deathvalley",
+		"aiValue" : 205,
+		"attack" : 5,
+		"cost" :
+		{
+			"gold" : 90
+		},
+		"damage" :
+		{
+			 "max" : 3,
+			 "min" : 1
+		},
+		"defense" : 5,
+		"fightValue" : 216,
+		"graphics" :
+		{
+			"animation" : "deathvalley/battle/creatures/skel2.def",
+			"map" : "deathvalley/map/skel2mini.def",
+			"iconSmall" : "deathvalley/iconsSmall/skel2s.bmp",
+			"iconLarge" : "deathvalley/iconsBig/skel2l.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.40,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			},
+			"missile":
+			{
+				"projectile" : "deathvalley/battle/creatures/projectile/bansh.def",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+                },
+			
+                "hasDoubleWeek": true,
+		"growth" : 12,
+		"hitPoints" : 12,
+		"shots" : 24,
+		"horde" : 6,
+		"level" : 1,
+		"sound" :
+		{
+			"attack": "SKLWATTK.wav",
+			"shoot": "MGOGATTK.wav",
+			"defend": "SKLWDFND.wav",
+			"killed": "SKLWKILL.wav",
+			"move": "SKLWMOVE.wav",
+			"wince": "SKLWWNCE.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+			"Spirit":
+			{
+			     "type": "GENERAL_DAMAGE_REDUCTION",
+                              "val" :  10
+			},
+			"canshoot" :
+			{
+				"type" : "SHOOTER"
+			},
+             "IS_UNDEAD":
+                        {
+                            "type": "UNDEAD"
+                        }
+		},
+		"stackExperience" :
+
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : 28 //"spell.airshield", 
+				},
+				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]			
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_IMMUNITY", 
+					"subtype" : 35 //"spell.dispel", 
+				},
+				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]			
+			}
+		]
+	}
+}

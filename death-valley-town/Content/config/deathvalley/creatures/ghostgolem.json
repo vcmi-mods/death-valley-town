@@ -1,0 +1,120 @@
+{
+	"ghostgolem": {
+		"name" : {
+			"plural" : "Ghost Golems",
+			"singular" : "Ghost Golem"
+		},
+		"faction" : "deathvalley",
+		"level" : 7,
+		"cost" : {
+			"gold" : 3400,
+			"mercury" : 1
+		},
+		"speed" : 7,
+		"hitPoints" : 250,
+		"attack" : 23,
+		"defense" : 20,
+		"damage" : {
+			 "max" : 50,
+			 "min" : 35
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"aiValue" : 5248,
+		"fightValue" : 4646,
+		"advMapAmount" : {
+			 "max" : 10,
+			 "min" : 4
+		},
+		"abilities":
+		{
+			"UNDEAD":
+			{
+				"type" : "UNDEAD" 	
+			},
+			"castUnholyCurse" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.boneSkill02",//Unholy Curse
+				"val" : 25
+			},
+			"king 1" :
+                   {
+                     "type" : "KING1" 				
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+			},
+			{
+				"bonus" : 
+				{ 
+					"type" : "HP_REGENERATION" 
+				},
+				"values" : [ 9,18, 27, 36, 45, 54, 63, 72, 81, 90 ]
+
+			}
+		],
+		"graphics" : {
+			"animation" : "deathvalley/battle/creatures/ghostgolem.def",
+			"map" : "deathvalley/map/ghostgolemmini.def",
+			"iconSmall" : "deathvalley/iconsSmall/ghostgolems.bmp",
+			"iconLarge" : "deathvalley/iconsBig/ghostgoleml.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 2
+			},
+			"timeBetweenFidgets" : 1,
+			"troopCountLocationOffset" : 0
+		},
+		"sound" : {
+			"attack": "deathvalley/BNGLATTK.wav",
+			"defend": "deathvalley/BNGLDFND.wav",
+			"killed": "deathvalley/BNGLKILL.wav",
+			"move": "deathvalley/BNGLMOVE.wav",
+			"wince": "deathvalley/BNGLWNCE.wav"
+		}
+	}
+}

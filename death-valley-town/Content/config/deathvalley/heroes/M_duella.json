@@ -1,0 +1,70 @@
+{
+	"m_dvDuella" :
+	{
+		"class" : "dvNecropriest",
+		"female" : true,
+
+		"images" :
+		{
+			"specialtySmall" : "deathvalley/heroes/duella/Un32Clone.png",
+			"specialtyLarge" : "deathvalley/heroes/duella/Un44Clone.png",
+			"large" : "deathvalley/heroes/duella/DuellaL.png",
+			"small" : "deathvalley/heroes/duella/DuellaS.png"
+		},
+
+
+		"army" : [
+			{
+				"creature" : "skelh",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "boneHook",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "mums",
+				"max" : 7,
+				"min" : 5
+			}
+		],
+		"spellbook" :
+		["clone"],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "necromancy"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"clone" : {
+						"type": "MAXED_SPELL",
+						"subtype": "spell.clone"
+				},
+				"raiseSkells" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "creature.skelh",
+					"addInfo" : [1, 1]
+				}				
+			}
+		},	
+			
+		"texts" : {
+			"biography" : "Duella is a insane, powerful priestess who enjoys using her magics to create Clones of her troops, sending wave after wave of her army at the enemy in a ceaseless onslought of brutality and carnage.",
+			"name" : "Duella",
+			"specialty" : {
+				"description" : "{Clone}\r\n\r\nCasts Clone always at expert effect.",
+				"tooltip" : "Spell bonus: Clone",
+				"name" : "Clone"
+			}
+		}
+	}
+}
+

@@ -1,0 +1,72 @@
+{
+	"a_dvValleante" :
+	{
+		"class" : "dvDeathlord",
+		"female" : false,
+
+		"images" :
+		{
+			"specialtySmall" : "deathvalley/heroes/valleante/Un32Defe.bmp",
+			"specialtyLarge" : "deathvalley/heroes/valleante/Un44Defe.bmp",
+			"large" : "deathvalley/heroes/valleante/ValLeAnteL.png",
+			"small" : "deathvalley/heroes/valleante/ValLeAnteS.png"
+		},
+
+
+		"army" : [
+			{
+				"creature" : "skelh",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "boneHook",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "mums",
+				"max" : 7,
+				"min" : 5
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "necromancy"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"subtype" : "skill.armorer",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				"raiseSkells" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "creature.skelh",
+					"addInfo" : [1, 1]
+				}				
+			}
+		},
+			
+		"texts" : {
+			"biography" : "A strong and noble Deathlord, Val LeAnte believes that the best offense is often a impenetrable defense. When not in battle his forces are often seen cleaning and caring for their armor.",
+			"name" : "Val LeAnte",
+			"specialty" : {
+				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
+				"tooltip" : "Receives a 5% per level bonus to Armorer skill.",
+				"name" : "Armorer"
+			}
+		}
+	}
+}
+

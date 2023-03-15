@@ -10,6 +10,14 @@
 		"1.00"   : [ "Initial release" ],
 		"1.10"	: [" changes for town screen, map objects, seige screen, creatures"]
     },
+	"german" : {
+		"name" : "Tal des Todes",
+		"description" : "Tal des Todes Stadt",
+		"modType" : "Stadt",		
+		"translations" : [
+			"translation/german.json"
+		]
+	},
     "factions" : [ "config/deathvalley/town.json" ],
 	
 	"creatures" :

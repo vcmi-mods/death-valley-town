@@ -15,7 +15,7 @@
 		"description" : "Tal des Todes Stadt",
 		"modType" : "Stadt",		
 		"translations" : [
-			"translation/german.json"
+			"translation/deathvalley/german.json"
 		]
 	},
     "factions" : [ "config/deathvalley/town.json" ],

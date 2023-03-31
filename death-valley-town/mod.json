@@ -13,7 +13,6 @@
 	"german" : {
 		"name" : "Tal des Todes",
 		"description" : "Tal des Todes Stadt",
-		"modType" : "Stadt",		
 		"translations" : [
 			"translation/deathvalley/german.json"
 		]

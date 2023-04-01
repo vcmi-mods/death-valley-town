@@ -21,7 +21,7 @@
 
  
 		"animation":{
-			"affect":["deathvalley/spells/skill3.def",]
+			"affect":["deathvalley/spells/skill3.def"]
 		},
  
 		"flags" : { "offensive": true, "damage": true, "negative" : true },
@@ -35,14 +35,9 @@
 			}
 		},
 
- 
-		//graphics - OPTIONAL; object;
 		"graphics":
 		{
 			"iconEffect": "deathvalley/spells/skill 3-2.bmp"
-			//  ! will be moved to bonus type config in next bonus config version
-			//  iconImmune - OPTIONAL; string; 
-			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
 		},
 
 		"sounds": {
@@ -89,19 +84,19 @@
 			},
 			"none":
 			{
-				"description": "{Plague}\n\nNo description.",				
+				"description": "{Plague}\n\nNo description."			
 			},
 			"basic":
 			{
-				"description": "{Plague}\n\nNo description.",
+				"description": "{Plague}\n\nNo description."
 				},
 			"advanced":
 			{
-				"description": "{Plague}\n\nNo description.",
+				"description": "{Plague}\n\nNo description."
 				},
 			"expert":
 			{
-				"description": "{Plague}\n\nNo description.",
+				"description": "{Plague}\n\nNo description."
 				}
 		}
 	}

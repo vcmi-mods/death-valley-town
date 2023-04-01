@@ -32,9 +32,11 @@
 			{
 				"type" : "UNDEAD" 	
 			},
-			"king 1" :
-                        {
-                                "type" : "KING1" 				
+			"king1" :
+            {
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"			
 			}
 		},
 		"stackExperience" :
@@ -96,7 +98,6 @@
 			"iconLarge" : "deathvalley/iconsBig/bonegoleml.bmp",
 			"animationTime" : {
 				"attack" : 1,
-				"flight" : 1,
 				"idle" : 10,
 				"walk" : 2
 			},

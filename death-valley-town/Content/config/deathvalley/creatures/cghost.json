@@ -113,7 +113,6 @@
 			"iconLarge" : "deathvalley/iconsBig/Spctr_L.bmp",
 			"animationTime" : {
 				"attack" : 1,
-				"flight" : 1,
 				"idle" : 10,
 				"walk" : 1
 			},

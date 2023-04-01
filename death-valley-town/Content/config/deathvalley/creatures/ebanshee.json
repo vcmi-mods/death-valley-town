@@ -105,7 +105,6 @@
 			"iconLarge" : "deathvalley/iconsBig/banbig1.bmp",
 			"animationTime" : {
 				"attack" : 1,
-				"flight" : 1,
 				"idle" : 10,
 				"walk" : 1
 			},

@@ -79,7 +79,6 @@
 			"iconLarge" : "deathvalley/iconsBig/kell.bmp",
 			"animationTime" : {
 				"attack" : 1,
-				"flight" : 2,
 				"idle" : 20,
 				"walk" : 2
 			},

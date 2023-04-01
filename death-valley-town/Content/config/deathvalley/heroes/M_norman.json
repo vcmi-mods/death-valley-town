@@ -45,8 +45,10 @@
 		"specialty" : {
 			"bonuses" : {
 				"berserk" : {
-						"type": "MAXED_SPELL",
-						"subtype": "spell.berserk"
+					"subtype" : "spell.berserk",
+					"type" : "SPELL",
+					"val" : 3,
+					"valueType" : "INDEPENDENT_MAX"
 				},
 				"raiseSkells" : {
 					"type" : "IMPROVED_NECROMANCY",

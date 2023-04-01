@@ -17,7 +17,7 @@
 		{
 		},
 		"animation":{
-			"affect":["deathvalley/spells/skill7.def",]
+			"affect":["deathvalley/spells/skill7.def"]
 		},
 		"flags" : {"negative": true},
 		"sounds": {

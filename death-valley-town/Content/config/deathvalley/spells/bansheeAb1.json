@@ -1,6 +1,4 @@
 {
-	
-	
 	"bansheeAb1":
 	{
 		"type": "ability", 
@@ -23,24 +21,20 @@
 
  
 		"animation":{
-			"affect":["deathvalley/spells/skill4.def",]
+			"affect":["deathvalley/spells/skill4.def"]
 		},
 		
 		"targetCondition" : {
 			"anyOf" : {
-				"deathvalley:creature.cghost" : "absolute"
+				"death-valley-town:creature.cghost" : "absolute"
 			}
 		},
  
 		"flags" : { "positive": true },
 
-		//graphics - OPTIONAL; object;
 		"graphics":
 		{
 			"iconEffect": "deathvalley/spells/skill 4-2.bmp"
-			//  ! will be moved to bonus type config in next bonus config version
-			//  iconImmune - OPTIONAL; string; 
-			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
 		},
 
 		"sounds": {
@@ -103,19 +97,19 @@
 			},
 			"none":
 			{
-				"description": "{Insubstantial}\n\nReduce damage by 100% for 3 turns.",				
+				"description": "{Insubstantial}\n\nReduce damage by 100% for 3 turns."			
 			},
 			"basic":
 			{
-				"description": "{Insubstantial}\n\nReduce damage by 100% for 3 turns.",
+				"description": "{Insubstantial}\n\nReduce damage by 100% for 3 turns."
 				},
 			"advanced":
 			{
-				"description": "{Insubstantial}\n\nReduce damage by 100% for 3 turns.",
+				"description": "{Insubstantial}\n\nReduce damage by 100% for 3 turns."
 				},
 			"expert":
 			{
-				"description": "{Insubstantial}\n\nReduce damage by 100% for 3 turns.",
+				"description": "{Insubstantial}\n\nReduce damage by 100% for 3 turns."
 				}
 		}
 	}

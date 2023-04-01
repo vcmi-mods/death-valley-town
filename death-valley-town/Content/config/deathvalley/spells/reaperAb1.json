@@ -35,14 +35,9 @@
 			}
 		},
 
- 
-		//graphics - OPTIONAL; object;
 		"graphics":
 		{
 			"iconEffect": "deathvalley/spells/skill 4-2.bmp"
-			//  ! will be moved to bonus type config in next bonus config version
-			//  iconImmune - OPTIONAL; string; 
-			//resourse path of icon for SPELL_IMMUNITY bonus (relative to DATA or SPRITES)
 		},
 
 		"sounds": {
@@ -64,24 +59,24 @@
 				"description": "Kill one creature after attack",
 	 
 				"battleEffects" : {
-					"directDamage" : {"type":"core:damage", "val": 1, "killByCount" : true, "valueType": 	"INDEPENDENT_MIN"},
-				},
+					"directDamage" : {"type":"core:damage", "val": 1, "killByCount" : true, "valueType": 	"INDEPENDENT_MIN"}
+				}
 			},
 			"none":
 			{
-				"description": "IMMOLATION DAMAGE",
+				"description": "IMMOLATION DAMAGE"
 			},
 			"basic":
 			{
-				"description": "IMMOLATION DAMAGE",
+				"description": "IMMOLATION DAMAGE"
 			},
 			"advanced":
 			{
-				"description": "IMMOLATION DAMAGE",
+				"description": "IMMOLATION DAMAGE"
 			},
 			"expert":
 			{
-				"description": "IMMOLATION DAMAGE",
+				"description": "IMMOLATION DAMAGE"
 			}
 		}
 	}

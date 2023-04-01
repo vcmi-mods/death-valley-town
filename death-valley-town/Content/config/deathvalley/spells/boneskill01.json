@@ -46,7 +46,7 @@
 				"battleEffects":{
 					"summon":{
 						"exclusive":false,
-						"id":"deathvalley:skel1",
+						"id":"death-valley-town:skel1",
 						"permanent":false,
 						"type":"core:summon"
 					}

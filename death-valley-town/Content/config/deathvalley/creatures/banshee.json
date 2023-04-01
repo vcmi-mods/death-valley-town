@@ -36,8 +36,7 @@
 			{
 				"walk" : 1.40,
 				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
+				"idle" : 10
 			},
 		    "missile" :
 			{
@@ -53,7 +52,7 @@
 					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-			},		
+			}
          },
 		"growth" : 3,
 		"hitPoints" : 30,

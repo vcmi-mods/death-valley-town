@@ -35,7 +35,7 @@
 			"castDisease" : 
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.plagueAb1",//plagueAb1
+				"subtype" : "spell.plagueAb1",
 				"val" : 100
 			},
 			"plaguePoints" : 
@@ -43,7 +43,7 @@
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "spell.plagueAb1",
 				"val" : 2
-			},
+			}
 		},
 		"stackExperience" :
 		[
@@ -113,7 +113,6 @@
 			"iconLarge" : "deathvalley/iconsBig/CPrL064N.bmp",
 			"animationTime" : {
 				"attack" : 1,
-				"flight" : 1,
 				"idle" : 10,
 				"walk" : 1
 			},

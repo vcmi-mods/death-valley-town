@@ -311,7 +311,7 @@
 					"cost" : {
 						"gold" : 1000
 					},
-					"id" : 18,
+					"id" : 18
 				},
 				"hordeHalflingsUpgr" :
 				{
@@ -364,7 +364,7 @@
                               "cost" : {
                                     "gold" : 1000
                               },
-                    "bonuses": [ { "type": "SECONDARY_SKILL_PREMY", "subtype": "skill.scouting", "val": 1, "propagator": "PLAYER_PROPAGATOR" } ] , 
+                    "bonuses": [ { "type" : "SIGHT_RADIUS", "val": 1, "valueType" : "ADDITIVE_VALUE" } ], 
 					"id" : 23
 				},
 				"grail" :
@@ -375,9 +375,9 @@
 					"id" : 26,
 					"mode" : "grail"
 				},
-				"extraValley":  { "id" : 27, "requires" : [ "townHall" ], "mode" : "auto" },
-				"flag":  		{ "id" : 28, "requires" : [ "cityHall" ], "mode" : "auto" },
-				"birds":  		{ "id" : 29, "requires" : [ "capitol" ], "mode" : "auto" },
+				"extraValley":  { "id" : 27, "requires" : [ "townHall" ], "mode" : "auto", "name" : "Valley", "description" : "Valley" },
+				"flag":  		{ "id" : 28, "requires" : [ "cityHall" ], "mode" : "auto", "name" : "Flag", "description" : "Flag" },
+				"birds":  		{ "id" : 29, "requires" : [ "capitol" ], "mode" : "auto", "name" : "Birds", "description" : "Birds" },
 				"dwelling1" :
 				{
 					"description" : "The Cemetery allows you to recruit Skeleton Hounds.",
@@ -702,6 +702,8 @@
 			{
 				"shooter" : "boneHook",
 				"imagePrefix" : "deathvalley/siege/sgdv",
+				"towerIconSmall" : "deathvalley/icons/arrowtowersmall",
+				"towerIconLarge" : "deathvalley/icons/arrowtowerslarge",
 				"gate" :
 				{
 					"arch" : { "x" : 450, "y" : 130 },
@@ -1040,7 +1042,7 @@
 					"border" : "deathvalley/town-screen/buildings-border/toPyramid.bmp",
 					"x" : 0,
 					"y" : 0,
-					"z" : 5,
+					"z" : 5
 
 				},
 				"dwelling6" :
@@ -1050,7 +1052,7 @@
 					"border" : "deathvalley/town-screen/buildings-border/tohallOfDarkness.bmp",
 					"x" : 0,
 					"y" : 0,
-					"z" : 6,
+					"z" : 6
 				},
 				"dwelling7" :
 				{

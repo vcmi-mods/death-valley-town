@@ -364,7 +364,7 @@
                               "cost" : {
                                     "gold" : 1000
                               },
-                    "bonuses": [ { "type" : "SIGHT_RADIUS", "val": 1, "valueType" : "ADDITIVE_VALUE" } ], 
+                    "bonuses": [ { "type" : "SIGHT_RADIUS", "val": 1, "valueType" : "ADDITIVE_VALUE", "propagator" : "HERO" } ], 
 					"id" : 23
 				},
 				"grail" :

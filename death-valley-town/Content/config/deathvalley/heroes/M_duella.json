@@ -45,10 +45,9 @@
 		"specialty" : {
 			"bonuses" : {
 				"clone" : {
+					"addInfo" : 3,
 					"subtype" : "spell.clone",
-					"type" : "SPELL",
-					"val" : 3,
-					"valueType" : "INDEPENDENT_MAX"
+					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
 				},
 				"raiseSkells" : {
 					"type" : "IMPROVED_NECROMANCY",

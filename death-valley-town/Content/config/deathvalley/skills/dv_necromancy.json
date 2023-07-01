@@ -1,0 +1,58 @@
+{
+	"dv_necromancy" : {
+		"name" : "Martial Art",
+		"gainChance" : {
+			"might" : 0,
+			"magic" : 0
+		},
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "UNDEAD_RAISE_PERCENTAGE",
+					"valueType" : "BASE_NUMBER"
+				},
+				"power" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "creature.skelh",
+					"addInfo" : 0
+				}
+			}
+		},
+		"basic" : {
+			"images" : {
+				"small" : "deathvalley/skills/smallBasic",
+				"medium" : "deathvalley/skills/mediumBasic",
+				"large" : "deathvalley/skills/largeBasic"
+			},
+			"description" : "{Basic Martial Art}\n\nBasic Martial Art allows 10% of the creatures killed in combat to be brought back from the dead as Skeleton Hounds.",
+			"effects" : {
+				"main" : { "val" : 10 },
+				"power" : { "val" : 1 }
+			}
+		},
+		"advanced" : {
+			"images" : {
+				"small" : "deathvalley/skills/smallAdvanced",
+				"medium" : "deathvalley/skills/mediumAdvanced",
+				"large" : "deathvalley/skills/largeAdvanced"
+			},
+			"description" : "{Advanced Martial Art}\n\nAdvanced Martial Art allows 20% of the creatures killed in combat to be brought back from the dead as Skeleton Hounds.",
+			"effects" : {
+				"main" : { "val" : 20 },
+				"power" : { "val" : 2 }
+			}
+		},
+		"expert" : {
+			"images" : {
+				"small" : "deathvalley/skills/smallExpert",
+				"medium" : "deathvalley/skills/mediumExpert",
+				"large" : "deathvalley/skills/largeExpert"
+			},
+			"description" : "{Expert Martial Art}\n\nExpert Martial Art allows 30% of the creatures killed in combat to be brought back from the dead as Skeleton Hounds.",
+			"effects" : {
+				"main" : { "val" : 30 },
+				"power" : { "val" : 3 }
+			}
+		}
+	}
+}

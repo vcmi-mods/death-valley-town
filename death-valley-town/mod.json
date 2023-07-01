@@ -3,7 +3,7 @@
 	"description" : "New necro town",
 	"author" : "VCMI ROFL and Turbanellos(Ben Yan)",
 	"contact" : "forum.vcmi.eu",
-	"version" : "1.20",
+	"version" : "1.30",
 	"modType" : "Town",
 	"compatibility":
 	{
@@ -13,7 +13,8 @@
     {
 		"1.00"   : [ "Initial release" ],
 		"1.10"	: [ "Changes for town screen, map objects, seige screen, creatures"],
-		"1.20"	: [ "Update to vcmi-1.2" ]
+		"1.20"	: [ "Update to vcmi-1.2" ],
+		"1.30"	: [ "Fixed froblem with improved necromancy" ]
     },
 	"german" : {
 		"name" : "Tal des Todes",
@@ -80,5 +81,9 @@
 		"config/deathvalley/spells/boneskill02.json",
 		"config/deathvalley/spells/reaperAb1.json"
 	],
-	"objects" : [ "config/deathvalley/dwellings" ]
+	"objects" : [ "config/deathvalley/dwellings" ],
+	
+	"skills" : [
+		"config/deathvalley/skills/dv_necromancy"
+	]
 }

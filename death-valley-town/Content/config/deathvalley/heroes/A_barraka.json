@@ -34,22 +34,15 @@
 		"skills" : [
 			{
 				"level" : "basic",
-				"skill" : "pathfinding"
+				"skill" : "dv_necromancy"
 			},
 			{
 				"level" : "basic",
-				"skill" : "necromancy"
-			}
+				"skill" : "pathfinding"
+			},
 		],
 		"specialty" : {
-			"creature" : "gghost",
-			"bonuses" : {
-				"raiseSkeletons" : {
-					"type" : "IMPROVED_NECROMANCY",
-					"subtype" : "creature.skelh",
-					"addInfo" : [1, 1]
-               }
-			}
+			"creature" : "gghost"
 		},
 			
 		"texts" : {

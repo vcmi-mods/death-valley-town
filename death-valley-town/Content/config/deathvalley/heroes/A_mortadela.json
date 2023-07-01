@@ -37,7 +37,7 @@
 			},
 			{
 				"level" : "basic",
-				"skill" : "necromancy"
+				"skill" : "dv_necromancy"
 			}
 		],
 		"specialty" : {
@@ -49,11 +49,6 @@
 					"val" : 5,
 					"valueType" : "PERCENT_TO_BASE",
 					"updater" : "TIMES_HERO_LEVEL"
-				},
-				"raiseSkells" : {
-					"type" : "IMPROVED_NECROMANCY",
-					"subtype" : "creature.skelh",
-					"addInfo" : [1, 1]
 				}
 			}
 		},

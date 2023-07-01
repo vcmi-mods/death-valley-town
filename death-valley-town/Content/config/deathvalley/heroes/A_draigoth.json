@@ -39,23 +39,17 @@
 			},
 			{
 				"level" : "basic",
-				"skill" : "necromancy"
+				"skill" : "dv_necromancy"
 			}
 		],
 		"specialty" : {
-			"creature" : "skelh",
 			"base" : {
 				"addInfo" : "creature.leaper",
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
 				"walkingDead2leaper" : { "subtype" : "creature.skeleton" },
-				"zombieLord2leaper" : { "subtype" : "creature.skeletonWarrior" },
-				"raiseSkeletons" : {
-					"type" : "IMPROVED_NECROMANCY",
-					"subtype" : "creature.skelh",
-					"addInfo" : [1, 1]
-               }
+				"zombieLord2leaper" : { "subtype" : "creature.skeletonWarrior" }
 			}
 		},
 		"texts" : {

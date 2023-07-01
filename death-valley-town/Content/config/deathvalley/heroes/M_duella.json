@@ -39,7 +39,7 @@
 			},
 			{
 				"level" : "basic",
-				"skill" : "necromancy"
+				"skill" : "dv_necromancy"
 			}
 		],
 		"specialty" : {
@@ -48,11 +48,6 @@
 					"addInfo" : 3,
 					"subtype" : "spell.clone",
 					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
-				},
-				"raiseSkells" : {
-					"type" : "IMPROVED_NECROMANCY",
-					"subtype" : "creature.skelh",
-					"addInfo" : [1, 1]
 				}				
 			}
 		},	

@@ -32,18 +32,11 @@
 			},
 			{
 				"level" : "basic",
-				"skill" : "necromancy"
+				"skill" : "dv_necromancy"
 			}
 		],
 		"specialty" : {
-			"creature" : "banshee",
-			"bonuses" : {
-				"raiseSkeletons" : {
-					"type" : "IMPROVED_NECROMANCY",
-					"subtype" : "creature.skelh",
-					"addInfo" : [1, 1]
-               }
-			}
+			"creature" : "banshee"
 		},		
 		"texts" : {
 			"biography" : "Sylvanus is the queen of all witches. A fierce warrior in her own right, she leads her devoted armies with skill and grace, conducting them with a tactical precision that is the envy of many of her opponents.",

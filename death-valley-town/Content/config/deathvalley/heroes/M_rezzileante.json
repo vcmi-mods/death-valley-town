@@ -41,7 +41,7 @@
 			},
 			{
 				"level" : "basic",
-				"skill" : "necromancy"
+				"skill" : "dv_necromancy"
 			}
 		],
 		"specialty" : {
@@ -50,13 +50,8 @@
 					"subtype" : "spell.stoneSkin",
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3 //2
-				},
-				"raiseSkells" : {
-					"type" : "IMPROVED_NECROMANCY",
-					"subtype" : "creature.skelh",
-					"addInfo" : [1, 1]
-				}				
+					"val" : 3
+				}			
 			}
 		},
 		"texts" : {

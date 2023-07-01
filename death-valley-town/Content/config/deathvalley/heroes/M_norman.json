@@ -39,7 +39,7 @@
 			},
 			{
 				"level" : "basic",
-				"skill" : "necromancy"
+				"skill" : "dv_necromancy"
 			}
 		],
 		"specialty" : {
@@ -48,12 +48,7 @@
 					"addInfo" : 3,
 					"subtype" : "spell.berserk",
 					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
-				},
-				"raiseSkells" : {
-					"type" : "IMPROVED_NECROMANCY",
-					"subtype" : "creature.skelh",
-					"addInfo" : [1, 1]
-				}				
+				}			
 			}
 		},
 		

@@ -41,18 +41,11 @@
 			},
 			{
 				"level" : "basic",
-				"skill" : "necromancy"
+				"skill" : "dv_necromancy"
 			}
 		],
 		"specialty" : {
-			"creature" : "reaper1",
-			"bonuses" : {
-				"raiseSkells" : {
-					"type" : "IMPROVED_NECROMANCY",
-					"subtype" : "creature.skelh",
-					"addInfo" : [1, 1]
-				}
-			}
+			"creature" : "reaper1"
 		},
 		"texts" : {
 			"biography" : "Nova lived in Tatalia since a very young age, and she was found for darkness power, which cannot be dominated by witches, since she was eight years old. She believed her power is from a magnificent family and she applies herself to find the consequece. She is called 'Night' by many people because of her lingering dark power.",

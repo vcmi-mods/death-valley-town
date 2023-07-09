@@ -3,7 +3,7 @@
 	"description" : "New necro town",
 	"author" : "VCMI ROFL and Turbanellos(Ben Yan)",
 	"contact" : "forum.vcmi.eu",
-	"version" : "1.30",
+	"version" : "1.31",
 	"modType" : "Town",
 	"compatibility":
 	{
@@ -14,8 +14,15 @@
 		"1.00"   : [ "Initial release" ],
 		"1.10"	: [ "Changes for town screen, map objects, seige screen, creatures"],
 		"1.20"	: [ "Update to vcmi-1.2" ],
-		"1.30"	: [ "Fixed froblem with improved necromancy" ]
+		"1.30"	: [ "Fixed froblem with improved necromancy" ],
+		"1.31"	: [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ]
     },
+	"chinese" : {
+		"name" : "死亡谷",
+		"translations" : [
+			"translation/deathvalley/chinese.json"
+		]
+	},
 	"german" : {
 		"name" : "Tal des Todes",
 		"description" : "Tal des Todes Stadt",

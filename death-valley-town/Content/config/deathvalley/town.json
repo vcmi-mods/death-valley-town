@@ -3,6 +3,7 @@
 		"alignment" : "evil",
 		"creatureBackground" : { "120px" : "deathvalley/creature-bg-120px.bmp", "130px" : "deathvalley/creature-bg-130px.bmp" },
 		"name" : "Death Valley",
+		"boat" : "boatNecropolis",
 		"nativeTerrain" : "dirt",
 		"puzzleMap" : {
 			"prefix" : "deathvalley/puzzle-map/PUZ",
@@ -651,6 +652,7 @@
 			"guildWindow": "deathvalley/town-screen/mage-guild",
 			"hallBackground" : "TPTHBKDG",
 			"horde" : [ 0 , -1 ],
+			"moatAbility" : "deathvalleyMoat",			
 			"icons" : {
 				"village" : {
 					"normal" : {"small" : "deathvalley/icons/hall-small.bmp", "large" : "deathvalley/icons/hall-big.bmp" },
@@ -1130,7 +1132,6 @@
 		"tavernVideo" : "TAVERN.BIK",
 		"townBackground": "deathvalley/town-screen/background",
 		"warMachine" : "ammoCart",
-		"moatDamage" : 75,
 		"hallSlots" : [
 				[
 					[ "villageHall", "townHall", "cityHall", "capitol" ],

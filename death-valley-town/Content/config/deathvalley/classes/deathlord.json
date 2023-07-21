@@ -59,7 +59,7 @@
 			"luck" : 0,
 			"mysticism" : 4,
 			"navigation" : 8,
-			"necromancy" : 7,
+			"necromancy" : 0,
 			"offence" : 7,
 			"pathfinding" : 4,
 			"resistance" : 5,

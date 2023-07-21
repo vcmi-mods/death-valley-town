@@ -1,6 +1,6 @@
 {
 	"dv_necromancy" : {
-		"name" : "Martial Art",
+		"name" : "Hexerei",
 		"gainChance" : {
 			"might" : 0,
 			"magic" : 0
@@ -24,7 +24,7 @@
 				"medium" : "deathvalley/skills/mediumBasic",
 				"large" : "deathvalley/skills/largeBasic"
 			},
-			"description" : "{Basic Martial Art}\n\nBasic Martial Art allows 10% of the creatures killed in combat to be brought back from the dead as Skeleton Hounds.",
+			"description" : "{Basic Hexerei}\n\nBasic Hexerei allows 10% of the creatures killed in combat to be brought back from the dead as Skeleton Hounds.",
 			"effects" : {
 				"main" : { "val" : 10 },
 				"power" : { "val" : 1 }
@@ -36,7 +36,7 @@
 				"medium" : "deathvalley/skills/mediumAdvanced",
 				"large" : "deathvalley/skills/largeAdvanced"
 			},
-			"description" : "{Advanced Martial Art}\n\nAdvanced Martial Art allows 20% of the creatures killed in combat to be brought back from the dead as Skeleton Hounds.",
+			"description" : "{Advanced Hexerei}\n\nAdvanced Hexerei allows 20% of the creatures killed in combat to be brought back from the dead as Skeleton Hounds.",
 			"effects" : {
 				"main" : { "val" : 20 },
 				"power" : { "val" : 2 }
@@ -48,7 +48,7 @@
 				"medium" : "deathvalley/skills/mediumExpert",
 				"large" : "deathvalley/skills/largeExpert"
 			},
-			"description" : "{Expert Martial Art}\n\nExpert Martial Art allows 30% of the creatures killed in combat to be brought back from the dead as Skeleton Hounds.",
+			"description" : "{Expert Hexerei}\n\nExpert Hexerei allows 30% of the creatures killed in combat to be brought back from the dead as Skeleton Hounds.",
 			"effects" : {
 				"main" : { "val" : 30 },
 				"power" : { "val" : 3 }

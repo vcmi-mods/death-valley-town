@@ -1,9 +1,9 @@
 {
 	"name" : "Death Valley",
 	"description" : "New necro town",
-	"author" : "VCMI ROFL and Turbanellos(Ben Yan)",
+	"author" : "VCMI ROFL and Turbanellos(Ben Yan), Andruids",
 	"contact" : "forum.vcmi.eu",
-	"version" : "1.32",
+	"version" : "1.33",
 	"modType" : "Town",
 	"compatibility":
 	{
@@ -16,7 +16,8 @@
 		"1.20"	: [ "Update to vcmi-1.2" ],
 		"1.30"	: [ "Fixed froblem with improved necromancy" ],
 		"1.31"	: [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
-		"1.32"	: [ "Update to vcmi-1.3" ]
+		"1.32"	: [ "Update to vcmi-1.3" ],
+		"1.33"	: [ "New Hexerei skill icons" ]
     },
 	"chinese" : {
 		"name" : "死亡谷",

@@ -11,9 +11,9 @@
 		"graphics" : { "image" : "deathvalley/artifacts/avax1", "map" : "deathvalley/artifacts/avax1map" },
 		"slot" : "RING",
 		"text" : {
-			"description" : "{死灵戒指}\r\n\r\n佩戴死灵戒指可以使你的招魂术提高10%。",
-			"event" : "你在墓地中闲逛的时候，周围一座坟中的尸体站了起来，你击倒它后发现它手上带着一个奇怪的戒指，这或许就是那具尸体死而复生的原因。",
-			"name" : "死灵戒指"
+			"description" : "{Ring of Necromancy}\r\n\r\nWorn on the finger, this ring increases your necromancy skill by 10%.",
+			"event" : "You were attacked by a zombie when you hang out in a cemetery. You killed this poor assailant easily and found a ring worn on his finger. That is the reason why he did not rest in peace.",
+			"name" : "Ring of Necromancy"
 		},
 		"type" : [ "HERO" ],
 		"value" : 5000

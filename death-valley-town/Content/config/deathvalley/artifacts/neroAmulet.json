@@ -26,9 +26,9 @@
 		"graphics" : { "image" : "deathvalley/artifacts/avax2", "map" : "deathvalley/artifacts/avax2map" },
 		"slot" : "NECK",
 		"text" : {
-			"description" : "{暗影之心}\r\n\r\n招魂术增强30%，此外，招魂术的等级越高，招出的亡灵等级也越高。初级：白骨弓箭手，中级：腐尸怪，高级：暗女巫。",
-			"event" : "你得到了暗影之心，这个宝物会给你带来极大的好处。",
-			"name" : "暗影之心"
+			"description" : "{Heart of the Shadow}\r\n\r\nHeart of the Shadow allows to raise stronger undead units. The level of skill determines what type is resurrected. Basic: Bone Archers, Advanced: Outcasts, Expert: Dark Witches",
+			"event" : "You have found a strange amulet from the tomb. It will bring great benefits for you.",
+			"name" : "Heart of the Shadow"
 		},
 		"type" : [ "HERO" ],
 		"components":

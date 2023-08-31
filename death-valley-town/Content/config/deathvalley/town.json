@@ -405,7 +405,7 @@
 				},
 				"dwelling3" :
 				{
-					"description" : "The Steeple allows you to recruit Embalmeds.",
+					"description" : "The Steeple allows you to recruit Outcasts.",
 					"name" : "Steeple",
 					"cost" : {
 						"gold" : 1500,
@@ -490,7 +490,7 @@
 				},
 				"dwellingUpgrade3" :
 				{
-					"description" : "The Steeple allows you to recruit Decayeds.",
+					"description" : "The Steeple allows you to recruit Lepers.",
 					"name" : "Upg. Steeple",
 					"cost" : {
 						"gold" : 1500,

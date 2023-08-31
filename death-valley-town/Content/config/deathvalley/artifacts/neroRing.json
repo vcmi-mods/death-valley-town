@@ -1,0 +1,21 @@
+{
+	"necroRing" : {
+			"bonuses" : [
+			{
+				"type" : "UNDEAD_RAISE_PERCENTAGE",
+				"val" : 10,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		],
+		"class" : "MINOR",
+		"graphics" : { "image" : "deathvalley/artifacts/avax1", "map" : "deathvalley/artifacts/avax1map" },
+		"slot" : "RING",
+		"text" : {
+			"description" : "{死灵戒指}\r\n\r\n佩戴死灵戒指可以使你的招魂术提高10%。",
+			"event" : "你在墓地中闲逛的时候，周围一座坟中的尸体站了起来，你击倒它后发现它手上带着一个奇怪的戒指，这或许就是那具尸体死而复生的原因。",
+			"name" : "死灵戒指"
+		},
+		"type" : [ "HERO" ],
+		"value" : 5000
+	}
+}

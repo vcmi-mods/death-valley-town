@@ -48,8 +48,8 @@
 			"name" : "Dreygo",
 			"specialty" : {
 				"description" : "{Mummies and Crypt Guards}\r\n\r\nIncreases the Attack and Defence of any Mummies and Crypt Guards for each level attained after 3rd level.",
-				"tooltip" : "Increases the Attack and Defence of any Embalmeds and Decayeds for each level attained after 3rd level.",
-				"name" : "Embalmeds"
+				"tooltip" : "Increases the Attack and Defence of any Outcasts and Lepers for each level attained after 3rd level.",
+				"name" : "Outcasts"
 			}
 		}
 	}

@@ -1,8 +1,8 @@
 {
 	"mums": {
 		"name" : {
-			"plural" : "Embalmeds", //Embalmed
-			"singular" : "Embalmed"
+			"plural" : "Outcasts", //Embalmed
+			"singular" : "Outcast"
 		},
 		"faction" : "deathvalley",
 		"level" : 3,

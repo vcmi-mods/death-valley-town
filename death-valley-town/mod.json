@@ -3,7 +3,7 @@
 	"description" : "New necro town",
 	"author" : "VCMI ROFL and Turbanellos(Ben Yan), Andruids",
 	"contact" : "forum.vcmi.eu",
-	"version" : "1.33",
+	"version" : "1.35",
 	"modType" : "Town",
 	"compatibility":
 	{
@@ -17,7 +17,9 @@
 		"1.30"	: [ "Fixed froblem with improved necromancy" ],
 		"1.31"	: [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
 		"1.32"	: [ "Update to vcmi-1.3" ],
-		"1.33"	: [ "New Hexerei skill icons" ]
+		"1.33"	: [ "New Hexerei skill icons" ],
+		"1.34"	: [ "New artifacts" ],
+		"1.35"	: [ "New portraits and changed name of Embalmed" ]
     },
 	"chinese" : {
 		"name" : "死亡谷",
@@ -90,6 +92,10 @@
 		"config/deathvalley/spells/boneskill02.json",
 		"config/deathvalley/spells/reaperAb1.json",
 		"config/deathvalley/spells/moat.json"
+	],
+	"artifacts" :[ 
+		"config/deathvalley/artifacts/neroRing.json",
+		"config/deathvalley/artifacts/neroAmulet.json"
 	],
 	"objects" : [ "config/deathvalley/dwellings" ],
 	

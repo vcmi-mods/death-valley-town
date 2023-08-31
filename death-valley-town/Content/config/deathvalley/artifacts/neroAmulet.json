@@ -1,0 +1,42 @@
+{
+	"necroAmulet" : {
+			"bonuses" : [
+			{
+				"type" : "IMPROVED_NECROMANCY",
+				"subtype" : "creature.skeleton",
+				"addInfo" : 0
+			},
+			{
+				"type" : "IMPROVED_NECROMANCY",
+				"subtype" : "creature.boneHook",
+				"addInfo" : 1
+			},
+			{
+				"type" : "IMPROVED_NECROMANCY",
+				"subtype" : "creature.mums",
+				"addInfo" : 2
+			},
+			{
+				"type" : "IMPROVED_NECROMANCY",
+				"subtype" : "creature.banshee",
+				"addInfo" : 3
+			}
+		],
+		"class" : "RELIC",
+		"graphics" : { "image" : "deathvalley/artifacts/avax2", "map" : "deathvalley/artifacts/avax2map" },
+		"slot" : "NECK",
+		"text" : {
+			"description" : "{暗影之心}\r\n\r\n招魂术增强30%，此外，招魂术的等级越高，招出的亡灵等级也越高。初级：白骨弓箭手，中级：腐尸怪，高级：暗女巫。",
+			"event" : "你得到了暗影之心，这个宝物会给你带来极大的好处。",
+			"name" : "暗影之心"
+		},
+		"type" : [ "HERO" ],
+		"components":
+		[
+			"amuletOfTheUndertaker",
+			"necroRing",
+			"deadMansBoots"
+		],
+		"value" : 15000
+	}
+}

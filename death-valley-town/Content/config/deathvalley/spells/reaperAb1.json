@@ -11,7 +11,7 @@
 			"fire": false,
 			"water": false
 		},
-		"level": 5,
+		"level": 1,
 		"power": 1, //this times spell power
 		
 		"defaultGainChance": 0, 
@@ -24,7 +24,7 @@
 			"affect":[{ "defName":"deathvalley/spells/skill6.def", "verticalPosition":"bottom"}]
 		},
  
-		"flags" : { "offensive": true, "damage": true, "negative" : true, "special" : true },
+		"flags" : { "offensive": true, "damage": true, "negative" : true, "special" : true, "nonMagical": true },
 		
 		"targetCondition" : {
 		"noneOf" : {

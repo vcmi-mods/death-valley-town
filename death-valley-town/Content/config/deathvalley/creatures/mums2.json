@@ -1,8 +1,8 @@
 {
 	"mums2": {
 		"name" : {
-			"plural" : "Decayeds", //Decayed
-			"singular" : "Decayed"
+			"plural" : "Lepers", //Decayed
+			"singular" : "Leper"
 		},
 		"faction" : "deathvalley",
 		"level" : 3,

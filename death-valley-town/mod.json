@@ -3,7 +3,7 @@
 	"description" : "New necro town",
 	"author" : "VCMI ROFL and Turbanellos(Ben Yan), Andruids",
 	"contact" : "forum.vcmi.eu",
-	"version" : "1.35",
+	"version" : "1.36",
 	"modType" : "Town",
 	"compatibility":
 	{
@@ -19,7 +19,8 @@
 		"1.32"	: [ "Update to vcmi-1.3" ],
 		"1.33"	: [ "New Hexerei skill icons" ],
 		"1.34"	: [ "New artifacts" ],
-		"1.35"	: [ "New portraits and changed name of Embalmed" ]
+		"1.35"	: [ "New portraits and changed name of Embalmed" ],
+		"1.36"	: [ "Polish translation by Dru" ],
     },
 	"chinese" : {
 		"name" : "死亡谷",
@@ -32,6 +33,13 @@
 		"description" : "Tal des Todes Stadt",
 		"translations" : [
 			"translation/deathvalley/german.json"
+		]
+	},
+	"polish" : {
+		"name" : "Dolina Śmierci",
+		"description" : "Dodaje alternatywne miasto nieumarłych Dolina Śmierci",
+		"translations" : [
+			"translation/deathvalley/polish.json"
 		]
 	},
     "factions" : [ "config/deathvalley/town.json" ],

@@ -98,8 +98,7 @@
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
 
 			},
-			"timeBetweenFidgets" : 1,
-			"troopCountLocationOffset" : 0
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "BKNTATTK.wav",

@@ -39,25 +39,23 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL",
-					"valueType" : "BASE_NUMBER"
+					"subtype" : "attack",
+					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL",
-					"valueType" : "BASE_NUMBER"
+					"subtype" : "defence",
+					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
@@ -65,7 +63,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
@@ -81,7 +79,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 28 //"spell.airshield", 
+					"subtype" : "spell.airShield", 
 				},
 				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]			
 			},
@@ -89,7 +87,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_IMMUNITY", 
-					"subtype" : 35 //"spell.dispel", 
+					"subtype" : "spell.dispel", 
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]			
 			}
@@ -104,8 +102,7 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"timeBetweenFidgets" : 1,
-			"troopCountLocationOffset" : 0
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "deathvalley/skelhatk.wav",

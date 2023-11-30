@@ -33,13 +33,14 @@
 			"castDisease" : 
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.reaperAb1",//plagueAb1
-				"val" : 100
+				"subtype" : "spell.reaperAb1",
+				"val" : 100,
+				"addInfo" : [1,2]
 			},
 			"flies" :
 			{
 				"type" : "FLYING",
-				"subtype" : 0
+				"subtype" : "movementFlying"
 			}
 		},
 		"stackExperience" :
@@ -47,25 +48,23 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
@@ -73,7 +72,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
@@ -89,8 +88,7 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"timeBetweenFidgets" : 1,
-			"troopCountLocationOffset" : 0
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "deathvalley/reaperatk.wav",

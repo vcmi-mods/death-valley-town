@@ -4,6 +4,9 @@
 			"dvGraveyard" : {
 				"name" : "Cemetery",
 				"creatures" : [[ "skelh" ]],
+				"sounds": {
+					"ambient": ["dwellings/dvdwl1.wav"]
+				},
 				"templates" : {
 					"default" : {
 						"animation" : "deathvalley/adventure-map/dwelling-1.def",

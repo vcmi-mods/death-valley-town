@@ -3,7 +3,7 @@
 	"description" : "Necro town",
 	"author" : "VCMI ROFL and Turbanellos(Ben Yan), Andruids",
 	"contact" : "forum.vcmi.eu",
-	"version" : "1.38",
+	"version" : "1.39",
 	"modType" : "Town",
 	"compatibility":
 	{
@@ -22,7 +22,8 @@
 		"1.35"	: [ "New portraits and changed name of Embalmed" ],
 		"1.36"	: [ "Polish translation by Dru" ],
 		"1.37"	: [ "Update to vcmi-1.4 format" ],
-		"1.38"	: [ "Updated chinese translation by Rindlit" ]
+		"1.38"	: [ "Updated chinese translation by Rindlit" ],
+		"1.39"	: [ "Added sounds to the golem and ghost dwelling buildings on the adventure map and fixes the animations of the golems by Fabrice-TIERCELIN" ]
     },
 	"chinese" : {
 		"name" : "死亡谷",

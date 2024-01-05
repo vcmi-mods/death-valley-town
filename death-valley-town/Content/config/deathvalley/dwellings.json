@@ -37,6 +37,9 @@
 			"dvValley" : {
 				"name" : "Haunted Canyon",
 				"creatures" : [[ "gghost" ]],
+				"sounds": {
+					"ambient": ["dwellings/dvdwl4.wav"]
+				},
 				"templates" : {
 					"default" : {
 						"animation" : "deathvalley/adventure-map/dwelling-4.def",
@@ -68,6 +71,9 @@
 			"dvTemple" : {
 				"name" : "Temple of Death",
 				"creatures" : [[ "bonegolem" ]],
+				"sounds": {
+					"ambient": ["dwellings/dvdwl7.wav"]
+				},
 				"guards" : true,
 				"templates" : {
 					"default" : {

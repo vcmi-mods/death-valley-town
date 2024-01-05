@@ -190,44 +190,6 @@
 					"id" : 9,
 					"upgrades" : "citadel"
 				},
-//				"parapets" :
-//				{
-//					"name" : "Parapet",
-//					"description" : "The Parapet provides +10 to a hero's defense in a siege battle (not implemented yet).",
-//					"cost" :
-//					{
-//						"wood" : 10,
-//						"ore" : 10,
-//						"crystal" : 10,
-//						"mercury" : 10,
-//						"sulfur" : 10,
-//						"gems" : 10,
-//						"gold" : 10000
-//					},
-//					"id" : 23,
-//					"requires" : ["castle"]
-//					"hidden" : true, "builds" : "castle"
-//					"upgrades" : "castle"
-//				},
-//				"avekening" :
-//				{
-//					"name" : "Aura of War",
-//					"description" : "The Aura of War gives the possibility to upgrade dwellings of level 1-7 creatures (not implemented yet).",
-//					"cost" :
-//					{
-//						"wood" : 15,
-//						"ore" : 15,
-//						"crystal" : 15,
-//						"mercury" : 15,
-//						"sulfur" : 15,
-//						"gems" : 15,
-//						"gold" : 15000
-//					},
-//					"id" : 24,
-//					"upgrades" : "parapets"
-//					"requires" : ["parapets"]
-//					"hidden" : true, "builds" : "parapets"
-//				},
 				"villageHall" :
 				{
 					"name" : "Village Hall",
@@ -833,26 +795,6 @@
 					"y" : 0,
 					"z" : -1
 				},
-				//"parapets" :
-				//{
-				//	"animation" : "deathvalley/town-screen/buildings/parapets.def",
-				//	"area" : "deathvalley/town-screen/buildings-area/tzParapets2.bmp",
-				//	"border" : "deathvalley/town-screen/buildings-border/toParapets.bmp",
-				//	"x" : 0,
-				//	"y" : 0,
-				//	"z" : -1,
-				//	"hidden" : true, "builds" : "castle"
-				//},
-				//"avekening" :
-				//{
-				//	"animation" : "deathvalley/town-screen/buildings/awakening.def",
-				//	"area" : "deathvalley/town-screen/buildings-area/tzAwakening2.bmp",
-				//	"border" : "deathvalley/town-screen/buildings-border/toAwakening.bmp",
-				//	"x" : 0,
-				//	"y" : 0,
-				//	"z" : -1,
-				//	"hidden" : true, "builds" : "parapets"
-				//},
 				"villageHall" :
 				{
 					"animation" : "deathvalley/town-screen/buildings/villageHall.def",
@@ -1142,8 +1084,7 @@
 				[
 					[ "marketplace", "resourceSilo" ],
 					[ "mageguild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ],
-					[ "special2" ],	["thievesguild"]		
-//					[ "parapets", "avekening" ]
+					[ "special2" ],	["thievesguild"]
 				],
 				[ 
 					[ "special1" ],[ "special3" ],	

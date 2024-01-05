@@ -379,8 +379,8 @@
 				},
 				"dwelling4" :
 				{
-					"description" : "The Haunted Canyon allows you to recruit Shades.",
-					"name" : "Haunted Canyon",
+					"description" : "The Haunted Temple allows you to recruit Shades.",
+					"name" : "Haunted Temple",
 					"cost" : {
 						"gold" : 2500,
                                     "gems" : 10
@@ -416,8 +416,8 @@
 				},
 				"dwelling7" :
 				{
-					"description" : "The Temple of Death allows you to recruit Bone Golems.",
-					"name" : "Temple of Death",
+					"description" : "The Canyon of Death allows you to recruit Bone Golems.",
+					"name" : "Canyon of Death",
 					"cost" : {
 						"gold" : 12000,
 						"wood" : 15,
@@ -429,7 +429,7 @@
 				},
 				"dwellingUpgrade1" :
 				{
-					"description" : "The Cemetery allows you to recruit Grave Beasts.",
+					"description" : "The Upgraded Cemetery allows you to recruit Grave Beasts.",
 					"name" : "Upg. Cemetery",
 					"cost" : {
 						"gold" : 1000,
@@ -440,7 +440,7 @@
 				},
 				"dwellingUpgrade2" :
 				{
-					"description" : "The Barrow Mound allows you to recruit Horror Archers.",
+					"description" : "The Upgraded Barrow Mound allows you to recruit Horror Archers.",
 					"name" : "Upg. Barrow Mound",
 					"cost" : {
 						"gold" : 1200,
@@ -452,7 +452,7 @@
 				},
 				"dwellingUpgrade3" :
 				{
-					"description" : "The Steeple allows you to recruit Lepers.",
+					"description" : "The Upgraded Steeple allows you to recruit Lepers.",
 					"name" : "Upg. Steeple",
 					"cost" : {
 						"gold" : 1500,
@@ -464,8 +464,8 @@
 				},
 				"dwellingUpgrade4" :
 				{
-					"description" : "The Haunted Canyon allows you to recruit Banshees.",
-					"name" : "Upg. Haunted Canyon",
+					"description" : "The Upgraded Haunted Temple allows you to recruit Banshees.",
+					"name" : "Upg. Haunted Temple",
 					"cost" : {
 						"gold" : 2000,
                                     "gems" : 5
@@ -475,7 +475,7 @@
 				},
 				"dwellingUpgrade5" :
 				{
-					"description" : "The Abode of Night allows you to recruit Night Witches.",
+					"description" : "The Upgraded Abode of Night allows you to recruit Night Witches.",
 					"name" : "Upg. Abode of Night",
 					"cost" : {
                                     "ore" : 5,
@@ -487,7 +487,7 @@
 				},
 				"dwellingUpgrade6" :
 				{
-					"description" : "The Hall of Darkness allows you to recruit Grim Reapers.",
+					"description" : "The Upgraded Hall of Darkness allows you to recruit Grim Reapers.",
 					"name" : "Upg. Hall of Darkness",
 					"cost" : {
 						"gold" : 3500,
@@ -502,8 +502,8 @@
 				},
 				"dwellingUpgrade7" :
 				{
-					"description" : "The Temple of Death allows you to recruit Ghost Golems.",
-					"name" : "Upg. Temple of Death",
+					"description" : "The Upgraded Canyon of Death allows you to recruit Ghost Golems.",
+					"name" : "Upg. Canyon of Death",
 					"cost" : {
 						"ore" : 10,
 						"gold" : 15000,
@@ -977,7 +977,7 @@
 					"border" : "deathvalley/town-screen/buildings-border/tovalley.bmp",
 					"x" : 0,
 					"y" : 0,
-					"z" : 2
+					"z" : 3
 				},
 				"dwelling3" :
 				{
@@ -1005,7 +1005,7 @@
 					"border" : "deathvalley/town-screen/buildings-border/toboneLab.bmp",
 					"x" : 0,
 					"y" : 0,
-					"z" : 3
+					"z" : 2
 				},
 				"dwellingUpgrade2" :
 				{
@@ -1041,7 +1041,7 @@
 					"border" : "deathvalley/town-screen/buildings-border/toskullPile.bmp",
 					"x" : 0,
 					"y" : 0,
-					"z" : 2
+					"z" : 3
 				},
 				"dwellingUpgrade3" :
 				{
@@ -1068,7 +1068,7 @@
 					"border" : "deathvalley/town-screen/buildings-border/toboneLabUpgrade.bmp",
 					"x" : 0,
 					"y" : 0,
-					"z" : 3
+					"z" : 2
 				}
 			},
 		"tavernVideo" : "TAVERN.BIK",

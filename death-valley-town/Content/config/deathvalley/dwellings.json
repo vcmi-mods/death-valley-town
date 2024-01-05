@@ -35,7 +35,7 @@
 				}
 			},
 			"dvValley" : {
-				"name" : "Haunted Canyon",
+				"name" : "Haunted Temple",
 				"creatures" : [[ "gghost" ]],
 				"sounds": {
 					"ambient": ["dwellings/dvdwl4.wav"]
@@ -43,7 +43,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "deathvalley/adventure-map/dwelling-4.def",
-						"mask" : [ "VVV", "VBB", "VAB" ]
+						"mask" : [ "VVV", "VVV", "VAB" ]
 					}
 				}
 			},
@@ -69,7 +69,7 @@
 				}
 			},
 			"dvTemple" : {
-				"name" : "Temple of Death",
+				"name" : "Canyon of Death",
 				"creatures" : [[ "bonegolem" ]],
 				"sounds": {
 					"ambient": ["dwellings/dvdwl7.wav"]
@@ -78,7 +78,7 @@
 				"templates" : {
 					"default" : {
 						"animation" : "deathvalley/adventure-map/dwelling-7.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [ "VVV", "VBB", "VAB" ]
 					}
 				}
 			}

@@ -19,28 +19,28 @@
     "building.death-valley-town.deathvalley.dwelling2.name" : "荒山",
     "building.death-valley-town.deathvalley.dwelling3.description" : "金字塔允许你招募木乃伊。",
     "building.death-valley-town.deathvalley.dwelling3.name" : "金字塔",
-    "building.death-valley-town.deathvalley.dwelling4.description" : "峡谷允许你招募怨灵。",
-    "building.death-valley-town.deathvalley.dwelling4.name" : "峡谷",
+    "building.death-valley-town.deathvalley.dwelling4.description" : "鬼庙允许你招募怨灵。",
+    "building.death-valley-town.deathvalley.dwelling4.name" : "鬼庙",
     "building.death-valley-town.deathvalley.dwelling5.description" : "尖叫精舍允许你招募女妖。",
     "building.death-valley-town.deathvalley.dwelling5.name" : "尖叫精舍",
     "building.death-valley-town.deathvalley.dwelling6.description" : "黑暗大厅允许你招募收割者。",
     "building.death-valley-town.deathvalley.dwelling6.name" : "黑暗大厅",
     "building.death-valley-town.deathvalley.dwelling7.description" : "死亡神庙允许你招募骸骨巨人。",
-    "building.death-valley-town.deathvalley.dwelling7.name" : "死亡神庙",
+    "building.death-valley-town.deathvalley.dwelling7.name" : "死亡峡谷",
     "building.death-valley-town.deathvalley.dwellingUpgrade1.description" : "高级公墓允许你招募骸骨兽。",
     "building.death-valley-town.deathvalley.dwellingUpgrade1.name" : "高级公墓",
     "building.death-valley-town.deathvalley.dwellingUpgrade2.description" : "高级荒山允许你招募残虐者。",
     "building.death-valley-town.deathvalley.dwellingUpgrade2.name" : "高级荒山",
     "building.death-valley-town.deathvalley.dwellingUpgrade3.description" : "高级金字塔允许你招募瘟疫木乃伊。",
     "building.death-valley-town.deathvalley.dwellingUpgrade3.name" : "高级金字塔",
-    "building.death-valley-town.deathvalley.dwellingUpgrade4.description" : "高级峡谷允许你招募恶灵。",
-    "building.death-valley-town.deathvalley.dwellingUpgrade4.name" : "高级峡谷",
+    "building.death-valley-town.deathvalley.dwellingUpgrade4.description" : "高级鬼庙允许你招募恶灵。",
+    "building.death-valley-town.deathvalley.dwellingUpgrade4.name" : "高级鬼庙",
     "building.death-valley-town.deathvalley.dwellingUpgrade5.description" : "高级尖叫精舍允许你招募血腥女妖。",
     "building.death-valley-town.deathvalley.dwellingUpgrade5.name" : "高级尖叫精舍",
     "building.death-valley-town.deathvalley.dwellingUpgrade6.description" : "高级黑暗大厅允许你招募冷酷收割者。",
     "building.death-valley-town.deathvalley.dwellingUpgrade6.name" : "高级黑暗大厅",
-    "building.death-valley-town.deathvalley.dwellingUpgrade7.description" : "高级死亡神庙允许你招募亡灵巨人。",
-    "building.death-valley-town.deathvalley.dwellingUpgrade7.name" : "高级死亡神庙",
+    "building.death-valley-town.deathvalley.dwellingUpgrade7.description" : "高级死亡峡谷允许你招募亡灵巨人。",
+    "building.death-valley-town.deathvalley.dwellingUpgrade7.name" : "高级死亡峡谷",
     "building.death-valley-town.deathvalley.extraValley.description" : "",
     "building.death-valley-town.deathvalley.extraValley.name" : "",
     "building.death-valley-town.deathvalley.flag.description" : "",
@@ -222,10 +222,10 @@
     "hero.death-valley-town.m_SdvdarkNova.specialty.name" : "收割者",
     "hero.death-valley-town.m_SdvdarkNova.specialty.tooltip" : "生物奖励：收割者",
     "heroClass.death-valley-town.dvDeathlord.name" : "死亡领主",
-    "heroClass.death-valley-town.dvNecropriest.name" : "死亡牧师"
-    "ability.death-valley-town.bansheeAb1.name" : "隐形"
-    "ability.death-valley-town.boneSkill01.name" : "驱役骷髅"
-    "ability.death-valley-town.boneSkill02.name" : "不洁气息"
-    "ability.death-valley-town.plagueAb1.name" : "瘟疫"
-    "ability.death-valley-town."reaperAb1.name" : "冰冷之触"
+    "heroClass.death-valley-town.dvNecropriest.name" : "死亡牧师",
+    "ability.death-valley-town.bansheeAb1.name" : "隐形",
+    "ability.death-valley-town.boneSkill01.name" : "驱役骷髅",
+    "ability.death-valley-town.boneSkill02.name" : "不洁气息",
+    "ability.death-valley-town.plagueAb1.name" : "瘟疫",
+    "ability.death-valley-town.reaperAb1.name" : "冰冷之触"
 }

@@ -6,7 +6,7 @@
     },
     "advMapAmount": {
  "max" : 38,
- "min" : 25
+ "min" : 20
     },
     "faction": "deathvalley",
     "aiValue": 192,
@@ -84,6 +84,14 @@
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
 			{
 				"bonus" :

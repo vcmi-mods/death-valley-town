@@ -9,35 +9,31 @@
 			 "min" : 16,
 			 "max" : 25
 		},
-		"faction" : "neutral",
-		"aiValue" : 1000,
+		"faction" : "deathvalley",
+		"aiValue" : 156,
 		"special" : true,
 		"doubleWide" : true,
 		"attack" : 5,
 		"damage" :
 		{
-			 "max" : 10,
-			 "min" : 10
+			 "max" : 12,
+			 "min" : 6
 		},
 		"defense" : 5,
-		"fightValue" : 1000,
+		"fightValue" : 130,
 		"growth" : 9,
 		"hasDoubleWeek": false,
-		"hitPoints" : 50,
+		"hitPoints" : 40,
 		"shots" : 24,
 		"cost" :
 		{
 			"gold" : 140
 		},
 		"level" : 0,
-		"speed" : 5,
+		"speed" : 4,
 		"abilities" :
 		{
-		"canShoot" :
-			{
-				"type" : "SHOOTER"
-			},
-			"magicResistance" :
+		"magicResistance" :
 			{
 				"type" : "MAGIC_RESISTANCE",
 				"val" : 5
@@ -66,10 +62,6 @@
                   "IS_UNDEAD" :
                   {
                     "type" : "UNDEAD"
-			},
-			"noMeleePenalty" :
-			{
-				"type" : "NO_MELEE_PENALTY"
 			}
 		},
 		"graphics" : {

@@ -1,4 +1,10 @@
 {
+    "artifact.death-valley-town.necroAmulet.description" : "{暗影之心}\r\n\r\n暗影之心允许驱役更强的不死单位，驱役的生物取决于招魂术等级。初级：猎杀者，中级：木乃伊，高级：女妖。",
+	"artifact.death-valley-town.necroAmulet.event" : "你从坟墓里找到一个奇怪的护符，你相信它会给你带来不小的好处。",
+    "artifact.death-valley-town.necroAmulet.name" : "暗影之心",
+    "artifact.death-valley-town.necroRing.description" : "{亡灵巫术之戒}\r\n\r\n佩戴这个戒指在手上，会使你的招魂术强度增加10%。",
+    "artifact.death-valley-town.necroRing.event" : "当你在目的闲逛时，你被一只僵尸袭击。你轻松地解决掉它，发现它手上戴着一枚戒指，看来这就是它不能安息的原因。",
+    "artifact.death-valley-town.necroRing.name" : "亡灵巫术之戒",
     "building.death-valley-town.deathvalley.birds.description" : "鸟",
     "building.death-valley-town.deathvalley.birds.name" : "鸟",
     "building.death-valley-town.deathvalley.blacksmith.description" : "铁匠铺可向你的军队提供补给车。",
@@ -233,6 +239,8 @@
     "spell.death-valley-town.bansheeAb1.name" : "隐形",
     "spell.death-valley-town.boneSkill01.name" : "驱役骷髅",
     "spell.death-valley-town.boneSkill02.name" : "不洁气息",
+    "spell.death-valley-town.deathvalleyMoat.name" : "壕沟",
+    "spell.death-valley-town.deathvalleyMoatTrigger.name" : "陷阱",
     "spell.death-valley-town.plagueAb1.name" : "瘟疫",
     "spell.death-valley-town.reaperAb1.name" : "冰冷之触"
 }

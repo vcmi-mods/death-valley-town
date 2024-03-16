@@ -28,7 +28,7 @@
     },
 	"chinese" : {
 		"name" : "死亡谷",
-		"description" : "死亡谷",
+		"description" : "死亡谷是一个新的亡灵种族，和教廷一样有着独特的宗教性艺术感。听闻教廷幸存者传播教义后，一些亡灵巫师开始追随死亡中的新生。于是他们离开迪雅，和这些幸存者一起建立了新的国度。虽然和墓园同为不死阵营，但他们不喜欢巫妖和吸血鬼。",
 		"translations" : [
 			"translation/deathvalley/chinese.json"
 		]

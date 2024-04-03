@@ -943,15 +943,6 @@
 					"y" : 0,
 					"z" : 0
 			    },
-				"dwelling2" :
-				{
-					"animation" : "deathvalley/town-screen/buildings/wasteMountain.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzwasteMountain.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/towasteMountain.bmp",
-					"x" : 0,
-					"y" : 0,
-					"z" : 1
-				},
 				"dwelling1" :
 				{
 					"animation" : "deathvalley/town-screen/buildings/graveyard.def",
@@ -961,14 +952,23 @@
 					"y" : 0,
 					"z" : 2
 				},
-				"dwelling5" :
+				"dwelling2" :
 				{
-					"animation" : "deathvalley/town-screen/buildings/mansion.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzmansion.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/tomansion.bmp",
+					"animation" : "deathvalley/town-screen/buildings/wasteMountain.def",
+					"area" : "deathvalley/town-screen/buildings-area/tzwasteMountain.bmp",
+					"border" : "deathvalley/town-screen/buildings-border/towasteMountain.bmp",
 					"x" : 0,
 					"y" : 0,
-					"z" : 20
+					"z" : 1
+				},
+				"dwelling3" :
+				{
+					"animation" : "deathvalley/town-screen/buildings/pyramid.def",
+					"area" : "deathvalley/town-screen/buildings-area/tzPyramid.bmp",
+					"border" : "deathvalley/town-screen/buildings-border/toPyramid.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 5
 				},
 				"dwelling4" :
 				{
@@ -979,15 +979,14 @@
 					"y" : 0,
 					"z" : 3
 				},
-				"dwelling3" :
+				"dwelling5" :
 				{
-					"animation" : "deathvalley/town-screen/buildings/pyramid.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzPyramid.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toPyramid.bmp",
+					"animation" : "deathvalley/town-screen/buildings/mansion.def",
+					"area" : "deathvalley/town-screen/buildings-area/tzmansion.bmp",
+					"border" : "deathvalley/town-screen/buildings-border/tomansion.bmp",
 					"x" : 0,
 					"y" : 0,
-					"z" : 5
-
+					"z" : 20
 				},
 				"dwelling6" :
 				{
@@ -1007,15 +1006,6 @@
 					"y" : 0,
 					"z" : 2
 				},
-				"dwellingUpgrade2" :
-				{
-					"animation" : "deathvalley/town-screen/buildings/wasteMountainUpgrade.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzwasteMountainUpgrade.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/towasteMountainUpgrade.bmp",
-					"x" : 0,
-					"y" : 0,
-					"z" : 1
-				},
 				"dwellingUpgrade1" :
 				{
 					"animation" : "deathvalley/town-screen/buildings/royalGraves.def",
@@ -1025,14 +1015,23 @@
 					"y" : 0,
 					"z" : 2
 				},
-				"dwellingUpgrade5" :
+				"dwellingUpgrade2" :
 				{
-					"animation" : "deathvalley/town-screen/buildings/ladyInWaiting.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzladyInWaiting.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toladyInWaiting.bmp",
+					"animation" : "deathvalley/town-screen/buildings/wasteMountainUpgrade.def",
+					"area" : "deathvalley/town-screen/buildings-area/tzwasteMountainUpgrade.bmp",
+					"border" : "deathvalley/town-screen/buildings-border/towasteMountainUpgrade.bmp",
 					"x" : 0,
 					"y" : 0,
-					"z" : 21
+					"z" : 1
+				},
+				"dwellingUpgrade3" :
+				{
+					"animation" : "deathvalley/town-screen/buildings/monolithPyramidUpgrade.def",
+					"area" : "deathvalley/town-screen/buildings-area/tzmonolithPyramidUpgrade.bmp",
+					"border" : "deathvalley/town-screen/buildings-border/tomonolithPyramidUpgrade.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 5
 				},
 				"dwellingUpgrade4" :
 				{
@@ -1043,14 +1042,14 @@
 					"y" : 0,
 					"z" : 3
 				},
-				"dwellingUpgrade3" :
+				"dwellingUpgrade5" :
 				{
-					"animation" : "deathvalley/town-screen/buildings/monolithPyramidUpgrade.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzmonolithPyramidUpgrade.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/tomonolithPyramidUpgrade.bmp",
+					"animation" : "deathvalley/town-screen/buildings/ladyInWaiting.def",
+					"area" : "deathvalley/town-screen/buildings-area/tzladyInWaiting.bmp",
+					"border" : "deathvalley/town-screen/buildings-border/toladyInWaiting.bmp",
 					"x" : 0,
 					"y" : 0,
-					"z" : 5
+					"z" : 21
 				},
 				"dwellingUpgrade6" :
 				{

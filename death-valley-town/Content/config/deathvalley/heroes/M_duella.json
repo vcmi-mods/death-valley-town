@@ -56,7 +56,7 @@
 			"biography" : "Duella is a insane, powerful priestess who enjoys using her magics to create Clones of her troops, sending wave after wave of her army at the enemy in a ceaseless onslought of brutality and carnage.",
 			"name" : "Duella",
 			"specialty" : {
-				"description" : "{Clone}\r\n\r\nCasts Clone always at expert effect.",
+				"description" : "Casts Clone always at expert effect.",
 				"tooltip" : "Spell bonus: Clone",
 				"name" : "Clone"
 			}

@@ -59,7 +59,7 @@
 			"biography" : "Minerva is one of the more sane priestesses. She tends to her troops as if they are her own children, constantly looking out for their well being, and constantly looking to grow her 'family'.",
 			"name" : "Minerva",
 			"specialty" : {
-				"description" : "{Animate Dead}\r\n\r\nCasts Animate Dead with increased effect, based on hero level compared to the level of the target unit.",
+				"description" : "Casts Animate Dead with increased effect, based on hero level compared to the level of the target unit.",
 				"tooltip" : "Spell bonus: Animate Dead",
 				"name" : "Animate Dead"
 			}

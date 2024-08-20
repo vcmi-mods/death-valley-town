@@ -47,7 +47,7 @@
 				"sorcery" : {
 					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "SPELL_DAMAGE",
-					"val" : 5,
+					"val" : 7,
 					"valueType" : "PERCENT_TO_BASE",
 					"updater" : "TIMES_HERO_LEVEL"
 				}
@@ -58,7 +58,7 @@
 			"biography" : "Sorcha is said to be the high sorceress of the priesthood. Always eager to return to her studies, she seeks to hasten her troops to quick and decisive victories in battle.",
 			"name" : "Sorcha",
 			"specialty" : {
-				"description" : "{Sorcery}\r\n\r\nReceives a 7% per level bonus to Sorcery skill.",
+				"description" : "Receives a 7% per level bonus to Sorcery skill.",
 				"tooltip" : "Receives a 7% per level bonus to Sorcery skill.",
 				"name" : "Sorcery"
 			}

@@ -48,8 +48,8 @@
 			"bonuses" : {
 				"intelligence" : {
 					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "MANA_PER_KNOWLEDGE",
-					"val" : 5,
+					"type" : "MANA_PER_KNOWLEDGE_PERCENTAGE",
+					"val" : 7,
 					"valueType" : "PERCENT_TO_TARGET_TYPE",
 					"updater" : "TIMES_HERO_LEVEL"
 				}
@@ -59,7 +59,7 @@
 			"biography" : "Takesha is a highly intelligent priestess, who is said to be so keen in her ability to observe the tactics of her enemies that she can even learn the spells they cast by observing them.",
 			"name" : "Takesha",
 			"specialty" : {
-				"description" : "{Intelligence}\r\n\r\nReceives a 7% per level bonus to Intelligence skill.",
+				"description" : "Receives a 7% per level bonus to Intelligence skill.",
 				"tooltip" : "Receives a 7% per level bonus to Intelligence skill.",
 				"name" : "Intelligence"
 			}

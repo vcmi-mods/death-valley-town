@@ -1,6 +1,7 @@
 {
 	"deathvalley" : {
 		"alignment" : "evil",
+		"description" : "New Necropolis-style town with udead creatures.",
 		"creatureBackground" : { "120px" : "deathvalley/creature-bg-120px.bmp", "130px" : "deathvalley/creature-bg-130px.bmp" },
 		"name" : "Death Valley",
 		"boat" : "boatNecropolis",

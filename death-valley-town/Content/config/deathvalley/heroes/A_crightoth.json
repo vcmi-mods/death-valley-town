@@ -55,7 +55,7 @@
 			"biography" : "Crightoth is the craftiest general in the land. He is the main instructor of the war academy, and when he takes the field he often educates his enemies on why they shouldn't mess with his kingdom.",
 			"name" : "Crightoth",
 			"specialty" : {
-				"description" : "{Ballista}\r\n\r\nIncreses the Attack and Defense skill of any Ballista for each level attained after 4th level.",
+				"description" : "Increses the Attack and Defense skill of any Ballista for each level attained after 4th level.",
 				"tooltip" : "Ballista bonus",
 				"name" : "Ballista"
 			}

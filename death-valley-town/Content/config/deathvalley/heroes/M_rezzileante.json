@@ -58,7 +58,7 @@
 			"biography" : "Rezzi believes the best offense is a army that is able to absorb massive amounts of damage and keep marching at its enemies. To that end she enhances her troops with a resilience seldom seen in the kingdoms.",
 			"name" : "Rezzi LeAnte",
 			"specialty" : {
-				"description" : "{Stone Skin}\r\n\r\nCasts Stone Skin with increased effect, based on hero level compared to the level of the target unit.",
+				"description" : "Casts Stone Skin with increased effect, based on hero level compared to the level of the target unit.",
 				"tooltip" : "Spell bonus: Stone Skin",
 				"name" : "Stone Skin"
 			}

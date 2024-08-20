@@ -51,8 +51,8 @@
 			"biography" : "Nova lived in Tatalia since a very young age, and she was found for darkness power, which cannot be dominated by witches, since she was eight years old. She believed her power is from a magnificent family and she applies herself to find the consequece. She is called 'Night' by many people because of her lingering dark power.",
 			"name" : "Nova Night",
 			"specialty" : {
-				"description" : "{Reapers}\r\n\r\nIncreases the Attack and Defence of any Reapers and Grim Reapers for each level attained after 6th level.",
-				"tooltip" : "Receives a 7% per level bonus to Intelligence skill.",
+				"description" : "Increases the Attack and Defence of any Reapers and Grim Reapers for each level attained after 6th level.",
+				"tooltip" : "Creature bonus: Reapers.",
 				"name" : "Reapers"
 			}
 		}

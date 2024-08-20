@@ -57,7 +57,7 @@
 			"name" : "Draigoth",
 			"specialty" : {
 				"description" : "Can upgrade Skeletons and Skeleton Warriors into Grave Beasts.",
-				"name" : "Bone Hounds",
+				"name" : "Grave Beasts Upgrades",
 				"tooltip" : "Free upgrades: Death Valleys' hounds"
 			}
 		}

@@ -46,7 +46,7 @@
 					"subtype" : "core:spell.firstAid",
 					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "SPECIFIC_SPELL_POWER",
-					"val" : 5,
+					"val" : 7,
 					"valueType" : "PERCENT_TO_BASE",
 					"updater" : "TIMES_HERO_LEVEL"
 				}
@@ -56,8 +56,8 @@
 			"biography" : "Mortadella is the chief designer of the Bone Labs, and takes great pride in her work. It is said she had a hand in the creation of many of the undead in the kingdom, and that she takes personal pride in presiding over many of their 'births'.",
 			"name" : "Mortadella",
 			"specialty" : {
-				"description" : "{First Aid}\r\n\r\nReceives a 5% per level bonus to First Aid skill.",
-				"tooltip" : "Receives a 5% per level bonus to First Aid skill.",
+				"description" : "Receives a 7% per level bonus to First Aid skill.",
+				"tooltip" : "Bonus: First Aid.",
 				"name" : "First Aid"
 			}
 		}

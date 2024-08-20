@@ -58,7 +58,7 @@
 			"biography" : "Roakshar is a mighty hunter. When he is tasked to lead an army, he usually seeks out the enemy with a single-minded zeal and fierceness that is unrivaled in all the lands.",
 			"name" : "Roakshar",
 			"specialty" : {
-				"description" : "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill.",
+				"description" : "Receives a 5% per level bonus to Offence skill.",
 				"tooltip" : "Receives a 5% per level bonus to Offence skill.",
 				"name" : "Offence"
 			}

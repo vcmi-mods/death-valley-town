@@ -49,9 +49,9 @@
 			"biography" : "Barraka is called the 'kingdom haunter' as he is often seen gliding his way through the lands, his spiritual armies moving silently with him. Many an army has hidden while his forces pass, cold shivers running down their spines as they prayed he not notice them.",
 			"name" : "Barraka",
 			"specialty" : {
-				"description" : "{Ghosts and Spectres}\r\n\r\nIncreases the Attack and Defence of any Ghosts and Spectres for each level attained after 4th level.",
+				"description" : "Increases the Attack and Defence of any Ghosts and Spectres for each level attained after 4th level.",
 				"tooltip" : "Increases the Attack and Defence of any Shades and Banshees for each level attained after 4th level.",
-				"name" : "Banshees"
+				"name" : "Ghosts"
 			}
 		}
 	}

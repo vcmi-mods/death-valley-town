@@ -3,7 +3,7 @@
 	"description" : "Necro town",
 	"author" : "VCMI ROFL and Turbanellos(Ben Yan), Andruids",
 	"contact" : "forum.vcmi.eu",
-	"version" : "1.41",
+	"version" : "1.42",
 	"modType" : "Town",
 	"compatibility":
 	{
@@ -25,7 +25,8 @@
 		"1.38"	: [ "Updated chinese translation by Rindlit" ],
 		"1.39"	: [ "Added sounds to the golem and ghost dwelling buildings on the adventure map and fixes the animations of the golems by Fabrice-TIERCELIN" ],
 		"1.40"	: [ "Fixed the translations, the creatures' stackExp and the commander" ],
-		"1.41"	: [ "New town theme by Fabrice-TIERCELIN and AI Udio" ]
+		"1.41"	: [ "New town theme by Fabrice-TIERCELIN and AI Udio" ],
+		"1.42"	: [ "Fixed Takesha specialty" ]
     },
 	"chinese" : {
 		"name" : "死亡谷",

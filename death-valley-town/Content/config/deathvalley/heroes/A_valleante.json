@@ -58,7 +58,7 @@
 			"biography" : "A strong and noble Deathlord, Val LeAnte believes that the best offense is often a impenetrable defense. When not in battle his forces are often seen cleaning and caring for their armor.",
 			"name" : "Val LeAnte",
 			"specialty" : {
-				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
+				"description" : "Receives a 5% per level bonus to Armorer skill.",
 				"tooltip" : "Receives a 5% per level bonus to Armorer skill.",
 				"name" : "Armorer"
 			}

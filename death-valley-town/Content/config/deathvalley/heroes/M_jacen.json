@@ -57,7 +57,7 @@
 			"biography" : "Jacen is said to be a devout Necropriest, favored by the Death Gods. He is cunning and cruel in battle, and is more than willing to destroy his enemies in the persuit of more souls for the gods.",
 			"name" : "Jacen",
 			"specialty" : {
-				"description" : "{Mysticism}\r\n\r\nReceives a 5% per level bonus to Mysticism skill.",
+				"description" : "Receives a 5% per level bonus to Mysticism skill.",
 				"tooltip" : "Receives a 5% per level bonus to Mysticism skill.",
 				"name" : "Mysticism"
 			}

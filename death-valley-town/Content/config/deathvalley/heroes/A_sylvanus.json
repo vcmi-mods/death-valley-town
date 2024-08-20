@@ -42,7 +42,7 @@
 			"biography" : "Sylvanus is the queen of all witches. A fierce warrior in her own right, she leads her devoted armies with skill and grace, conducting them with a tactical precision that is the envy of many of her opponents.",
 			"name" : "Sylvanus",
 			"specialty" : {
-				"description" : "{Dark Witches and Night Witches}\r\n\r\nIncreases the Attack and Defence of any Dark Witches and Night Witches for each level attained after 5th level.",
+				"description" : "Increases the Attack and Defence of any Dark Witches and Night Witches for each level attained after 5th level.",
 				"tooltip" : "Increases the Attack and Defence of any Dark Witches and Night Witches for each level attained after 5th level.",
 				"name" : "Dark Witches"
 			}

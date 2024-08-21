@@ -3,7 +3,7 @@
 	"description" : "Necro town",
 	"author" : "VCMI ROFL and Turbanellos(Ben Yan), Andruids",
 	"contact" : "forum.vcmi.eu",
-	"version" : "1.42",
+	"version" : "1.43",
 	"modType" : "Town",
 	"compatibility":
 	{
@@ -26,7 +26,8 @@
 		"1.39"	: [ "Added sounds to the golem and ghost dwelling buildings on the adventure map and fixes the animations of the golems by Fabrice-TIERCELIN" ],
 		"1.40"	: [ "Fixed the translations, the creatures' stackExp and the commander" ],
 		"1.41"	: [ "New town theme by Fabrice-TIERCELIN and AI Udio" ],
-		"1.42"	: [ "Fixed Takesha specialty" ]
+		"1.42"	: [ "Fixed Takesha specialty" ],
+		"1.43"	: [ "Russian translation by Anton Sergeew" ],		
     },
 	"chinese" : {
 		"name" : "死亡谷",
@@ -49,6 +50,14 @@
 			"translation/deathvalley/polish.json"
 		]
 	},
+	"russian" : {
+		"name" : "Долина смерти",
+		"description" : "Tal des Todes Stadt",
+		"translations" : [
+			"translation/deathvalley/russian.json"
+		]
+	},
+	
     "factions" : [ "config/deathvalley/town.json" ],
 	
 	"creatures" :

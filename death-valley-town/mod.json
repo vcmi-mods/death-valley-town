@@ -51,8 +51,8 @@
 		]
 	},
 	"russian" : {
-		"name" : "Долина смерти",
-		"description" : "Tal des Todes Stadt",
+		"name" : "Долина Смерти",
+		"description" : "Новый город Долина Смерти, более зловещий некрополь, заселенный жуткой нежитью.",
 		"translations" : [
 			"translation/deathvalley/russian.json"
 		]

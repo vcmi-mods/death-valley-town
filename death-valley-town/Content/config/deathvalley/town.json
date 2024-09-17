@@ -302,13 +302,19 @@
 				},
 				"special2" :
 				{
-					"description" : "The Death Knight Statuary adds +2 to Morale for visiting hero.",
+					"description": "The Death Knight Statuary adds +2 to Luck for visiting hero.",
 					"name" : "Death Knight Statuary",
-					"onVisitBonuses": [ { "duration": "ONE_WEEK", "type": "MORALE", "val": 2 } ],
-                              "cost" : {
-                                    "gold" : 2000,
-                                    "ore" : 5
-                              },
+					"onVisitBonuses": [
+						{
+							"duration": "ONE_WEEK",
+							"type": "LUCK",
+							"val": 2
+						}
+					]
+                    "cost" : {
+						"gold" : 2000,
+						"ore" : 5
+                    },
 					"id" : 21
 				},
 				"special3" :

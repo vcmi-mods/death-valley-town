@@ -3,7 +3,7 @@
 	"description" : "Necro town",
 	"author" : "VCMI ROFL and Turbanellos(Ben Yan), Andruids",
 	"contact" : "forum.vcmi.eu",
-	"version" : "1.44",
+	"version" : "1.45",
 	"modType" : "Town",
 	"compatibility":
 	{
@@ -28,7 +28,8 @@
 		"1.41"	: [ "New town theme by Fabrice-TIERCELIN and AI Udio" ],
 		"1.42"	: [ "Fixed Takesha specialty" ],
 		"1.43"	: [ "Russian translation by Anton Sergeew" ],
-		"1.44"	: [ "Updated russian translation" ]
+		"1.44"	: [ "Updated russian translation" ],
+		"1.45"	: [ "Death Knight Statuary fix and Dark Witch ability fix (by Dark Imagine)" ]
     },
 	"chinese" : {
 		"name" : "死亡谷",

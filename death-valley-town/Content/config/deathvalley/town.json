@@ -1,7 +1,7 @@
 {
 	"deathvalley" : {
 		"alignment" : "evil",
-		"description" : "New Necropolis-style town with udead creatures.",
+		"description" : "Necropolis-style town with dead creatures.",
 		"creatureBackground" : { "120px" : "deathvalley/creature-bg-120px.bmp", "130px" : "deathvalley/creature-bg-130px.bmp" },
 		"name" : "Death Valley",
 		"boat" : "boatNecropolis",
@@ -273,7 +273,7 @@
 				},
 				"hordeHalflings" :
 				{
-					"description" : "The Bone Circle increases Bone Hounds production by 6 per week.",
+					"description" : "The Bone Circle increases Skeleton Hounds production by 6 per week.",
 					"name" : "Bone Circle",
 					"cost" : {
 						"gold" : 1000
@@ -293,7 +293,7 @@
 				},
 				"special1" :
 				{
-					"description" : "The Watch Tower Opens the neighborhood of the city on the Adventure Map at a distance of 20 tiles.",
+					"description" : "The Watch Tower reveals the neighborhood of the city on the Adventure Map at a distance of 20 tiles.",
 					"name" : "Watch Tower",
                               "cost" : {
                                     "gold" : 1500,

@@ -42,6 +42,13 @@
 			"translation/deathvalley/chinese.json"
 		]
 	},
+	"french" : {
+		"name" : "Vallée de la Mort",
+		"description" : "Ville de la Vallée de la Mort",
+		"translations" : [
+			"translation/deathvalley/french.json"
+		]
+	},
 	"german" : {
 		"name" : "Tal des Todes",
 		"description" : "Tal des Todes Stadt",

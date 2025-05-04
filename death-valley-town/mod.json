@@ -3,7 +3,7 @@
 	"description" : "Necro town",
 	"author" : "VCMI ROFL and Turbanellos(Ben Yan), Andruids",
 	"contact" : "forum.vcmi.eu",
-	"version" : "1.49",
+	"version" : "1.50",
 	"modType" : "Town",
 	"compatibility":
 	{
@@ -33,7 +33,8 @@
 		"1.46"	: [ "Czech translation by George King" ],
 		"1.47"	: [ "Update to vcmi-1.6 format" ],
 		"1.48"	: [ "Czech translation for map - The Fall of the Old Order" ],
-		"1.49"	: [ "Fix Grail not to produce gold" ]
+		"1.49"	: [ "Fix Grail not to produce gold" ],
+		"1.50"	: [ "Added french translation by Fabrice-TIERCELIN" ]
     },
 	"chinese" : {
 		"name" : "死亡谷",

@@ -30,6 +30,7 @@
 		"noneOf" : {
 				"bonus.NON_LIVING" : "normal",
 				"bonus.GARGOYLE" : "normal",
+				"bonus.MECHANICAL" : "normal",
 				"bonus.SIEGE_WEAPON" : "absolute",
 				"bonus.UNDEAD" : "absolute"
 			}
@@ -51,35 +52,33 @@
 				"cost": 5,
 				"range": "0",
 				"power": 1, //base dmg
-				"aiValue": 70,
+//				"aiValue": 70,
+
 				"targetModifier":
 				{
 					"smart": true
 				},
-				"description": "Kills one creature after attack",
-	 
+				"description": "Kills one creature after attack",	 
 				"battleEffects" : {
 					"directDamage" : {"type":"core:damage", "val": 1, "killByCount" : true, "valueType": 	"INDEPENDENT_MIN"}
 				}
 			},
 			"none":
 			{
-				"description": "IMMOLATION DAMAGE"
+
 			},
 			"basic":
 			{
-				"description": "IMMOLATION DAMAGE"
+				
 			},
 			"advanced":
 			{
-				"description": "IMMOLATION DAMAGE"
+
 			},
 			"expert":
 			{
-				"description": "IMMOLATION DAMAGE"
+
 			}
 		}
-	}
- 
- 
+	} 
 }

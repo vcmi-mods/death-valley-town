@@ -1,29 +1,33 @@
 {
 	"necroAmulet" : {
-			"bonuses" : [
+		"bonuses" : {
+			"skeleton" :
 			{
 				"type" : "IMPROVED_NECROMANCY",
 				"subtype" : "creature.skeleton",
 				"addInfo" : 0
 			},
+			"boneHook" :
 			{
 				"type" : "IMPROVED_NECROMANCY",
 				"subtype" : "creature.boneHook",
 				"addInfo" : 1
 			},
+			"mums" :
 			{
 				"type" : "IMPROVED_NECROMANCY",
 				"subtype" : "creature.mums",
 				"addInfo" : 2
 			},
+			"banshee" :
 			{
 				"type" : "IMPROVED_NECROMANCY",
 				"subtype" : "creature.banshee",
 				"addInfo" : 3
 			}
-		],
+		},
 		"class" : "RELIC",
-		"graphics" : { "image" : "deathvalley/artifacts/avax2", "map" : "deathvalley/artifacts/avax2map" },
+		"graphics" : { "image" : "deathvalley/artifacts/avax2", "map" : "deathvalley/artifacts/avax2map", "scenarioBonus" : "deathvalley/scenarioBonuses/bonusBlank.png" },
 		"slot" : "NECK",
 		"text" : {
 			"description" : "{Heart of the Shadow}\r\n\r\nHeart of the Shadow allows to raise stronger undead units. The level of skill determines what type is resurrected. Basic: Bone Archers, Advanced: Outcasts, Expert: Dark Witches",

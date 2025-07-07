@@ -43,6 +43,10 @@
 		{
 			"base":{
 				"range" : "X",
+				"description": "abandoned ability.",
+				"cost": 0,
+//				"aiValue": 12,
+				"power": 1,		
 				"battleEffects":{
 					"summon":{
 						"exclusive":false,
@@ -54,42 +58,20 @@
 			},
 			"none":
 			{
-				"description": "abandoned ability.",
-	 
-				"cost": 0,
-				"aiValue": 12,
-				"power": 1
 	 
 			},
 			"basic":
 			{
-				"description": "abandoned ability.",
-	 
-				"cost": 0,
-				"aiValue": 12,
-				"power": 1
-	 
+
 			},
 			"advanced":
 			{
-				"description": "abandoned ability.",
-	 
-				"cost": 0,
-				"aiValue": 12,
-				"power": 1
-	 
+				
 			},
 			"expert":
 			{
-				"description": "abandoned ability.",
-	 
-				"cost": 0,
-				"aiValue": 12,
-				"power": 1,
-				"range": "X"
-	 
+
 			}
 		}
 	}
- 
 }

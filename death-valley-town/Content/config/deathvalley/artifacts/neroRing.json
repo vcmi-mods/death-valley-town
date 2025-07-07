@@ -1,14 +1,15 @@
 {
 	"necroRing" : {
-			"bonuses" : [
+		"bonuses" : {
+			"raising" :
 			{
 				"type" : "UNDEAD_RAISE_PERCENTAGE",
 				"val" : 10,
 				"valueType" : "ADDITIVE_VALUE"
 			}
-		],
+		},
 		"class" : "MINOR",
-		"graphics" : { "image" : "deathvalley/artifacts/avax1", "map" : "deathvalley/artifacts/avax1map" },
+		"graphics" : { "image" : "deathvalley/artifacts/avax1", "map" : "deathvalley/artifacts/avax1map", "scenarioBonus" : "deathvalley/scenarioBonuses/bonusBlank.png" },
 		"slot" : "RING",
 		"text" : {
 			"description" : "{Ring of Necromancy}\r\n\r\nWorn on the finger, this ring increases your necromancy skill by 10%.",

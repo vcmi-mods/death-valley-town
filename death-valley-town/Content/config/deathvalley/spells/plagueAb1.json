@@ -30,6 +30,7 @@
 		"noneOf" : {
 				"bonus.NON_LIVING" : "normal",
 				"bonus.GARGOYLE" : "normal",
+				"bonus.MECHANICAL" : "normal",
 				"bonus.SIEGE_WEAPON" : "absolute",
 				"bonus.UNDEAD" : "absolute"
 			}
@@ -49,8 +50,9 @@
 				"cost": 0,
 				"range": "0-1",
 				"power": 1,
-				"aiValue": 70,
+//				"aiValue": 70,
 				"targetModifier":{"smart":false},
+				"description": "{Plague}\n\nNo description.",
 				"effects" : {
 					"poison" : {
 						"val" : 30,
@@ -84,21 +86,20 @@
 			},
 			"none":
 			{
-				"description": "{Plague}\n\nNo description."			
+			
 			},
 			"basic":
 			{
-				"description": "{Plague}\n\nNo description."
-				},
+
+			},
 			"advanced":
 			{
-				"description": "{Plague}\n\nNo description."
-				},
+
+			},
 			"expert":
 			{
-				"description": "{Plague}\n\nNo description."
-				}
+				
+			}
 		}
 	}
- 
- }
+}

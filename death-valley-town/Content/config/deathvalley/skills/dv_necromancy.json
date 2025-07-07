@@ -5,6 +5,9 @@
 			"might" : 0,
 			"magic" : 0
 		},
+		"specialty" : [
+			"main"
+		],		
 		"base" : {
 			"effects" : {
 				"main" : {
@@ -22,7 +25,8 @@
 			"images" : {
 				"small" : "deathvalley/skills/smallBasic",
 				"medium" : "deathvalley/skills/mediumBasic",
-				"large" : "deathvalley/skills/largeBasic"
+				"large" : "deathvalley/skills/largeBasic",
+				"scenarioBonus" : "deathvalley/scenarioBonuses/bonusBlank.png"
 			},
 			"description" : "{Basic Hexerei}\n\nBasic Hexerei allows 10% of the creatures killed in combat to be brought back from the dead as Skeleton Hounds.",
 			"effects" : {
@@ -34,7 +38,8 @@
 			"images" : {
 				"small" : "deathvalley/skills/smallAdvanced",
 				"medium" : "deathvalley/skills/mediumAdvanced",
-				"large" : "deathvalley/skills/largeAdvanced"
+				"large" : "deathvalley/skills/largeAdvanced",
+				"scenarioBonus" : "deathvalley/scenarioBonuses/bonusBlank.png"
 			},
 			"description" : "{Advanced Hexerei}\n\nAdvanced Hexerei allows 20% of the creatures killed in combat to be brought back from the dead as Skeleton Hounds.",
 			"effects" : {
@@ -46,7 +51,8 @@
 			"images" : {
 				"small" : "deathvalley/skills/smallExpert",
 				"medium" : "deathvalley/skills/mediumExpert",
-				"large" : "deathvalley/skills/largeExpert"
+				"large" : "deathvalley/skills/largeExpert",
+				"scenarioBonus" : "deathvalley/scenarioBonuses/bonusBlank.png"
 			},
 			"description" : "{Expert Hexerei}\n\nExpert Hexerei allows 30% of the creatures killed in combat to be brought back from the dead as Skeleton Hounds.",
 			"effects" : {

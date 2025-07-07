@@ -295,11 +295,13 @@
 				{
 					"description" : "The Watch Tower reveals the neighborhood of the city on the Adventure Map at a distance of 20 tiles.",
 					"name" : "Watch Tower",
-                              "cost" : {
-                                    "gold" : 1500,
-                                    "ore" : 5
-                              },
-							  "height" : "high",
+                    "cost" : {
+                        "gold" : 1500,
+                        "ore" : 5
+                    },
+					"bonuses": [
+						{ "type": "SIGHT_RADIUS", "val": 15 }, // 5 base + 15 bonus = 20 tiles range
+					],
 					"id" : 17
 				},
 				"special2" :

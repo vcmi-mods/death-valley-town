@@ -1,5 +1,5 @@
 {
-	"mums2": {
+	"mums2" : {
 		"name" : {
 			"plural" : "Lepers",
 			"singular" : "Leper"
@@ -14,8 +14,8 @@
 		"attack" : 8,
 		"defense" : 7,
 		"damage" : {
-			 "max" : 5,
-			 "min" : 4
+			"max" : 5,
+			"min" : 4
 		},
 		"doubleWide" : false,
 		"hasDoubleWeek" : true,
@@ -23,87 +23,158 @@
 		"aiValue" : 908,
 		"fightValue" : 839,
 		"advMapAmount" : {
-			 "max" : 20,
-			 "min" : 12
+			"max" : 20,
+			"min" : 12
 		},
-		"abilities":
-		{
-			"undead" :
-			{
+		"abilities" : {
+			"undead" : {
 				"type" : "UNDEAD"
 			},
-			"castDisease" : 
-			{
+			"castDisease" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "plagueAb1",
 				"val" : 100,
-				"addInfo" : [1,2]
+				"addInfo" : [
+					1,
+					2
+				]
 			},
-			"plaguePoints" : 
-			{
+			"plaguePoints" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "plagueAb1",
 				"val" : 2
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "curse",
-					"addInfo" : [1,0] 
+					"addInfo" : [
+						1,
+						0
+					]
 				},
-				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
+				"values" : [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_DAMAGE_REDUCTION",
 					"subtype" : "any"
 				},
-				"values" : [ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 ]
+				"values" : [
+					3,
+					6,
+					9,
+					12,
+					15,
+					18,
+					21,
+					24,
+					27,
+					30
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		],
 		"graphics" : {
@@ -119,11 +190,11 @@
 			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
-			"attack": "MUMYATTK.wav",
-			"defend": "MUMYDFND.wav",
-			"killed": "MUMYKILL.wav",
-			"move": "MUMYMOVE.wav",
-			"wince": "MUMYWNCE.wav"
+			"attack" : "MUMYATTK.wav",
+			"defend" : "MUMYDFND.wav",
+			"killed" : "MUMYKILL.wav",
+			"move" : "MUMYMOVE.wav",
+			"wince" : "MUMYWNCE.wav"
 		}
 	}
 }

@@ -1,12 +1,14 @@
 {
-	"reaper1": {
+	"reaper1" : {
 		"name" : {
 			"plural" : "Reapers",
 			"singular" : "Reaper"
 		},
 		"faction" : "deathvalley",
 		"level" : 6,
-		"upgrades": ["reaper2"],
+		"upgrades" : [
+			"reaper2"
+		],
 		"cost" : {
 			"gold" : 1000
 		},
@@ -15,8 +17,8 @@
 		"attack" : 16,
 		"defense" : 16,
 		"damage" : {
-			 "max" : 20,
-			 "min" : 15
+			"max" : 20,
+			"min" : 15
 		},
 		"doubleWide" : false,
 		"hasDoubleWeek" : true,
@@ -24,60 +26,108 @@
 		"aiValue" : 1810,
 		"fightValue" : 1561,
 		"advMapAmount" : {
-			 "max" : 12,
-			 "min" : 5
+			"max" : 12,
+			"min" : 5
 		},
 		"abilities" : {
 			"IS_UNDEAD" : {
 				"type" : "UNDEAD"
 			},
-			"flies" :
-			{
+			"flies" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
 		"graphics" : {
@@ -90,7 +140,7 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "deathvalley/reaperatk.wav",

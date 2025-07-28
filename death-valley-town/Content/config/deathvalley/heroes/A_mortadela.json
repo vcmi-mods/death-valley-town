@@ -1,17 +1,14 @@
 {
-	"a_dvMortadella" :
-	{
+	"a_dvMortadella" : {
 		"class" : "dvDeathlord",
 		"female" : true,
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "deathvalley/heroes/mortadella/Un32Firs.bmp",
 			"specialtyLarge" : "deathvalley/heroes/mortadella/Un44Firs.bmp",
 			"large" : "deathvalley/heroes/mortadella/mortadellaL.png",
 			"small" : "deathvalley/heroes/mortadella/mortadellaS.png"
 		},
-
 
 		"army" : [
 			{
@@ -63,4 +60,3 @@
 		}
 	}
 }
-

@@ -1,10 +1,8 @@
 {
-	"m_dvJacen" :
-	{
+	"m_dvJacen" : {
 		"class" : "dvNecropriest",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "deathvalley/heroes/jacen/Un32Myst.bmp",
 			"specialtyLarge" : "deathvalley/heroes/jacen/Un44Myst.bmp",
 			"large" : "deathvalley/heroes/jacen/JacenL.png",
@@ -27,8 +25,7 @@
 				"min" : 5
 			}
 		],
-		"spellbook" :
-		[
+		"spellbook" : [
 			"magicArrow"
 		],
 		"skills" : [
@@ -44,7 +41,7 @@
 		"specialty" : {
 			"secondary" : "mysticism"
 		},
-		
+
 		"texts" : {
 			"biography" : "Jacen is said to be a devout Necropriest, favored by the Death Gods. He is cunning and cruel in battle, and is more than willing to destroy his enemies in the persuit of more souls for the gods.",
 			"name" : "Jacen",
@@ -56,4 +53,3 @@
 		}
 	}
 }
-

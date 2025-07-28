@@ -1,17 +1,14 @@
 {
-	"a_dvRoakshar" :
-	{
+	"a_dvRoakshar" : {
 		"class" : "dvDeathlord",
 		"female" : false,
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "deathvalley/heroes/roakshar/Un32Offe.bmp",
 			"specialtyLarge" : "deathvalley/heroes/roakshar/Un44Offe.bmp",
 			"large" : "deathvalley/heroes/roakshar/RoaksharL.png",
 			"small" : "deathvalley/heroes/roakshar/RoaksharS.png"
 		},
-
 
 		"army" : [
 			{
@@ -44,7 +41,7 @@
 		"specialty" : {
 			"secondary" : "offence"
 		},
-			
+
 		"texts" : {
 			"biography" : "Roakshar is a mighty hunter. When he is tasked to lead an army, he usually seeks out the enemy with a single-minded zeal and fierceness that is unrivaled in all the lands.",
 			"name" : "Roakshar",
@@ -56,4 +53,3 @@
 		}
 	}
 }
-

@@ -1,17 +1,14 @@
 {
-	"m_dvNorman" :
-	{
+	"m_dvNorman" : {
 		"class" : "dvNecropriest",
 		"female" : false,
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "deathvalley/heroes/norman/Un32Bers.png",
 			"specialtyLarge" : "deathvalley/heroes/norman/Un44Bers.png",
 			"large" : "deathvalley/heroes/norman/NormanL.png",
 			"small" : "deathvalley/heroes/norman/NormanS.png"
 		},
-
 
 		"army" : [
 			{
@@ -30,8 +27,9 @@
 				"min" : 5
 			}
 		],
-		"spellbook" :
-		["berserk"],
+		"spellbook" : [
+			"berserk"
+		],
 		"skills" : [
 			{
 				"level" : "basic",
@@ -48,10 +46,10 @@
 					"addInfo" : 3,
 					"subtype" : "berserk",
 					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
-				}			
+				}
 			}
 		},
-		
+
 		"texts" : {
 			"biography" : "Norman is known as the Mad General, sending his troops into battle, and even using his magics to cause his enemies to attack everyone around them. He revels in death and destruction, regardless of who is doing the dying.",
 			"name" : "Norman",
@@ -63,4 +61,3 @@
 		}
 	}
 }
-

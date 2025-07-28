@@ -1,13 +1,12 @@
 {
-	"dvNecropriest" :
-	{
+	"dvNecropriest" : {
 		"name" : "Dark Priest",
 		"faction" : "deathvalley",
 		"affinity" : "magic",
 		"defaultTavern" : 5,
 
 		"commander" : "commander2",
-		
+
 		"mapObject" : {
 			"templates" : {
 				"default" : {
@@ -29,10 +28,10 @@
 			"spellpower" : 2
 		},
 		"highLevelChance" : {
-		"attack" : 25,
-		"defence" : 25,
-		"knowledge" : 25,
-		"spellpower" : 25
+			"attack" : 25,
+			"defence" : 25,
+			"knowledge" : 25,
+			"spellpower" : 25
 		},
 		"lowLevelChance" : {
 			"attack" : 15,

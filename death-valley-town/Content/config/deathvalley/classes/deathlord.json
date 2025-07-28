@@ -1,13 +1,12 @@
 {
-	"dvDeathlord" :
-	{
+	"dvDeathlord" : {
 		"name" : "Reaver",
 		"faction" : "deathvalley",
 		"affinity" : "might",
 		"defaultTavern" : 5,
 
 		"commander" : "commander",
-		
+
 		"mapObject" : {
 			"templates" : {
 				"default" : {

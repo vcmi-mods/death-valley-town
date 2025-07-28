@@ -1,61 +1,55 @@
 {
-	"bansheeAb1":
-	{
-		"type": "ability", 
-		"targetType": "CREATURE", 
-		"name": "Insubstantial",
-		"school":
-		{
-			"air": false,
-			"earth": false,
-			"fire": false,
-			"water": false
+	"bansheeAb1" : {
+		"type" : "ability",
+		"targetType" : "CREATURE",
+		"name" : "Insubstantial",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
 		},
-		"level": 1,
-		"power": 45,
-		
-		"defaultGainChance": 0, 
-		"gainChance":
-		{
+		"level" : 1,
+		"power" : 45,
+
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+
+		"animation" : {
+			"affect" : [
+				"deathvalley/spells/skill4.def"
+			]
 		},
 
- 
-		"animation":{
-			"affect":["deathvalley/spells/skill4.def"]
-		},
-		
 		"targetCondition" : {
 			"anyOf" : {
 				"death-valley-town:creature.cghost" : "absolute"
 			}
 		},
- 
-		"flags" : { "positive": true },
 
-		"graphics":
-		{
-			"iconEffect": "deathvalley/spells/skill 4-2.bmp"
+		"flags" : {
+			"positive" : true
 		},
 
-		"sounds": {
-			"cast": "SACBRETH"
+		"graphics" : {
+			"iconEffect" : "deathvalley/spells/skill 4-2.bmp"
 		},
- 
-		"levels":
-		{
-			"base":
-			{
-				"cost": 0,
-				"range": "0",
-				"power": 1,
-				"description": "{Insubstantial}\n\nReduce damage by 100% for 3 turns.",				
-//				"aiValue": 70,
-				"targetModifier":
-				{
-					"smart": true
+
+		"sounds" : {
+			"cast" : "SACBRETH"
+		},
+
+		"levels" : {
+			"base" : {
+				"cost" : 0,
+				"range" : "0",
+				"power" : 1,
+				"description" : "{Insubstantial}\n\nReduce damage by 100% for 3 turns.",
+				//				"aiValue": 70,
+				"targetModifier" : {
+					"smart" : true
 				},
-				"effects":
-				{
+				"effects" : {
 					"damageReduction" : {
 						"type" : "GENERAL_DAMAGE_REDUCTION",
 						"subtype" : "damageTypeAll",
@@ -77,7 +71,7 @@
 						"turns" : 3
 					},
 					"noRetaliation" : {
-					"type" : "NO_RETALIATION",
+						"type" : "NO_RETALIATION",
 						"duration" : [
 							"UNTIL_ATTACK",
 							"N_TURNS"
@@ -86,18 +80,10 @@
 					}
 				}
 			},
-			"none":
-			{		
-			},
-			"basic":
-			{
-			},
-			"advanced":
-			{
-			},
-			"expert":
-			{
-			}
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

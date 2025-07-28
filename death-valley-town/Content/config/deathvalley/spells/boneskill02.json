@@ -1,30 +1,31 @@
 {
 	"boneSkill02" : {
-		"type": "ability",
-		"name": "Unholy Aura",
-		"school":
-		{
-			"air": false,
-			"earth": false,
-			"fire": false,
-			"water": false
+		"type" : "ability",
+		"name" : "Unholy Aura",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
 		},
-		"targetType": "CREATURE",
-		"level": 5,
-		"power": 10,
-		"defaultGainChance": 0, 
-		"gainChance":
-		{
+		"targetType" : "CREATURE",
+		"level" : 5,
+		"power" : 10,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"animation" : {
+			"affect" : [
+				"deathvalley/spells/skill7.def"
+			]
 		},
-		"animation":{
-			"affect":["deathvalley/spells/skill7.def"]
+		"flags" : {
+			"negative" : true
 		},
-		"flags" : {"negative": true},
-		"sounds": {
-			"cast": "MISFORT"
+		"sounds" : {
+			"cast" : "MISFORT"
 		},
 		"targetCondition" : {
-		"noneOf" : {
+			"noneOf" : {
 				"bonus.NON_LIVING" : "normal",
 				"bonus.GARGOYLE" : "normal",
 				"bonus.MECHANICAL" : "normal",
@@ -32,52 +33,42 @@
 				"bonus.UNDEAD" : "absolute"
 			}
 		},
-		"graphics":
-		{
-			"iconEffect": "deathvalley/spells/skill 7-2.bmp"
+		"graphics" : {
+			"iconEffect" : "deathvalley/spells/skill 7-2.bmp"
 		},
 		"levels" : {
-			"base":{
-				"power": 10,
-//				"aiValue": 20,
-				"range": "0",
-				"targetModifier":
-				{
-					"smart": true
+			"base" : {
+				"power" : 10,
+				//				"aiValue": 20,
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				},
-				"cost": 0,
+				"cost" : 0,
 				"battleEffects" : {
-					"UnholyEffect" :
-					{
-						"type": "core:timed",
-						"cumulative": false,
-					"bonus":
-					{
-					"luck" : 
-						{
-						"type" : "LUCK",
-						"val" : -3,
-						"duration" : "N_TURNS"
-						},
-					"morale" : 
-						{
-						"type" : "MORALE",
-						"val" : -3,
-						"duration" : "N_TURNS"
+					"UnholyEffect" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"luck" : {
+								"type" : "LUCK",
+								"val" : -3,
+								"duration" : "N_TURNS"
+							},
+							"morale" : {
+								"type" : "MORALE",
+								"val" : -3,
+								"duration" : "N_TURNS"
+							}
 						}
 					}
-					}
 				},
-				"description": "{Unholy Aura}\r\n\r\nReduce Morale and luck by 3."
+				"description" : "{Unholy Aura}\r\n\r\nReduce Morale and luck by 3."
 			},
-			"none":
-			{},
-			"basic":
-			{},
-			"advanced":
-			{},
-			"expert":
-			{}
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

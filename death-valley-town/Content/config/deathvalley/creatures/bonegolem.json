@@ -1,12 +1,14 @@
 {
-	"bonegolem": {
+	"bonegolem" : {
 		"name" : {
 			"plural" : "Bone Golems",
 			"singular" : "Bone Golem"
 		},
 		"faction" : "deathvalley",
 		"level" : 7,
-		"upgrades": ["ghostgolem"],
+		"upgrades" : [
+			"ghostgolem"
+		],
 		"cost" : {
 			"gold" : 2000
 		},
@@ -15,78 +17,133 @@
 		"attack" : 19,
 		"defense" : 17,
 		"damage" : {
-			 "max" : 45,
-			 "min" : 25
+			"max" : 45,
+			"min" : 25
 		},
 		"doubleWide" : true,
 		"growth" : 1,
 		"aiValue" : 3248,
 		"fightValue" : 2646,
 		"advMapAmount" : {
-			 "max" : 10,
-			 "min" : 4
+			"max" : 10,
+			"min" : 4
 		},
-		"abilities" :
-		{
-			"UNDEAD":
-			{
-				"type" : "UNDEAD" 	
+		"abilities" : {
+			"UNDEAD" : {
+				"type" : "UNDEAD"
 			},
-			"king1" :
-            {
+			"king1" : {
 				"type" : "KING",
 				"val" : 0,
-				"valueType" : "ADDITIVE_VALUE"			
+				"valueType" : "ADDITIVE_VALUE"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" : 
-				{ 
-					"type" : "HP_REGENERATION" 
+				"bonus" : {
+					"type" : "HP_REGENERATION"
 				},
-				"values" : [ 9,18, 27, 36, 45, 54, 63, 72, 81, 90 ]
-
+				"values" : [
+					9,
+					18,
+					27,
+					36,
+					45,
+					54,
+					63,
+					72,
+					81,
+					90
+				]
 			}
 		],
 		"graphics" : {
@@ -102,11 +159,11 @@
 			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
-			"attack": "deathvalley/BNGLATTK.wav",
-			"defend": "deathvalley/BNGLDFND.wav",
-			"killed": "deathvalley/BNGLKILL.wav",
-			"move": "LTITMOVE.wav",
-			"wince": "deathvalley/BNGLWNCE.wav"
+			"attack" : "deathvalley/BNGLATTK.wav",
+			"defend" : "deathvalley/BNGLDFND.wav",
+			"killed" : "deathvalley/BNGLKILL.wav",
+			"move" : "LTITMOVE.wav",
+			"wince" : "deathvalley/BNGLWNCE.wav"
 		}
 	}
 }

@@ -1,42 +1,43 @@
 {
 	"necroAmulet" : {
 		"bonuses" : {
-			"skeleton" :
-			{
+			"skeleton" : {
 				"type" : "IMPROVED_NECROMANCY",
 				"subtype" : "skeleton",
 				"addInfo" : 0
 			},
-			"boneHook" :
-			{
+			"boneHook" : {
 				"type" : "IMPROVED_NECROMANCY",
 				"subtype" : "boneHook",
 				"addInfo" : 1
 			},
-			"mums" :
-			{
+			"mums" : {
 				"type" : "IMPROVED_NECROMANCY",
 				"subtype" : "mums",
 				"addInfo" : 2
 			},
-			"banshee" :
-			{
+			"banshee" : {
 				"type" : "IMPROVED_NECROMANCY",
 				"subtype" : "banshee",
 				"addInfo" : 3
 			}
 		},
 		"class" : "RELIC",
-		"graphics" : { "image" : "deathvalley/artifacts/avax2", "map" : "deathvalley/artifacts/avax2map", "scenarioBonus" : "deathvalley/scenarioBonuses/bonusBlank.png" },
+		"graphics" : {
+			"image" : "deathvalley/artifacts/avax2",
+			"map" : "deathvalley/artifacts/avax2map",
+			"scenarioBonus" : "deathvalley/scenarioBonuses/bonusBlank.png"
+		},
 		"slot" : "NECK",
 		"text" : {
 			"description" : "{Heart of the Shadow}\r\n\r\nHeart of the Shadow allows to raise stronger undead units. The level of skill determines what type is resurrected. Basic: Bone Archers, Advanced: Outcasts, Expert: Dark Witches",
 			"event" : "You have found a strange amulet from the tomb. It will bring great benefits for you.",
 			"name" : "Heart of the Shadow"
 		},
-		"type" : [ "HERO" ],
-		"components":
-		[
+		"type" : [
+			"HERO"
+		],
+		"components" : [
 			"amuletOfTheUndertaker",
 			"necroRing",
 			"deadMansBoots"

@@ -1,22 +1,27 @@
 {
 	"necroRing" : {
 		"bonuses" : {
-			"raising" :
-			{
+			"raising" : {
 				"type" : "UNDEAD_RAISE_PERCENTAGE",
 				"val" : 10,
 				"valueType" : "ADDITIVE_VALUE"
 			}
 		},
 		"class" : "MINOR",
-		"graphics" : { "image" : "deathvalley/artifacts/avax1", "map" : "deathvalley/artifacts/avax1map", "scenarioBonus" : "deathvalley/scenarioBonuses/bonusBlank.png" },
+		"graphics" : {
+			"image" : "deathvalley/artifacts/avax1",
+			"map" : "deathvalley/artifacts/avax1map",
+			"scenarioBonus" : "deathvalley/scenarioBonuses/bonusBlank.png"
+		},
 		"slot" : "RING",
 		"text" : {
 			"description" : "{Ring of Necromancy}\r\n\r\nWorn on the finger, this ring increases your necromancy skill by 10%.",
 			"event" : "You were attacked by a zombie when you hang out in a cemetery. You killed this poor assailant easily and found a ring worn on his finger. That is the reason why he did not rest in peace.",
 			"name" : "Ring of Necromancy"
 		},
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"value" : 5000
 	}
 }

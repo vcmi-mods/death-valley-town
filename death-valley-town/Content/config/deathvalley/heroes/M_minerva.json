@@ -1,19 +1,16 @@
 {
-	"m_dvMinerva" :
-	{
+	"m_dvMinerva" : {
 		"class" : "dvNecropriest",
 		"female" : true,
 
-
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "deathvalley/heroes/minerva/Un32Anim.bmp",
 			"specialtyLarge" : "deathvalley/heroes/minerva/Un44Anim.bmp",
 			"large" : "deathvalley/heroes/minerva/MinervaL.png",
 			"small" : "deathvalley/heroes/minerva/MinervaS.png"
 		},
 
-                  "army" : [
+		"army" : [
 			{
 				"creature" : "skelh",
 				"max" : 25,
@@ -30,8 +27,7 @@
 				"min" : 5
 			}
 		],
-		"spellbook" :
-		[
+		"spellbook" : [
 			"animateDead"
 		],
 		"skills" : [
@@ -51,10 +47,10 @@
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3
-				}			
+				}
 			}
 		},
-			
+
 		"texts" : {
 			"biography" : "Minerva is one of the more sane priestesses. She tends to her troops as if they are her own children, constantly looking out for their well being, and constantly looking to grow her 'family'.",
 			"name" : "Minerva",
@@ -66,4 +62,3 @@
 		}
 	}
 }
-

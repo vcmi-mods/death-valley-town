@@ -1,33 +1,38 @@
 {
- "reaperAb1":
-	{
-		"type": "ability", 
-		"targetType": "CREATURE", 
-		"name": "Harmful Touch",
-		"school":
-		{
-			"air": false,
-			"earth": false,
-			"fire": false,
-			"water": false
+	"reaperAb1" : {
+		"type" : "ability",
+		"targetType" : "CREATURE",
+		"name" : "Harmful Touch",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
 		},
-		"level": 1,
-		"power": 1, //this times spell power
-		
-		"defaultGainChance": 0, 
-		"gainChance":
-		{
+		"level" : 1,
+		"power" : 1, //this times spell power
+
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+
+		"animation" : {
+			"affect" : [
+				{
+					"defName" : "deathvalley/spells/skill6.def",
+					"verticalPosition" : "bottom"
+				}
+			]
 		},
 
- 
-		"animation":{
-			"affect":[{ "defName":"deathvalley/spells/skill6.def", "verticalPosition":"bottom"}]
+		"flags" : {
+			"damage" : true,
+			"negative" : true,
+			"special" : true,
+			"nonMagical" : true
 		},
- 
-		"flags" : { "damage": true, "negative" : true, "special" : true, "nonMagical": true },
-		
+
 		"targetCondition" : {
-		"noneOf" : {
+			"noneOf" : {
 				"bonus.NON_LIVING" : "normal",
 				"bonus.GARGOYLE" : "normal",
 				"bonus.MECHANICAL" : "normal",
@@ -36,53 +41,38 @@
 			}
 		},
 
-		"graphics":
-		{
-			"iconEffect": "deathvalley/spells/skill 4-2.bmp"
+		"graphics" : {
+			"iconEffect" : "deathvalley/spells/skill 4-2.bmp"
 		},
 
-		"sounds": {
-			"cast": "DEATHRIP"
+		"sounds" : {
+			"cast" : "DEATHRIP"
 		},
- 
-		"levels":
-		{
-			"base":
-			{
-				"cost": 5,
-				"range": "0",
-				"power": 1, //base dmg
-//				"aiValue": 70,
 
-				"targetModifier":
-				{
-					"smart": true
+		"levels" : {
+			"base" : {
+				"cost" : 5,
+				"range" : "0",
+				"power" : 1, //base dmg
+				//				"aiValue": 70,
+
+				"targetModifier" : {
+					"smart" : true
 				},
-				"description": "Kills one creature after attack",	 
+				"description" : "Kills one creature after attack",
 				"battleEffects" : {
-					"directDamage" : {"type":"core:damage", 
-					"killByCount" : true 
-//					"val": 1, 
-//					"valueType": 	"INDEPENDENT_MIN"
+					"directDamage" : {
+						"type" : "core:damage",
+						"killByCount" : true
+						//					"val": 1,
+						//					"valueType": 	"INDEPENDENT_MIN"
 					}
 				}
 			},
-			"none":
-			{
-
-			},
-			"basic":
-			{
-				
-			},
-			"advanced":
-			{
-
-			},
-			"expert":
-			{
-
-			}
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
-	} 
+	}
 }

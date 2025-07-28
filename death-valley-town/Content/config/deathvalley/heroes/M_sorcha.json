@@ -1,11 +1,9 @@
 {
-	"m_dvSorcha" :
-	{
+	"m_dvSorcha" : {
 		"class" : "dvNecropriest",
 		"female" : true,
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "deathvalley/heroes/sorcha/Un32Sorc.bmp",
 			"specialtyLarge" : "deathvalley/heroes/sorcha/Un44Sorc.bmp",
 			"large" : "deathvalley/heroes/sorcha/SorchaL.png",
@@ -28,8 +26,7 @@
 				"min" : 5
 			}
 		],
-		"spellbook" :
-		[
+		"spellbook" : [
 			"haste"
 		],
 		"skills" : [
@@ -53,7 +50,7 @@
 				}
 			}
 		},
-			
+
 		"texts" : {
 			"biography" : "Sorcha is said to be the high sorceress of the priesthood. Always eager to return to her studies, she seeks to hasten her troops to quick and decisive victories in battle.",
 			"name" : "Sorcha",
@@ -65,4 +62,3 @@
 		}
 	}
 }
-

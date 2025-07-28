@@ -1,17 +1,14 @@
 {
-	"m_dvTakesha" :
-	{
+	"m_dvTakesha" : {
 		"class" : "dvNecropriest",
 		"female" : true,
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "deathvalley/heroes/takesha/Un32Inte.bmp",
 			"specialtyLarge" : "deathvalley/heroes/takesha/Un44Inte.bmp",
 			"large" : "deathvalley/heroes/takesha/TakeshaL.png",
 			"small" : "deathvalley/heroes/takesha/TakeshaS.png"
 		},
-
 
 		"army" : [
 			{
@@ -30,8 +27,7 @@
 				"min" : 5
 			}
 		],
-		"spellbook" :
-		[
+		"spellbook" : [
 			"magicArrow"
 		],
 		"skills" : [
@@ -66,4 +62,3 @@
 		}
 	}
 }
-

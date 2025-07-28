@@ -1,17 +1,14 @@
 {
-	"a_dvBarraka" :
-	{
+	"a_dvBarraka" : {
 		"class" : "dvDeathlord",
 		"female" : true,
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "deathvalley/heroes/barraka/Un32Ghost.png",
 			"specialtyLarge" : "deathvalley/heroes/barraka/Un44Ghost.png",
 			"large" : "deathvalley/heroes/barraka/BarrakaL.png",
 			"small" : "deathvalley/heroes/barraka/BarrakaS.png"
 		},
-
 
 		"army" : [
 			{
@@ -39,12 +36,12 @@
 			{
 				"level" : "basic",
 				"skill" : "pathfinding"
-			},
+			}
 		],
 		"specialty" : {
 			"creature" : "gghost"
 		},
-			
+
 		"texts" : {
 			"biography" : "Barraka is called the 'kingdom haunter' as he is often seen gliding his way through the lands, his spiritual armies moving silently with him. Many an army has hidden while his forces pass, cold shivers running down their spines as they prayed he not notice them.",
 			"name" : "Barraka",
@@ -56,4 +53,3 @@
 		}
 	}
 }
-

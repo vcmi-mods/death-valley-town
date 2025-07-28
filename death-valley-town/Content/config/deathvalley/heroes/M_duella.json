@@ -1,17 +1,14 @@
 {
-	"m_dvDuella" :
-	{
+	"m_dvDuella" : {
 		"class" : "dvNecropriest",
 		"female" : true,
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "deathvalley/heroes/duella/Un32Clone.png",
 			"specialtyLarge" : "deathvalley/heroes/duella/Un44Clone.png",
 			"large" : "deathvalley/heroes/duella/DuellaL.png",
 			"small" : "deathvalley/heroes/duella/DuellaS.png"
 		},
-
 
 		"army" : [
 			{
@@ -30,8 +27,9 @@
 				"min" : 5
 			}
 		],
-		"spellbook" :
-		["clone"],
+		"spellbook" : [
+			"clone"
+		],
 		"skills" : [
 			{
 				"level" : "basic",
@@ -48,10 +46,10 @@
 					"addInfo" : 3,
 					"subtype" : "clone",
 					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
-				}				
+				}
 			}
-		},	
-			
+		},
+
 		"texts" : {
 			"biography" : "Duella is a insane, powerful priestess who enjoys using her magics to create Clones of her troops, sending wave after wave of her army at the enemy in a ceaseless onslought of brutality and carnage.",
 			"name" : "Duella",
@@ -63,4 +61,3 @@
 		}
 	}
 }
-

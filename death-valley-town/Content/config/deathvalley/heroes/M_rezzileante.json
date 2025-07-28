@@ -1,17 +1,14 @@
 {
-	"m_dvRezziLeAnte" :
-	{
+	"m_dvRezziLeAnte" : {
 		"class" : "dvNecropriest",
 		"female" : true,
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "deathvalley/heroes/rezzileante/Un32Ston.bmp",
 			"specialtyLarge" : "deathvalley/heroes/rezzileante/Un44Ston.bmp",
 			"large" : "deathvalley/heroes/rezzileante/RezziLeAnteL.png",
 			"small" : "deathvalley/heroes/rezzileante/RezziLeAnteS.png"
 		},
-
 
 		"army" : [
 			{
@@ -30,8 +27,7 @@
 				"min" : 5
 			}
 		],
-		"spellbook" :
-		[
+		"spellbook" : [
 			"stoneSkin"
 		],
 		"skills" : [
@@ -51,7 +47,7 @@
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3
-				}			
+				}
 			}
 		},
 		"texts" : {
@@ -65,4 +61,3 @@
 		}
 	}
 }
-

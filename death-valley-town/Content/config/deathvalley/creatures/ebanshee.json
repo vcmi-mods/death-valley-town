@@ -1,7 +1,7 @@
 {
-	"ebanshee": {
+	"ebanshee" : {
 		"name" : {
-			"plural" : "Night Witches", 
+			"plural" : "Night Witches",
 			"singular" : "Night Witch"
 		},
 		"faction" : "deathvalley",
@@ -14,8 +14,8 @@
 		"attack" : 13,
 		"defense" : 10,
 		"damage" : {
-			 "max" : 15,
-			 "min" : 11
+			"max" : 15,
+			"min" : 11
 		},
 		"doubleWide" : false,
 		"hasDoubleWeek" : true,
@@ -24,84 +24,130 @@
 		"aiValue" : 916,
 		"fightValue" : 920,
 		"advMapAmount" : {
-			 "max" : 12,
-			 "min" : 8
+			"max" : 12,
+			"min" : 8
 		},
 		"abilities" : {
-			"IS_UNDEAD" : 
-			{
+			"IS_UNDEAD" : {
 				"type" : "UNDEAD"
-			},	
-			"castWeakness" :
-			{
-				"addInfo" : [1, 0],
+			},
+			"castWeakness" : {
+				"addInfo" : [
+					1,
+					0
+				],
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "weakness",
 				"val" : 100
 			},
-			"resurrection20hp" : 
-			{
+			"resurrection20hp" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "animateDead",
 				"val" : 20
 			},
-			"resurrects" :
-			{
+			"resurrects" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "animateDead",
 				"val" : 3
 			},
-			"spellpoints" :
-			{
+			"spellpoints" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"canshoot" :
-			{
+			"canshoot" : {
 				"type" : "SHOOTER"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		],
 		"graphics" : {
@@ -114,12 +160,10 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "deathvalley/battle/creatures/projectile/bansh.def",
 				"attackClimaxFrame" : 4,
-				"offset" :
-				{
+				"offset" : {
 					"lowerX" : 62,
 					"lowerY" : -93,
 					"middleX" : 62,
@@ -127,9 +171,22 @@
 					"upperX" : 62,
 					"upperY" : -93
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			},
-			"timeBetweenFidgets" : 1,
+			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
 			"attack" : "deathvalley/bansheeattk.wav",

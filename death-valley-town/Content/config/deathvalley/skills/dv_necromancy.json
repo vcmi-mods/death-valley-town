@@ -7,7 +7,7 @@
 		},
 		"specialty" : [
 			"main"
-		],		
+		],
 		"base" : {
 			"effects" : {
 				"main" : {
@@ -30,8 +30,12 @@
 			},
 			"description" : "{Basic Hexerei}\n\nBasic Hexerei allows 10% of the creatures killed in combat to be brought back from the dead as Skeleton Hounds.",
 			"effects" : {
-				"main" : { "val" : 10 },
-				"power" : { "val" : 1 }
+				"main" : {
+					"val" : 10
+				},
+				"power" : {
+					"val" : 1
+				}
 			}
 		},
 		"advanced" : {
@@ -43,8 +47,12 @@
 			},
 			"description" : "{Advanced Hexerei}\n\nAdvanced Hexerei allows 20% of the creatures killed in combat to be brought back from the dead as Skeleton Hounds.",
 			"effects" : {
-				"main" : { "val" : 20 },
-				"power" : { "val" : 2 }
+				"main" : {
+					"val" : 20
+				},
+				"power" : {
+					"val" : 2
+				}
 			}
 		},
 		"expert" : {
@@ -56,8 +64,12 @@
 			},
 			"description" : "{Expert Hexerei}\n\nExpert Hexerei allows 30% of the creatures killed in combat to be brought back from the dead as Skeleton Hounds.",
 			"effects" : {
-				"main" : { "val" : 30 },
-				"power" : { "val" : 3 }
+				"main" : {
+					"val" : 30
+				},
+				"power" : {
+					"val" : 3
+				}
 			}
 		}
 	}

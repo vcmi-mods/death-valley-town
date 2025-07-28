@@ -1,5 +1,5 @@
 {
-	"cghost": {
+	"cghost" : {
 		"name" : {
 			"plural" : "Banshees",
 			"singular" : "Banshee"
@@ -14,8 +14,8 @@
 		"attack" : 10,
 		"defense" : 10,
 		"damage" : {
-			 "max" : 8,
-			 "min" : 5
+			"max" : 8,
+			"min" : 5
 		},
 		"doubleWide" : false,
 		"hasDoubleWeek" : true,
@@ -23,93 +23,172 @@
 		"aiValue" : 513,
 		"fightValue" : 494,
 		"advMapAmount" : {
-			 "max" : 16,
-			 "min" : 10
+			"max" : 16,
+			"min" : 10
 		},
 		"abilities" : {
 			"FLYING_ARMY" : {
 				"type" : "FLYING"
 			},
-			"casts" :
-			{
+			"casts" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"castsAirShield" :
-			{
+			"castsAirShield" : {
 				"type" : "ENCHANTER",
 				"subtype" : "bansheeAb1",
 				"val" : 3
 			},
 			"IS_UNDEAD" : {
 				"type" : "UNDEAD"
-            }
+			}
 		},
-    "stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
-					
+				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "spell.misfortune",
-					"addInfo" : [1, 2]
+					"addInfo" : [
+						1,
+						2
+					]
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "MAGIC_RESISTANCE"
 				},
-				"values" : [ 6, 12, 18, 24, 30, 36, 42, 48, 54, 60 ]
-			},	
+				"values" : [
+					6,
+					12,
+					18,
+					24,
+					30,
+					36,
+					42,
+					48,
+					54,
+					60
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
 		],
 		"graphics" : {

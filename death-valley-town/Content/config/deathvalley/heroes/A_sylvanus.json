@@ -1,17 +1,14 @@
 {
-	"a_dvSylvanus" :
-	{
+	"a_dvSylvanus" : {
 		"class" : "dvDeathlord",
 		"female" : true,
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "deathvalley/heroes/sylvanus/Un32Bansh.png",
 			"specialtyLarge" : "deathvalley/heroes/sylvanus/Un44Bansh.png",
 			"large" : "deathvalley/heroes/sylvanus/SylvanusL.png",
 			"small" : "deathvalley/heroes/sylvanus/SylvanusS.png"
 		},
-
 
 		"army" : [
 			{
@@ -37,7 +34,7 @@
 		],
 		"specialty" : {
 			"creature" : "banshee"
-		},		
+		},
 		"texts" : {
 			"biography" : "Sylvanus is the queen of all witches. A fierce warrior in her own right, she leads her devoted armies with skill and grace, conducting them with a tactical precision that is the envy of many of her opponents.",
 			"name" : "Sylvanus",
@@ -49,4 +46,3 @@
 		}
 	}
 }
-

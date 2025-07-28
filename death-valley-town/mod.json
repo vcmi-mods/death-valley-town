@@ -5,39 +5,89 @@
 	"contact" : "forum.vcmi.eu",
 	"version" : "1.52",
 	"modType" : "Town",
-	"compatibility":
-	{
+	"compatibility" : {
 		"min" : "1.7.0"
 	},
-	"changelog" :
-    {
-		"1.00"  : [ "Initial release" ],
-		"1.10"	: [ "Changes for town screen, map objects, siege screen, creatures"],
-		"1.20"	: [ "Update to vcmi-1.2" ],
-		"1.30"	: [ "Fixed froblem with improved necromancy" ],
-		"1.31"	: [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
-		"1.32"	: [ "Update to vcmi-1.3" ],
-		"1.33"	: [ "New Hexerei skill icons" ],
-		"1.34"	: [ "New artifacts" ],
-		"1.35"	: [ "New portraits and changed name of Embalmed" ],
-		"1.36"	: [ "Polish translation by Dru" ],
-		"1.37"	: [ "Update to vcmi-1.4 format" ],
-		"1.38"	: [ "Updated chinese translation by Rindlit" ],
-		"1.39"	: [ "Added sounds to the golem and ghost dwelling buildings on the adventure map and fixes the animations of the golems by Fabrice-TIERCELIN" ],
-		"1.40"	: [ "Fixed the translations, the creatures' stackExp and the commander" ],
-		"1.41"	: [ "New town theme by Fabrice-TIERCELIN and AI Udio" ],
-		"1.42"	: [ "Fixed Takesha specialty" ],
-		"1.43"	: [ "Russian translation by Anton Sergeew" ],
-		"1.44"	: [ "Updated russian translation" ],
-		"1.45"	: [ "Death Knight Statuary fix and Dark Witch ability fix (by Dark Imagine)" ],
-		"1.46"	: [ "Czech translation by George King" ],
-		"1.47"	: [ "Update to vcmi-1.6 format" ],
-		"1.48"	: [ "Czech translation for map - The Fall of the Old Order" ],
-		"1.49"	: [ "Fix Grail not to produce gold" ],
-		"1.50"	: [ "Added french translation by Fabrice-TIERCELIN" ],
-		"1.51"	: [ "Update to vcmi-1.7 format" ],
-		"1.52"	: [ "Another update to vcmi-1.7 format" ]
-    },
+	"changelog" : {
+		"1.00" : [
+			"Initial release"
+		],
+		"1.10" : [
+			"Changes for town screen, map objects, siege screen, creatures"
+		],
+		"1.20" : [
+			"Update to vcmi-1.2"
+		],
+		"1.30" : [
+			"Fixed froblem with improved necromancy"
+		],
+		"1.31" : [
+			"Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"
+		],
+		"1.32" : [
+			"Update to vcmi-1.3"
+		],
+		"1.33" : [
+			"New Hexerei skill icons"
+		],
+		"1.34" : [
+			"New artifacts"
+		],
+		"1.35" : [
+			"New portraits and changed name of Embalmed"
+		],
+		"1.36" : [
+			"Polish translation by Dru"
+		],
+		"1.37" : [
+			"Update to vcmi-1.4 format"
+		],
+		"1.38" : [
+			"Updated chinese translation by Rindlit"
+		],
+		"1.39" : [
+			"Added sounds to the golem and ghost dwelling buildings on the adventure map and fixes the animations of the golems by Fabrice-TIERCELIN"
+		],
+		"1.40" : [
+			"Fixed the translations, the creatures' stackExp and the commander"
+		],
+		"1.41" : [
+			"New town theme by Fabrice-TIERCELIN and AI Udio"
+		],
+		"1.42" : [
+			"Fixed Takesha specialty"
+		],
+		"1.43" : [
+			"Russian translation by Anton Sergeew"
+		],
+		"1.44" : [
+			"Updated russian translation"
+		],
+		"1.45" : [
+			"Death Knight Statuary fix and Dark Witch ability fix (by Dark Imagine)"
+		],
+		"1.46" : [
+			"Czech translation by George King"
+		],
+		"1.47" : [
+			"Update to vcmi-1.6 format"
+		],
+		"1.48" : [
+			"Czech translation for map - The Fall of the Old Order"
+		],
+		"1.49" : [
+			"Fix Grail not to produce gold"
+		],
+		"1.50" : [
+			"Added french translation by Fabrice-TIERCELIN"
+		],
+		"1.51" : [
+			"Update to vcmi-1.7 format"
+		],
+		"1.52" : [
+			"Another update to vcmi-1.7 format"
+		]
+	},
 	"chinese" : {
 		"name" : "死亡谷",
 		"description" : "死亡谷是一个新的亡灵种族，和教廷一样有着独特的宗教性艺术感。听闻教廷幸存者传播教义后，一些亡灵巫师开始追随死亡中的新生。于是他们离开迪雅，和这些幸存者一起建立了新的国度。虽然和墓园同为不死阵营，但他们不喜欢巫妖和吸血鬼。",
@@ -80,10 +130,11 @@
 			"translation/deathvalley/czech.json"
 		]
 	},
-    "factions" : [ "config/deathvalley/town.json" ],
-	
-	"creatures" :
-	[
+	"factions" : [
+		"config/deathvalley/town.json"
+	],
+
+	"creatures" : [
 		"config/deathvalley/creatures/skel1.json",
 		"config/deathvalley/creatures/skel2.json",
 		"config/deathvalley/creatures/Bone Hook.json",
@@ -102,16 +153,14 @@
 		"config/deathvalley/creatures/ghostgolem.json",
 		"config/deathvalley/creatures/commander.json",
 		"config/deathvalley/creatures/commander2.json"
-	],  
-	
-	"heroClasses" :
-	[
+	],
+
+	"heroClasses" : [
 		"config/deathvalley/classes/deathlord.json",
 		"config/deathvalley/classes/necropriest.json"
 	],
 
-	"heroes" :
-	[
+	"heroes" : [
 		"config/deathvalley/heroes/A_barraka.json",
 		"config/deathvalley/heroes/A_crightoth.json",
 		"config/deathvalley/heroes/A_draigoth.json",
@@ -130,8 +179,7 @@
 		"config/deathvalley/heroes/M_takesha.json",
 		"config/deathvalley/heroes/M_darkNova.json"
 	],
-	"spells" :
-	[
+	"spells" : [
 		"config/deathvalley/spells/plagueAb1.json",
 		"config/deathvalley/spells/bansheeAb1.json",
 		"config/deathvalley/spells/boneskill01.json",
@@ -139,12 +187,14 @@
 		"config/deathvalley/spells/reaperAb1.json",
 		"config/deathvalley/spells/moat.json"
 	],
-	"artifacts" :[ 
+	"artifacts" : [
 		"config/deathvalley/artifacts/neroRing.json",
 		"config/deathvalley/artifacts/neroAmulet.json"
 	],
-	"objects" : [ "config/deathvalley/dwellings" ],
-	
+	"objects" : [
+		"config/deathvalley/dwellings"
+	],
+
 	"skills" : [
 		"config/deathvalley/skills/dv_necromancy"
 	]

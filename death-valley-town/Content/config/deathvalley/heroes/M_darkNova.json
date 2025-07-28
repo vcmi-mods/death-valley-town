@@ -1,17 +1,14 @@
 {
-	"m_SdvdarkNova" :
-	{
+	"m_SdvdarkNova" : {
 		"class" : "dvNecropriest",
 		"female" : true,
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "deathvalley/heroes/darkNova/Un32Reap.bmp",
 			"specialtyLarge" : "deathvalley/heroes/darkNova/Un44Reap.bmp",
 			"large" : "deathvalley/heroes/darkNova/DarkNovaL.png",
 			"small" : "deathvalley/heroes/darkNova/DarkNovaS.png"
 		},
-
 
 		"army" : [
 			{
@@ -30,8 +27,7 @@
 				"min" : 5
 			}
 		],
-		"spellbook" :
-		[
+		"spellbook" : [
 			"meteorShower"
 		],
 		"skills" : [
@@ -58,4 +54,3 @@
 		}
 	}
 }
-

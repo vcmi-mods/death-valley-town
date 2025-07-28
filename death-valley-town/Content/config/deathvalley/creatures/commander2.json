@@ -1,73 +1,63 @@
 {
-	"commander2": {
+	"commander2" : {
 		"name" : {
 			"plural" : "Tormentors",
 			"singular" : "Tormentor"
 		},
-		"advMapAmount" :
-		{
-			 "min" : 16,
-			 "max" : 25
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 25
 		},
 		"faction" : "deathvalley",
 		"aiValue" : 156,
 		"special" : true,
 		"doubleWide" : true,
 		"attack" : 5,
-		"damage" :
-		{
-			 "max" : 12,
-			 "min" : 6
+		"damage" : {
+			"max" : 12,
+			"min" : 6
 		},
 		"defense" : 5,
 		"fightValue" : 130,
 		"growth" : 9,
-		"hasDoubleWeek": false,
+		"hasDoubleWeek" : false,
 		"hitPoints" : 40,
 		"shots" : 24,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 140
 		},
 		"level" : 0,
 		"speed" : 4,
-		"abilities" :
-		{
-		"magicResistance" :
-			{
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "any",
 				"val" : 5
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"canCast" :
-			{
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "fortune",
 				"val" : 3
-                  },
-                  "IS_UNDEAD" :
-                  {
-                    "type" : "UNDEAD"
+			},
+			"IS_UNDEAD" : {
+				"type" : "UNDEAD"
 			}
 		},
 		"graphics" : {
 			"animation" : "deathvalley/battle/creatures/kel.def",
-//			"map" : "deathvalley/map/kelmini.def",
+			//			"map" : "deathvalley/map/kelmini.def",
 			"iconSmall" : "deathvalley/iconsSmall/kels.bmp",
 			"iconLarge" : "deathvalley/iconsBig/kell.bmp",
 			"animationTime" : {
@@ -75,12 +65,10 @@
 				"idle" : 20,
 				"walk" : 2
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "PMAGEX.DEF",
 				"attackClimaxFrame" : 4,
-				"offset" :
-				{
+				"offset" : {
 					"lowerX" : 62,
 					"lowerY" : -93,
 					"middleX" : 62,
@@ -88,8 +76,20 @@
 					"upperX" : 62,
 					"upperY" : -93
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			},
 			"timeBetweenFidgets" : 1
 		},
@@ -98,7 +98,7 @@
 			"defend" : "LICHDFND.wav",
 			"killed" : "LICHKILL.wav",
 			"move" : "deathvalley/reapermove.wav",
-			"shoot": "AMAGSHOT.wav",
+			"shoot" : "AMAGSHOT.wav",
 			"wince" : "LICHWNCE.wav"
 		}
 	}

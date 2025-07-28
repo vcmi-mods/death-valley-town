@@ -1,103 +1,182 @@
 {
-	"skelh": {
+	"skelh" : {
 		"name" : {
 			"plural" : "Skeleton Hounds",
 			"singular" : "Skeleton Hound"
 		},
 		"faction" : "deathvalley",
 		"level" : 1,
-		"upgrades": ["leaper"],
+		"upgrades" : [
+			"leaper"
+		],
 		"cost" : {
 			"gold" : 60
 		},
 		"speed" : 5,
 		"hitPoints" : 8,
-	        "horde" : 6,
+		"horde" : 6,
 		"attack" : 5,
 		"defense" : 4,
 		"damage" : {
-			 "max" : 3,
-			 "min" : 1
+			"max" : 3,
+			"min" : 1
 		},
 		"doubleWide" : true,
 		"growth" : 12,
 		"aiValue" : 146,
 		"fightValue" : 155,
 		"advMapAmount" : {
-			 "max" : 50,
-			 "min" : 20
+			"max" : 50,
+			"min" : 20
 		},
 		"abilities" : {
-		
 			"IS_UNDEAD" : {
 				"type" : "UNDEAD"
 			}
 		},
-		"stackExperience" :
-
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
-			},	
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "spell.airShield", 
+					"subtype" : "spell.airShield"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]			
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
-					"type" : "SPELL_IMMUNITY", 
-					"subtype" : "spell.dispel", 
+				"bonus" : {
+					"type" : "SPELL_IMMUNITY",
+					"subtype" : "spell.dispel"
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]			
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		],
 		"graphics" : {
@@ -116,7 +195,7 @@
 			"attack" : "deathvalley/skelhatk.wav",
 			"defend" : "deathvalley/DTHHDFND.wav",
 			"killed" : "deathvalley/skelhdie.wav",
-			"move": "deathvalley/DTHHMOVE.wav",
+			"move" : "deathvalley/DTHHMOVE.wav",
 			"wince" : "deathvalley/skelhhit.wav"
 		}
 	}

@@ -1,17 +1,14 @@
 {
-	"m_dvAgorratha" :
-	{
+	"m_dvAgorratha" : {
 		"class" : "dvNecropriest",
 		"female" : true,
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "deathvalley/heroes/agorratha/Un32Deat.bmp",
 			"specialtyLarge" : "deathvalley/heroes/agorratha/Un44Deat.bmp",
 			"large" : "deathvalley/heroes/agorratha/AgorrathaL.png",
 			"small" : "deathvalley/heroes/agorratha/AgorrathaS.png"
 		},
-
 
 		"army" : [
 			{
@@ -30,8 +27,7 @@
 				"min" : 5
 			}
 		],
-		"spellbook" :
-		[
+		"spellbook" : [
 			"deathRipple"
 		],
 		"skills" : [
@@ -54,7 +50,7 @@
 				}
 			}
 		},
-			
+
 		"texts" : {
 			"biography" : "Agorratha is said to hold the very power of death itself, destroying large swaths of her foes with a wave of her hand.",
 			"name" : "Agorratha",
@@ -66,4 +62,3 @@
 		}
 	}
 }
-

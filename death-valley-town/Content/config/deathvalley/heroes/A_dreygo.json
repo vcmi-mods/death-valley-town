@@ -1,16 +1,13 @@
 {
-	"a_dvDreygo" :
-	{
+	"a_dvDreygo" : {
 		"class" : "dvDeathlord",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "deathvalley/heroes/dreygo/Un32Mummy.png",
 			"specialtyLarge" : "deathvalley/heroes/dreygo/Un44Mummy.png",
 			"large" : "deathvalley/heroes/dreygo/dreygoL.png",
 			"small" : "deathvalley/heroes/dreygo/dreygoS.png"
 		},
-
 
 		"army" : [
 			{
@@ -42,7 +39,7 @@
 		],
 		"specialty" : {
 			"creature" : "mums"
-		},		
+		},
 		"texts" : {
 			"biography" : "Dreygo was once a ruler of the valley. He was overthrown due to a treasonous plot. He his royal family, guards, and all of his loyal supporters were slaughtered, and entomed in the pyramids. However, his rage was so great he rose, animated his subjects, and slaughtered the disloyal cowards who betrayed him. He has led his loyal mummy subjects ever since.",
 			"name" : "Dreygo",
@@ -54,4 +51,3 @@
 		}
 	}
 }
-

@@ -1,17 +1,14 @@
 {
-	"a_dvValleante" :
-	{
+	"a_dvValleante" : {
 		"class" : "dvDeathlord",
 		"female" : false,
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "deathvalley/heroes/valleante/Un32Defe.bmp",
 			"specialtyLarge" : "deathvalley/heroes/valleante/Un44Defe.bmp",
 			"large" : "deathvalley/heroes/valleante/ValLeAnteL.png",
 			"small" : "deathvalley/heroes/valleante/ValLeAnteS.png"
 		},
-
 
 		"army" : [
 			{
@@ -44,7 +41,7 @@
 		"specialty" : {
 			"secondary" : "armorer"
 		},
-			
+
 		"texts" : {
 			"biography" : "A strong and noble Deathlord, Val LeAnte believes that the best offense is often a impenetrable defense. When not in battle his forces are often seen cleaning and caring for their armor.",
 			"name" : "Val LeAnte",
@@ -56,4 +53,3 @@
 		}
 	}
 }
-

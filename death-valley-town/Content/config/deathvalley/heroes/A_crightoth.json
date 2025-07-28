@@ -1,17 +1,14 @@
 {
-	"a_dvCrightoth" :
-	{
+	"a_dvCrightoth" : {
 		"class" : "dvDeathlord",
 		"female" : false,
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "deathvalley/heroes/crightoth/Un32Ball.bmp",
 			"specialtyLarge" : "deathvalley/heroes/crightoth/Un44Ball.bmp",
 			"large" : "deathvalley/heroes/crightoth/crightothL.png",
 			"small" : "deathvalley/heroes/crightoth/crightothS.png"
 		},
-
 
 		"army" : [
 			{
@@ -47,10 +44,13 @@
 				"raiseSkeletons" : {
 					"type" : "IMPROVED_NECROMANCY",
 					"subtype" : "skelh",
-					"addInfo" : [1, 1]
-               }
+					"addInfo" : [
+						1,
+						1
+					]
+				}
 			}
-		},		
+		},
 		"texts" : {
 			"biography" : "Crightoth is the craftiest general in the land. He is the main instructor of the war academy, and when he takes the field he often educates his enemies on why they shouldn't mess with his kingdom.",
 			"name" : "Crightoth",
@@ -62,4 +62,3 @@
 		}
 	}
 }
-

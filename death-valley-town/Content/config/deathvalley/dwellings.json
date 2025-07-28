@@ -3,85 +3,147 @@
 		"types" : {
 			"dvGraveyard" : {
 				"name" : "Cemetery",
-				"creatures" : [[ "skelh" ]],
-				"sounds": {
-					"ambient": ["dwellings/dvdwl1.wav"]
+				"creatures" : [
+					[
+						"skelh"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"dwellings/dvdwl1.wav"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "deathvalley/adventure-map/dwelling-1.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"dvWasteMountain" : {
 				"name" : "Barrow Mound",
-				"creatures" : [[ "boneHook" ]],
+				"creatures" : [
+					[
+						"boneHook"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "deathvalley/adventure-map/dwelling-2.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"dvPyramid" : {
 				"name" : "Steeple",
-				"creatures" : [[ "mums" ]],
+				"creatures" : [
+					[
+						"mums"
+					]
+				],
 				"templates" : {
-					"default" : {	
+					"default" : {
 						"animation" : "deathvalley/adventure-map/dwelling-3.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"dvValley" : {
 				"name" : "Haunted Temple",
-				"creatures" : [[ "gghost" ]],
-				"sounds": {
-					"ambient": ["dwellings/dvdwl4.wav"]
+				"creatures" : [
+					[
+						"gghost"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"dwellings/dvdwl4.wav"
+					]
 				},
 				"templates" : {
 					"default" : {
 						"animation" : "deathvalley/adventure-map/dwelling-4.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"dvAbode" : {
 				"name" : "Abode of Night",
-				"creatures" : [[ "banshee" ]],
+				"creatures" : [
+					[
+						"banshee"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "deathvalley/adventure-map/dwelling-5.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			},
 			"dvHallOfDarkness" : {
 				"name" : "Hall of Darkness",
-				"creatures" : [[ "reaper1" ]],
+				"creatures" : [
+					[
+						"reaper1"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "deathvalley/adventure-map/dwelling-6.def",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"dvTemple" : {
 				"name" : "Canyon of Death",
-				"creatures" : [[ "bonegolem" ]],
-				"sounds": {
-					"ambient": ["dwellings/dvdwl7.wav"]
+				"creatures" : [
+					[
+						"bonegolem"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"dwellings/dvdwl7.wav"
+					]
 				},
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "deathvalley/adventure-map/dwelling-7.def",
-						"mask" : [ "VVV", "VBB", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

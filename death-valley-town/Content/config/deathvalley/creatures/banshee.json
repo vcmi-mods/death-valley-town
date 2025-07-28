@@ -1,49 +1,40 @@
 {
-	"banshee":
-	{
-		"name" :
-		{
+	"banshee" : {
+		"name" : {
 			"plural" : "Dark Witches",
 			"singular" : "Dark Witch"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 16,
-			 "min" : 8
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 8
 		},
 		"faction" : "deathvalley",
 		"aiValue" : 881,
 		"attack" : 13,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 550
 		},
-		"damage" :
-		{
-			 "max" : 13,
-			 "min" : 11
+		"damage" : {
+			"max" : 13,
+			"min" : 11
 		},
 		"defense" : 10,
 		"fightValue" : 885,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "deathvalley/battle/creatures/banshee.def",
 			"map" : "deathvalley/map/bansheemini.def",
 			"iconSmall" : "deathvalley/iconsSmall/banshees.bmp",
 			"iconLarge" : "deathvalley/iconsBig/bansheel.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.40,
+			"animationTime" : {
+				"walk" : 1.4,
 				"attack" : 1,
 				"idle" : 10
 			},
-		    "missile" :
-			{
+			"missile" : {
 				"attackClimaxFrame" : 8,
 				"projectile" : "deathvalley/battle/creatures/projectile/bansh.def",
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -51,20 +42,31 @@
 					"lowerX" : 29,
 					"lowerY" : -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
-         },
+		},
 		"growth" : 3,
 		"hitPoints" : 30,
 		"level" : 5,
 		"shots" : 6,
-		"upgrades":
-		[
+		"upgrades" : [
 			"ebanshee"
 		],
-	
-		"sound" :
-		{
+
+		"sound" : {
 			"attack" : "deathvalley/bansheeattk.wav",
 			"defend" : "deathvalley/bansheedfnd.wav",
 			"shoot" : "deathvalley/bansheeshoot.wav",
@@ -74,63 +76,112 @@
 		},
 		"speed" : 6,
 		"abilities" : {
-			"canshoot" :
-			{
+			"canshoot" : {
 				"type" : "SHOOTER"
-			},	
-				"castWeakness" :
-			{
-				"addInfo" : [1, 0],
+			},
+			"castWeakness" : {
+				"addInfo" : [
+					1,
+					0
+				],
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "weakness",
 				"val" : 100
 			},
-			"IS_UNDEAD" :
-			{
+			"IS_UNDEAD" : {
 				"type" : "UNDEAD"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		]
 	}

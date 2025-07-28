@@ -47,7 +47,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"deathRipple" : {
-					"subtype" : "spell.deathRipple",
+					"subtype" : "deathRipple",
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3

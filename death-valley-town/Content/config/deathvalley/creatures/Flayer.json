@@ -134,7 +134,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.disease",
+					"subtype" : "disease",
 					"addInfo" : [1, 1]
 				},
 				"values" : [ 8, 16, 24, 32, 40, 48, 56, 64, 72, 80 ]				

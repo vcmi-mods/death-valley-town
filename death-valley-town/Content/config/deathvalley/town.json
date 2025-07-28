@@ -63,7 +63,7 @@
 		"town" : {
 		    "defaultTavern" : 5,
 			"buildings" : {
-				"mageguild1" :
+				"mageGuild1" :
 				{
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 1",
@@ -72,8 +72,8 @@
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 2000
-					},
-					"id" : 0
+					}
+					
 				},
 				"mageGuild2" :
 				{
@@ -88,9 +88,7 @@
 						"crystal" : 4,
 						"gems" : 4,
 						"gold" : 1000
-					},
-					"id" : 1,
-					"upgrades" : "mageguild1"
+					}
 				},
 				"mageGuild3" :
 				{
@@ -105,9 +103,7 @@
 						"crystal" : 6,
 						"gems" : 6,
 						"gold" : 1000
-					},
-					"id" : 2,
-					"upgrades" : "mageGuild2"
+					}
 				},
 				"mageGuild4" :
 				{
@@ -122,9 +118,7 @@
 						"crystal" : 8,
 						"gems" : 8,
 						"gold" : 1000
-					},
-					"id" : 3,
-					"upgrades" : "mageGuild3"
+					}
 				},
 				"mageGuild5" :
 				{
@@ -139,9 +133,7 @@
 						"crystal" : 10,
 						"gems" : 10,
 						"gold" : 1000
-					},
-					"id" : 4,
-					"upgrades" : "mageGuild4"
+					}
 				},
 				"tavern" :
 				{
@@ -151,8 +143,8 @@
 					{
 						"wood" : 5,
 						"gold" : 500
-					},
-					"id" : 5
+					}
+					
 				},
 				"fort" :
 				{					
@@ -163,8 +155,7 @@
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
-					},
-					"id" : 7
+					}					
 				},
 				"citadel" :
 				{
@@ -174,9 +165,7 @@
 					{
 						"ore" : 5,
 						"gold" : 2500
-					},
-					"id" : 8,
-					"upgrades" : "fort"
+					}
 				},
 				"castle" :
 				{
@@ -187,16 +176,12 @@
 						"wood" : 10,
 						"ore" : 10,
 						"gold" : 5000
-					},
-					"id" : 9,
-					"upgrades" : "citadel"
+					}
 				},
 				"villageHall" :
 				{
 					"name" : "Village Hall",
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"id" : 10,
-					"mode" : "auto"
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
 				},
 				"townHall" :
 				{
@@ -205,10 +190,7 @@
 					"cost" :
 					{
 						"gold" : 2500
-					},
-					"id" : 11,
-					"requires" : ["tavern"],
-					"upgrades" : "villageHall"
+					}
 				},
 				"cityHall" :
 				{
@@ -217,10 +199,7 @@
 					"cost" :
 					{
 						"gold" : 5000
-					},
-					"requires" : ["allOf", ["mageguild1"], ["marketplace"], ["blacksmith"] ],
-					"id" : 12,
-					"upgrades" : "townHall"
+					}
 				},
 				"capitol" :
 				{
@@ -229,10 +208,7 @@
 					"cost" :
 					{
 						"gold" : 10000
-					},
-					"id" : 13,
-					"requires" : ["castle"],
-					"upgrades" : "cityHall"
+					}
 				},
 				"marketplace" :
 				{
@@ -243,8 +219,8 @@
 					{
 						"wood" : 5,
 						"gold" : 500
-					},
-					"id" : 14
+					}
+					
 				},
 				"resourceSilo" :
 				{
@@ -255,9 +231,8 @@
 						"ore" : 5,
 						"gold" : 5000
 					},
-					"produce": { "mercury": 1 },
-					"requires" : ["marketplace"],
-					"id" : 15
+					"produce": { "mercury": 1 }
+					
 				},
 				"blacksmith" :
 				{
@@ -268,8 +243,8 @@
 						"wood" : 5,
 						"gold" : 1000
 					},
-					"warMachine" : "ammoCart",
-					"id" : 16
+					"warMachine" : "ammoCart"
+					
 				},
 				"hordeHalflings" :
 				{
@@ -301,8 +276,8 @@
                     },
 					"bonuses": [
 						{ "type": "SIGHT_RADIUS", "val": 15 }, // 5 base + 15 bonus = 20 tiles range
-					],
-					"id" : 17
+					]
+					
 				},
 				"special2" :
 				{
@@ -320,8 +295,8 @@
                     "cost" : {
 						"gold" : 2000,
 						"ore" : 5
-                    },
-					"id" : 21
+                    }
+					
 				},
 				"special3" :
 				{
@@ -330,8 +305,8 @@
                               "cost" : {
                                     "gold" : 10000
                               },
-					"marketModes" : ["resource-artifact"],
-					"id" : 22
+					"marketModes" : ["resource-artifact"]
+					
 				},
 				"thievesguild" :
 				{
@@ -342,15 +317,13 @@
                               },
                     "bonuses": [ { "type" : "SIGHT_RADIUS", "val": 1, "valueType" : "ADDITIVE_VALUE", "propagator" : "HERO" } ], 
 					"id" : 23
+					
 				},
 				"grail" :
 				{
 					"description" : "The presence of the Glass Pyramid increases weekly creature generation by 50%, provides your empire with an additional 5000 gold each day. It will also change types of resurrected creatures (Shades or Banshees) from all visiting heroes.",
 					"name" : "Glass Pyramid",
-					"bonuses": [ { "duration": "PERMANENT", "type": "IMPROVED_NECROMANCY", "subtype": "creature.gghost" } ],
-					"id" : 26,
-					"produce": { "gold": 5000 },
-					"mode" : "grail"
+					"bonuses": [ { "duration": "PERMANENT", "type": "IMPROVED_NECROMANCY", "subtype": "gghost" } ]
 				},
 				"extraValley":  { "id" : 27, "requires" : [ "townHall" ], "mode" : "auto", "name" : "Valley", "description" : "Valley" },
 				"flag":  		{ "id" : 28, "requires" : [ "cityHall" ], "mode" : "auto", "name" : "Flag", "description" : "Flag" },
@@ -388,7 +361,7 @@
 						"wood" : 5,
                                     "crystal" : 2
 					},
-					"requires" : ["allOf", ["mageguild1"], ["dwelling2"] ],
+					"requires" : ["allOf", ["mageGuild1"], ["dwelling2"] ],
 					"id" : 32
 				},
 				"dwelling4" :
@@ -728,7 +701,7 @@
 				}
 			},
 			"structures" : {
-				"mageguild1" :
+				"mageGuild1" :
 				{
 					"animation" : "deathvalley/town-screen/buildings/mageGuild1.def",
 					"area" : "deathvalley/town-screen/buildings-area/tzMageGuild1.bmp",
@@ -1095,7 +1068,7 @@
 				],
 				[
 					[ "marketplace", "resourceSilo" ],
-					[ "mageguild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ],
+					[ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ],
 					[ "special2" ],	["thievesguild"]
 				],
 				[ 

@@ -16,7 +16,7 @@
 				},
 				"power" : {
 					"type" : "IMPROVED_NECROMANCY",
-					"subtype" : "creature.skelh",
+					"subtype" : "skelh",
 					"addInfo" : 0
 				}
 			}

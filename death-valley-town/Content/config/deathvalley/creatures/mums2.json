@@ -35,14 +35,14 @@
 			"castDisease" : 
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.plagueAb1",
+				"subtype" : "plagueAb1",
 				"val" : 100,
 				"addInfo" : [1,2]
 			},
 			"plaguePoints" : 
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.plagueAb1",
+				"subtype" : "plagueAb1",
 				"val" : 2
 			}
 		},
@@ -85,7 +85,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.curse",
+					"subtype" : "curse",
 					"addInfo" : [1,0] 
 				},
 				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
@@ -94,7 +94,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : "spellSchool.any"
+					"subtype" : "any"
 				},
 				"values" : [ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 ]
 			},

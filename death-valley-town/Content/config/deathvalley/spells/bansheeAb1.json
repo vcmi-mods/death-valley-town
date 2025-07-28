@@ -68,7 +68,7 @@
 					},
 					"magicDamageReduction" : {
 						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "spellSchool.any",
+						"subtype" : "any",
 						"val" : 100,
 						"duration" : [
 							"UNTIL_ATTACK",

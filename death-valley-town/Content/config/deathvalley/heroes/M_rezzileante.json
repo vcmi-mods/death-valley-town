@@ -47,7 +47,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"stoneSkin" : {
-					"subtype" : "spell.stoneSkin",
+					"subtype" : "stoneSkin",
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3

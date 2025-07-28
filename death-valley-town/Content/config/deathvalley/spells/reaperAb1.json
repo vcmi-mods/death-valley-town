@@ -60,7 +60,11 @@
 				},
 				"description": "Kills one creature after attack",	 
 				"battleEffects" : {
-					"directDamage" : {"type":"core:damage", "val": 1, "killByCount" : true, "valueType": 	"INDEPENDENT_MIN"}
+					"directDamage" : {"type":"core:damage", 
+					"killByCount" : true 
+//					"val": 1, 
+//					"valueType": 	"INDEPENDENT_MIN"
+					}
 				}
 			},
 			"none":

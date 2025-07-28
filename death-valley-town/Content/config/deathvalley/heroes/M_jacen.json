@@ -42,15 +42,7 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"mysticism" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "MANA_REGENERATION",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE",
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+			"secondary" : "mysticism"
 		},
 		
 		"texts" : {

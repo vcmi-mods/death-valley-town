@@ -4,25 +4,25 @@
 			"skeleton" :
 			{
 				"type" : "IMPROVED_NECROMANCY",
-				"subtype" : "creature.skeleton",
+				"subtype" : "skeleton",
 				"addInfo" : 0
 			},
 			"boneHook" :
 			{
 				"type" : "IMPROVED_NECROMANCY",
-				"subtype" : "creature.boneHook",
+				"subtype" : "boneHook",
 				"addInfo" : 1
 			},
 			"mums" :
 			{
 				"type" : "IMPROVED_NECROMANCY",
-				"subtype" : "creature.mums",
+				"subtype" : "mums",
 				"addInfo" : 2
 			},
 			"banshee" :
 			{
 				"type" : "IMPROVED_NECROMANCY",
-				"subtype" : "creature.banshee",
+				"subtype" : "banshee",
 				"addInfo" : 3
 			}
 		},

@@ -46,7 +46,7 @@
 			"bonuses" : {
 				"berserk" : {
 					"addInfo" : 3,
-					"subtype" : "spell.berserk",
+					"subtype" : "berserk",
 					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
 				}			
 			}

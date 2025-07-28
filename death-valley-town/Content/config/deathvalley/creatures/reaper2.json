@@ -33,7 +33,7 @@
 			"castDisease" : 
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.reaperAb1",
+				"subtype" : "reaperAb1",
 				"val" : 100,
 				"addInfo" : [1,2]
 			},

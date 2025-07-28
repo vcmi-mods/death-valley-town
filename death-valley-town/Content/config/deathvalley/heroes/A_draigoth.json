@@ -44,12 +44,12 @@
 		],
 		"specialty" : {
 			"base" : {
-				"addInfo" : "creature.leaper",
+				"addInfo" : "leaper",
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
-				"walkingDead2leaper" : { "subtype" : "creature.skeleton" },
-				"zombieLord2leaper" : { "subtype" : "creature.skeletonWarrior" }
+				"walkingDead2leaper" : { "subtype" : "skeleton" },
+				"zombieLord2leaper" : { "subtype" : "skeletonWarrior" }
 			}
 		},
 		"texts" : {

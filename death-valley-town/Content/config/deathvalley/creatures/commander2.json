@@ -36,7 +36,7 @@
 		"magicResistance" :
 			{
 				"type" : "SPELL_DAMAGE_REDUCTION",
-				"subtype" : "spellSchool.any",
+				"subtype" : "any",
 				"val" : 5
 			},
 			"castsAmount" :
@@ -57,7 +57,7 @@
 			"canCast" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.fortune",
+				"subtype" : "fortune",
 				"val" : 3
                   },
                   "IS_UNDEAD" :

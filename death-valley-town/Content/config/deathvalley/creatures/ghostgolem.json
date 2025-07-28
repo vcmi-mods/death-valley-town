@@ -35,7 +35,7 @@
 			"castUnholyCurse" : 
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.boneSkill02",
+				"subtype" : "boneSkill02",
 				"val" : 25
 			},
 			"king1" :

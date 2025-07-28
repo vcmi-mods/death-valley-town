@@ -36,19 +36,19 @@
 			{
 				"addInfo" : [1, 0],
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.weakness",
+				"subtype" : "weakness",
 				"val" : 100
 			},
 			"resurrection20hp" : 
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.animateDead",
+				"subtype" : "animateDead",
 				"val" : 20
 			},
 			"resurrects" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.animateDead",
+				"subtype" : "animateDead",
 				"val" : 3
 			},
 			"spellpoints" :

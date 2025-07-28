@@ -46,7 +46,7 @@
 			"bonuses" : {
 				"clone" : {
 					"addInfo" : 3,
-					"subtype" : "spell.clone",
+					"subtype" : "clone",
 					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
 				}				
 			}

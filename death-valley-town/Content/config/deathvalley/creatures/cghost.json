@@ -38,7 +38,7 @@
 			"castsAirShield" :
 			{
 				"type" : "ENCHANTER",
-				"subtype" : "spell.bansheeAb1",
+				"subtype" : "bansheeAb1",
 				"val" : 3
 			},
 			"IS_UNDEAD" : {

@@ -46,7 +46,7 @@
 			"bonuses" : {
 				"raiseSkeletons" : {
 					"type" : "IMPROVED_NECROMANCY",
-					"subtype" : "creature.skelh",
+					"subtype" : "skelh",
 					"addInfo" : [1, 1]
                }
 			}

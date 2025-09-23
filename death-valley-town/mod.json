@@ -3,7 +3,7 @@
 	"description" : "Necro town",
 	"author" : "VCMI ROFL and Turbanellos(Ben Yan), Andruids",
 	"contact" : "forum.vcmi.eu",
-	"version" : "1.52",
+	"version" : "1.53",
 	"modType" : "Town",
 	"compatibility" : {
 		"min" : "1.7.0"
@@ -86,7 +86,10 @@
 		],
 		"1.52" : [
 			"Another update to vcmi-1.7 format"
-		]
+		],
+		"1.53" : [
+			"Added flagport frames (Kingdom Overwiev window)"
+		]		
 	},
 	"chinese" : {
 		"name" : "死亡谷",

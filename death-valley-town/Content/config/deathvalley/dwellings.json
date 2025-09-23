@@ -22,7 +22,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "deathvalley/adventure-map/flagports/deathvalleydw01.def"
 			},
 			"dvWasteMountain" : {
 				"name" : "Barrow Mound",
@@ -40,7 +41,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "deathvalley/adventure-map/flagports/deathvalleydw02.def"
 			},
 			"dvPyramid" : {
 				"name" : "Steeple",
@@ -58,7 +60,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "deathvalley/adventure-map/flagports/deathvalleydw03.def"
 			},
 			"dvValley" : {
 				"name" : "Haunted Temple",
@@ -81,7 +84,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "deathvalley/adventure-map/flagports/deathvalleydw04.def"
 			},
 			"dvAbode" : {
 				"name" : "Abode of Night",
@@ -99,7 +103,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "deathvalley/adventure-map/flagports/deathvalleydw05.def"
 			},
 			"dvHallOfDarkness" : {
 				"name" : "Hall of Darkness",
@@ -118,7 +123,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "deathvalley/adventure-map/flagports/deathvalleydw06.def"
 			},
 			"dvTemple" : {
 				"name" : "Canyon of Death",
@@ -142,7 +148,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "deathvalley/adventure-map/flagports/deathvalleydw07.def"
 			}
 		}
 	}

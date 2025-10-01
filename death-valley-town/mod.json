@@ -132,7 +132,7 @@
 	},
 	"czech" : {
 		"name" : "Údolí Smrti",
-		"description" : "Přidává alternativní město nemrtvých Údolí Smrti",
+		"description" : "Údolí smrti je město vybudované na troskách dávných pohřebišť, kde vládne temná magie a moc nekromancie. Vládci tohoto města povolávají padlé zpět do služby a jejich armády nikdy skutečně nepřestanou růst.<br/><br/>Jeho armádu tvoří <b>kostění psi</b>, <b>kostění lučištníci</b>, <b>vyhnanci</b>, <b>stíny</b>, <b>temné čarodějnice</b> a strašliví <b>smrťáci</b>, posílení <b>kostěnými golemy</b> a mocnými pány smrti.<br/><br/>Údolí smrti se specializuje na <b>nekromancii</b> a <b>oživení</b>, temné rituály a nekonečný proud nemrtvých, který drtí nepřátele svou neúnavností. Hrdinové této frakce dokáží z každého bojiště učinit místo, kde smrt není koncem, ale začátkem.<br/><br/>Je to frakce pro hráče, kteří touží po ovládnutí sil temnoty, oživování padlých a po armádě, která nikdy nezahyne.",
 		"translations" : [
 			"translation/deathvalley/czech.json"
 		]

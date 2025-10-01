@@ -24,8 +24,8 @@
 		"graphics" : {
 			"animation" : "deathvalley/battle/creatures/Bone Hook.def",
 			"map" : "deathvalley/map/Bone Hook.def",
-			"iconSmall" : "deathvalley/iconsSmall/Bone Hook.bmp",
-			"iconLarge" : "deathvalley/iconsBig/BoneHook.bmp",
+			"iconSmall" : "deathvalley/iconsSmall/Bone Hook",
+			"iconLarge" : "deathvalley/iconsBig/BoneHook",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1,

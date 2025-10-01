@@ -4,8 +4,8 @@
 		"female" : true,
 
 		"images" : {
-			"specialtySmall" : "deathvalley/heroes/takesha/Un32Inte.bmp",
-			"specialtyLarge" : "deathvalley/heroes/takesha/Un44Inte.bmp",
+			"specialtySmall" : "deathvalley/heroes/takesha/Un32Inte",
+			"specialtyLarge" : "deathvalley/heroes/takesha/Un44Inte",
 			"large" : "deathvalley/heroes/takesha/TakeshaL.png",
 			"small" : "deathvalley/heroes/takesha/TakeshaS.png"
 		},

@@ -4,8 +4,8 @@
 		"female" : false,
 
 		"images" : {
-			"specialtySmall" : "deathvalley/heroes/roakshar/Un32Offe.bmp",
-			"specialtyLarge" : "deathvalley/heroes/roakshar/Un44Offe.bmp",
+			"specialtySmall" : "deathvalley/heroes/roakshar/Un32Offe",
+			"specialtyLarge" : "deathvalley/heroes/roakshar/Un44Offe",
 			"large" : "deathvalley/heroes/roakshar/RoaksharL.png",
 			"small" : "deathvalley/heroes/roakshar/RoaksharS.png"
 		},

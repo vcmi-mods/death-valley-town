@@ -3,8 +3,8 @@
 		"alignment" : "evil",
 		"description" : "Necropolis-style town with dead creatures.",
 		"creatureBackground" : {
-			"120px" : "deathvalley/creature-bg-120px.bmp",
-			"130px" : "deathvalley/creature-bg-130px.bmp"
+			"120px" : "deathvalley/creature-bg-120px",
+			"130px" : "deathvalley/creature-bg-130px"
 		},
 		"name" : "Death Valley",
 		"boat" : "boatNecropolis",
@@ -764,7 +764,7 @@
 					"ghostgolem"
 				]
 			],
-			"guildBackground" : "TPMAGE.bmp",
+			"guildBackground" : "TPMAGE",
 			"guildSpells" : {
 				"bloodlust" : 15,
 				"cure" : 6,
@@ -858,22 +858,22 @@
 			"icons" : {
 				"village" : {
 					"normal" : {
-						"small" : "deathvalley/icons/hall-small.bmp",
-						"large" : "deathvalley/icons/hall-big.bmp"
+						"small" : "deathvalley/icons/hall-small",
+						"large" : "deathvalley/icons/hall-big"
 					},
 					"built" : {
-						"small" : "deathvalley/icons/hall-builded-small.bmp",
-						"large" : "deathvalley/icons/hall-builded-big.bmp"
+						"small" : "deathvalley/icons/hall-builded-small",
+						"large" : "deathvalley/icons/hall-builded-big"
 					}
 				},
 				"fort" : {
 					"normal" : {
-						"small" : "deathvalley/icons/fort-small.bmp",
-						"large" : "deathvalley/icons/fort-big.bmp"
+						"small" : "deathvalley/icons/fort-small",
+						"large" : "deathvalley/icons/fort-big"
 					},
 					"built" : {
-						"small" : "deathvalley/icons/fort-builded-small.bmp",
-						"large" : "deathvalley/icons/fort-builded-big.bmp"
+						"small" : "deathvalley/icons/fort-builded-small",
+						"large" : "deathvalley/icons/fort-builded-big"
 					}
 				}
 			},
@@ -1063,184 +1063,184 @@
 			"structures" : {
 				"mageGuild1" : {
 					"animation" : "deathvalley/town-screen/buildings/mageGuild1.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzMageGuild1.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toMageGuild1.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzMageGuild1",
+					"border" : "deathvalley/town-screen/buildings-border/toMageGuild1",
 					"x" : 0,
 					"y" : 0,
 					"z" : 4
 				},
 				"mageGuild2" : {
 					"animation" : "deathvalley/town-screen/buildings/mageGuild2.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzMageGuild2.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toMageGuild2.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzMageGuild2",
+					"border" : "deathvalley/town-screen/buildings-border/toMageGuild2",
 					"x" : 0,
 					"y" : 0,
 					"z" : 4
 				},
 				"mageGuild3" : {
 					"animation" : "deathvalley/town-screen/buildings/mageGuild3.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzMageGuild3.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toMageGuild3.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzMageGuild3",
+					"border" : "deathvalley/town-screen/buildings-border/toMageGuild3",
 					"x" : 0,
 					"y" : 0,
 					"z" : 4
 				},
 				"mageGuild4" : {
 					"animation" : "deathvalley/town-screen/buildings/mageGuild4.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzMageGuild4.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toMageGuild4.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzMageGuild4",
+					"border" : "deathvalley/town-screen/buildings-border/toMageGuild4",
 					"x" : 0,
 					"y" : 0,
 					"z" : 4
 				},
 				"mageGuild5" : {
 					"animation" : "deathvalley/town-screen/buildings/mageGuild5.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzMageGuild5.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toMageGuild5.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzMageGuild5",
+					"border" : "deathvalley/town-screen/buildings-border/toMageGuild5",
 					"x" : 0,
 					"y" : 0,
 					"z" : 4
 				},
 				"tavern" : {
 					"animation" : "deathvalley/town-screen/buildings/tavern.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzTavern.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toTavern.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzTavern",
+					"border" : "deathvalley/town-screen/buildings-border/toTavern",
 					"x" : 0,
 					"y" : 0,
 					"z" : 7
 				},
 				"fort" : {
 					"animation" : "deathvalley/town-screen/buildings/fort.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzfort.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toFort.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzfort",
+					"border" : "deathvalley/town-screen/buildings-border/toFort",
 					"x" : 0,
 					"y" : 0,
 					"z" : -1
 				},
 				"citadel" : {
 					"animation" : "deathvalley/town-screen/buildings/citadel.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzCitadel.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toCitadel.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzCitadel",
+					"border" : "deathvalley/town-screen/buildings-border/toCitadel",
 					"x" : 0,
 					"y" : 0,
 					"z" : -1
 				},
 				"castle" : {
 					"animation" : "deathvalley/town-screen/buildings/awakening.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzAwakening.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toAwakening.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzAwakening",
+					"border" : "deathvalley/town-screen/buildings-border/toAwakening",
 					"x" : 0,
 					"y" : 0,
 					"z" : -1
 				},
 				"villageHall" : {
 					"animation" : "deathvalley/town-screen/buildings/villageHall.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzVillageHall.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toVillageHall.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzVillageHall",
+					"border" : "deathvalley/town-screen/buildings-border/toVillageHall",
 					"x" : 0,
 					"y" : 0,
 					"z" : 5
 				},
 				"townHall" : {
 					"animation" : "deathvalley/town-screen/buildings/townHall.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzTownHall.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toTownHall.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzTownHall",
+					"border" : "deathvalley/town-screen/buildings-border/toTownHall",
 					"x" : 0,
 					"y" : 0,
 					"z" : 5
 				},
 				"cityHall" : {
 					"animation" : "deathvalley/town-screen/buildings/cityHall.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzCityHall.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toCityHall.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzCityHall",
+					"border" : "deathvalley/town-screen/buildings-border/toCityHall",
 					"x" : 0,
 					"y" : 0,
 					"z" : 5
 				},
 				"capitol" : {
 					"animation" : "deathvalley/town-screen/buildings/capital.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzCapital.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toCapital.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzCapital",
+					"border" : "deathvalley/town-screen/buildings-border/toCapital",
 					"x" : 0,
 					"y" : 0,
 					"z" : 5
 				},
 				"marketplace" : {
 					"animation" : "deathvalley/town-screen/buildings/marketplace.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzmarketplace.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/tomarketplace.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzmarketplace",
+					"border" : "deathvalley/town-screen/buildings-border/tomarketplace",
 					"x" : 0,
 					"y" : 0,
 					"z" : 3
 				},
 				"resourceSilo" : {
 					"animation" : "deathvalley/town-screen/buildings/excavation.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzexcavation.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toexcavation.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzexcavation",
+					"border" : "deathvalley/town-screen/buildings-border/toexcavation",
 					"x" : 0,
 					"y" : 0,
 					"z" : 2
 				},
 				"blacksmith" : {
 					"animation" : "deathvalley/town-screen/buildings/slaughterhouse.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzslaughterhouse.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toslaughterhouse.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzslaughterhouse",
+					"border" : "deathvalley/town-screen/buildings-border/toslaughterhouse",
 					"x" : 0,
 					"y" : 0,
 					"z" : 3
 				},
 				"special1" : {
 					"animation" : "deathvalley/town-screen/buildings/necromancyAmplifier.def",
-					"area" : "deathvalley/town-screen/buildings-area/tznecromancyAmplifier.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/tonecromancyAmplifier.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tznecromancyAmplifier",
+					"border" : "deathvalley/town-screen/buildings-border/tonecromancyAmplifier",
 					"x" : 0,
 					"y" : 0,
 					"z" : 4
 				},
 				"thievesguild" : {
 					"animation" : "deathvalley/town-screen/buildings/thievesGuild.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzThievesGuild.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toThievesGuild.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzThievesGuild",
+					"border" : "deathvalley/town-screen/buildings-border/toThievesGuild",
 					"x" : 0,
 					"y" : 0,
 					"z" : 3
 				},
 				"hordeHalflings" : {
 					"animation" : "deathvalley/town-screen/buildings/boneCircle1.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzboneCircle.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toboneCircle.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzboneCircle",
+					"border" : "deathvalley/town-screen/buildings-border/toboneCircle",
 					"x" : 0,
 					"y" : 0,
 					"z" : 6
 				},
 				"hordeHalflingsUpgr" : {
 					"animation" : "deathvalley/town-screen/buildings/boneCircle2.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzboneCircle.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toboneCircle.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzboneCircle",
+					"border" : "deathvalley/town-screen/buildings-border/toboneCircle",
 					"x" : 0,
 					"y" : 0,
 					"z" : 7
 				},
 				"special2" : {
 					"animation" : "deathvalley/town-screen/buildings/deathKnightStatuary.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzdeathKnightStatuary.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/todeathKnightStatuary.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzdeathKnightStatuary",
+					"border" : "deathvalley/town-screen/buildings-border/todeathKnightStatuary",
 					"x" : 0,
 					"y" : 0,
 					"z" : 6
 				},
 				"special3" : {
 					"animation" : "deathvalley/town-screen/buildings/special3.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzspecial3.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/tospecial3.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzspecial3",
+					"border" : "deathvalley/town-screen/buildings-border/tospecial3",
 					"x" : 0,
 					"y" : 0,
 					"z" : 4
 				},
 				"grail" : {
 					"animation" : "deathvalley/town-screen/buildings/glassPyramid.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzglassPyramid.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toglassPyramid.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzglassPyramid",
+					"border" : "deathvalley/town-screen/buildings-border/toglassPyramid",
 					"x" : 0,
 					"y" : 0,
 					"z" : 2
@@ -1265,112 +1265,112 @@
 				},
 				"dwelling1" : {
 					"animation" : "deathvalley/town-screen/buildings/graveyard.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzgraveyard.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/tograveyard.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzgraveyard",
+					"border" : "deathvalley/town-screen/buildings-border/tograveyard",
 					"x" : 0,
 					"y" : 0,
 					"z" : 2
 				},
 				"dwelling2" : {
 					"animation" : "deathvalley/town-screen/buildings/wasteMountain.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzwasteMountain.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/towasteMountain.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzwasteMountain",
+					"border" : "deathvalley/town-screen/buildings-border/towasteMountain",
 					"x" : 0,
 					"y" : 0,
 					"z" : 1
 				},
 				"dwelling3" : {
 					"animation" : "deathvalley/town-screen/buildings/pyramid.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzPyramid.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toPyramid.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzPyramid",
+					"border" : "deathvalley/town-screen/buildings-border/toPyramid",
 					"x" : 0,
 					"y" : 0,
 					"z" : 5
 				},
 				"dwelling4" : {
 					"animation" : "deathvalley/town-screen/buildings/valley.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzvalley.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/tovalley.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzvalley",
+					"border" : "deathvalley/town-screen/buildings-border/tovalley",
 					"x" : 0,
 					"y" : 0,
 					"z" : 3
 				},
 				"dwelling5" : {
 					"animation" : "deathvalley/town-screen/buildings/mansion.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzmansion.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/tomansion.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzmansion",
+					"border" : "deathvalley/town-screen/buildings-border/tomansion",
 					"x" : 0,
 					"y" : 0,
 					"z" : 20
 				},
 				"dwelling6" : {
 					"animation" : "deathvalley/town-screen/buildings/hallOfDarkness.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzhallOfDarkness.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/tohallOfDarkness.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzhallOfDarkness",
+					"border" : "deathvalley/town-screen/buildings-border/tohallOfDarkness",
 					"x" : 0,
 					"y" : 0,
 					"z" : 6
 				},
 				"dwelling7" : {
 					"animation" : "deathvalley/town-screen/buildings/boneLab.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzboneLab.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toboneLab.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzboneLab",
+					"border" : "deathvalley/town-screen/buildings-border/toboneLab",
 					"x" : 0,
 					"y" : 0,
 					"z" : 2
 				},
 				"dwellingUpgrade1" : {
 					"animation" : "deathvalley/town-screen/buildings/royalGraves.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzroyalGraves.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toroyalGraves.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzroyalGraves",
+					"border" : "deathvalley/town-screen/buildings-border/toroyalGraves",
 					"x" : 0,
 					"y" : 0,
 					"z" : 2
 				},
 				"dwellingUpgrade2" : {
 					"animation" : "deathvalley/town-screen/buildings/wasteMountainUpgrade.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzwasteMountainUpgrade.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/towasteMountainUpgrade.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzwasteMountainUpgrade",
+					"border" : "deathvalley/town-screen/buildings-border/towasteMountainUpgrade",
 					"x" : 0,
 					"y" : 0,
 					"z" : 1
 				},
 				"dwellingUpgrade3" : {
 					"animation" : "deathvalley/town-screen/buildings/monolithPyramidUpgrade.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzmonolithPyramidUpgrade.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/tomonolithPyramidUpgrade.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzmonolithPyramidUpgrade",
+					"border" : "deathvalley/town-screen/buildings-border/tomonolithPyramidUpgrade",
 					"x" : 0,
 					"y" : 0,
 					"z" : 5
 				},
 				"dwellingUpgrade4" : {
 					"animation" : "deathvalley/town-screen/buildings/skullPile.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzskullPile.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toskullPile.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzskullPile",
+					"border" : "deathvalley/town-screen/buildings-border/toskullPile",
 					"x" : 0,
 					"y" : 0,
 					"z" : 3
 				},
 				"dwellingUpgrade5" : {
 					"animation" : "deathvalley/town-screen/buildings/ladyInWaiting.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzladyInWaiting.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toladyInWaiting.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzladyInWaiting",
+					"border" : "deathvalley/town-screen/buildings-border/toladyInWaiting",
 					"x" : 0,
 					"y" : 0,
 					"z" : 21
 				},
 				"dwellingUpgrade6" : {
 					"animation" : "deathvalley/town-screen/buildings/hallofDarknessUpgrade.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzhallofDarknessUpgrade.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/tohallofDarknessUpgrade.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzhallofDarknessUpgrade",
+					"border" : "deathvalley/town-screen/buildings-border/tohallofDarknessUpgrade",
 					"x" : 0,
 					"y" : 0,
 					"z" : 6
 				},
 				"dwellingUpgrade7" : {
 					"animation" : "deathvalley/town-screen/buildings/boneLabUpgrade.def",
-					"area" : "deathvalley/town-screen/buildings-area/tzboneLabUpgrade.bmp",
-					"border" : "deathvalley/town-screen/buildings-border/toboneLabUpgrade.bmp",
+					"area" : "deathvalley/town-screen/buildings-area/tzboneLabUpgrade",
+					"border" : "deathvalley/town-screen/buildings-border/toboneLabUpgrade",
 					"x" : 0,
 					"y" : 0,
 					"z" : 2

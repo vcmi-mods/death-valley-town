@@ -149,8 +149,8 @@
 		"graphics" : {
 			"animation" : "deathvalley/battle/creatures/bonegolem.def",
 			"map" : "deathvalley/map/bonegolemmini.def",
-			"iconSmall" : "deathvalley/iconsSmall/bonegolems.bmp",
-			"iconLarge" : "deathvalley/iconsBig/bonegoleml.bmp",
+			"iconSmall" : "deathvalley/iconsSmall/bonegolems",
+			"iconLarge" : "deathvalley/iconsBig/bonegoleml",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

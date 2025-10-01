@@ -4,8 +4,8 @@
 		"female" : false,
 
 		"images" : {
-			"specialtySmall" : "deathvalley/heroes/crightoth/Un32Ball.bmp",
-			"specialtyLarge" : "deathvalley/heroes/crightoth/Un44Ball.bmp",
+			"specialtySmall" : "deathvalley/heroes/crightoth/Un32Ball",
+			"specialtyLarge" : "deathvalley/heroes/crightoth/Un44Ball",
 			"large" : "deathvalley/heroes/crightoth/crightothL.png",
 			"small" : "deathvalley/heroes/crightoth/crightothS.png"
 		},

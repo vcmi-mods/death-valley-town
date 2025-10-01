@@ -4,8 +4,8 @@
 		"female" : true,
 
 		"images" : {
-			"specialtySmall" : "deathvalley/heroes/minerva/Un32Anim.bmp",
-			"specialtyLarge" : "deathvalley/heroes/minerva/Un44Anim.bmp",
+			"specialtySmall" : "deathvalley/heroes/minerva/Un32Anim",
+			"specialtyLarge" : "deathvalley/heroes/minerva/Un44Anim",
 			"large" : "deathvalley/heroes/minerva/MinervaL.png",
 			"small" : "deathvalley/heroes/minerva/MinervaS.png"
 		},

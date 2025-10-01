@@ -180,8 +180,8 @@
 		"graphics" : {
 			"animation" : "deathvalley/battle/creatures/mums.def",
 			"map" : "deathvalley/map/mumsmini.def",
-			"iconSmall" : "deathvalley/iconsSmall/CPrS064N.bmp",
-			"iconLarge" : "deathvalley/iconsBig/CPrL064N.bmp",
+			"iconSmall" : "deathvalley/iconsSmall/CPrS064N",
+			"iconLarge" : "deathvalley/iconsBig/CPrL064N",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

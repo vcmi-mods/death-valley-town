@@ -23,8 +23,8 @@
 		"graphics" : {
 			"animation" : "deathvalley/battle/creatures/skel2.def",
 			"map" : "deathvalley/map/skel2mini.def",
-			"iconSmall" : "deathvalley/iconsSmall/skel2s.bmp",
-			"iconLarge" : "deathvalley/iconsBig/skel2l.bmp",
+			"iconSmall" : "deathvalley/iconsSmall/skel2s",
+			"iconLarge" : "deathvalley/iconsBig/skel2l",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.4,

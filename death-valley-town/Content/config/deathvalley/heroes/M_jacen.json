@@ -3,8 +3,8 @@
 		"class" : "dvNecropriest",
 		"female" : false,
 		"images" : {
-			"specialtySmall" : "deathvalley/heroes/jacen/Un32Myst.bmp",
-			"specialtyLarge" : "deathvalley/heroes/jacen/Un44Myst.bmp",
+			"specialtySmall" : "deathvalley/heroes/jacen/Un32Myst",
+			"specialtyLarge" : "deathvalley/heroes/jacen/Un44Myst",
 			"large" : "deathvalley/heroes/jacen/JacenL.png",
 			"small" : "deathvalley/heroes/jacen/JacenS.png"
 		},

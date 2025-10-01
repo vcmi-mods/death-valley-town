@@ -58,8 +58,8 @@
 		"graphics" : {
 			"animation" : "deathvalley/battle/creatures/dkchamp.def",
 			//			"map" : "deathvalley/map/dkchampmini.def",
-			"iconSmall" : "deathvalley/iconsSmall/dkchamps.bmp",
-			"iconLarge" : "deathvalley/iconsBig/dkchampl.bmp",
+			"iconSmall" : "deathvalley/iconsSmall/dkchamps",
+			"iconLarge" : "deathvalley/iconsBig/dkchampl",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

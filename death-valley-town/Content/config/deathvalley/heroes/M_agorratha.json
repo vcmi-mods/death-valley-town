@@ -4,8 +4,8 @@
 		"female" : true,
 
 		"images" : {
-			"specialtySmall" : "deathvalley/heroes/agorratha/Un32Deat.bmp",
-			"specialtyLarge" : "deathvalley/heroes/agorratha/Un44Deat.bmp",
+			"specialtySmall" : "deathvalley/heroes/agorratha/Un32Deat",
+			"specialtyLarge" : "deathvalley/heroes/agorratha/Un44Deat",
 			"large" : "deathvalley/heroes/agorratha/AgorrathaL.png",
 			"small" : "deathvalley/heroes/agorratha/AgorrathaS.png"
 		},

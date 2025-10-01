@@ -179,8 +179,8 @@
 		"graphics" : {
 			"animation" : "deathvalley/battle/creatures/gravebeast.def",
 			"map" : "deathvalley/map/gravebeastmini.def",
-			"iconSmall" : "deathvalley/iconsSmall/gravebeasts.bmp",
-			"iconLarge" : "deathvalley/iconsBig/gravebeastl.bmp",
+			"iconSmall" : "deathvalley/iconsSmall/gravebeasts",
+			"iconLarge" : "deathvalley/iconsBig/gravebeastl",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

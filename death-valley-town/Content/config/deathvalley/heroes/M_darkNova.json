@@ -4,8 +4,8 @@
 		"female" : true,
 
 		"images" : {
-			"specialtySmall" : "deathvalley/heroes/darkNova/Un32Reap.bmp",
-			"specialtyLarge" : "deathvalley/heroes/darkNova/Un44Reap.bmp",
+			"specialtySmall" : "deathvalley/heroes/darkNova/Un32Reap",
+			"specialtyLarge" : "deathvalley/heroes/darkNova/Un44Reap",
 			"large" : "deathvalley/heroes/darkNova/DarkNovaL.png",
 			"small" : "deathvalley/heroes/darkNova/DarkNovaS.png"
 		},

@@ -34,7 +34,7 @@
 			}
 		},
 		"graphics" : {
-			"iconEffect" : "deathvalley/spells/skill 7-2.bmp"
+			"iconEffect" : "deathvalley/spells/skill 7-2"
 		},
 		"levels" : {
 			"base" : {

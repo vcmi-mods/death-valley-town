@@ -182,8 +182,8 @@
 		"graphics" : {
 			"animation" : "deathvalley/battle/creatures/skelhound.def",
 			"map" : "deathvalley/map/skelhoundmini.def",
-			"iconSmall" : "deathvalley/iconsSmall/skelhounds.bmp",
-			"iconLarge" : "deathvalley/iconsBig/skelhoundl.bmp",
+			"iconSmall" : "deathvalley/iconsSmall/skelhounds",
+			"iconLarge" : "deathvalley/iconsBig/skelhoundl",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

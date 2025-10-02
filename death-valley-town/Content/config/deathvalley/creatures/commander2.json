@@ -58,8 +58,8 @@
 		"graphics" : {
 			"animation" : "deathvalley/battle/creatures/kel.def",
 			//			"map" : "deathvalley/map/kelmini.def",
-			"iconSmall" : "deathvalley/iconsSmall/kels.bmp",
-			"iconLarge" : "deathvalley/iconsBig/kell.bmp",
+			"iconSmall" : "deathvalley/iconsSmall/kels",
+			"iconLarge" : "deathvalley/iconsBig/kell",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 20,

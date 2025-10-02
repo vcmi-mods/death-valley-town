@@ -152,8 +152,8 @@
 		"graphics" : {
 			"animation" : "deathvalley/battle/creatures/ghostgolem.def",
 			"map" : "deathvalley/map/ghostgolemmini.def",
-			"iconSmall" : "deathvalley/iconsSmall/ghostgolems.bmp",
-			"iconLarge" : "deathvalley/iconsBig/ghostgoleml.bmp",
+			"iconSmall" : "deathvalley/iconsSmall/ghostgolems",
+			"iconLarge" : "deathvalley/iconsBig/ghostgoleml",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

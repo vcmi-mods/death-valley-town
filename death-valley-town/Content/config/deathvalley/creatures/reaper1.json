@@ -133,8 +133,8 @@
 		"graphics" : {
 			"animation" : "deathvalley/battle/creatures/reaper1.def",
 			"map" : "deathvalley/map/reaper1mini.def",
-			"iconSmall" : "deathvalley/iconsSmall/CPrS066N.bmp",
-			"iconLarge" : "deathvalley/iconsBig/CPrL066N.bmp",
+			"iconSmall" : "deathvalley/iconsSmall/CPrS066N",
+			"iconLarge" : "deathvalley/iconsBig/CPrL066N",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

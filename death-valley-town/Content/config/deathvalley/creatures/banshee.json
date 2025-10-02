@@ -23,8 +23,8 @@
 		"graphics" : {
 			"animation" : "deathvalley/battle/creatures/banshee.def",
 			"map" : "deathvalley/map/bansheemini.def",
-			"iconSmall" : "deathvalley/iconsSmall/banshees.bmp",
-			"iconLarge" : "deathvalley/iconsBig/bansheel.bmp",
+			"iconSmall" : "deathvalley/iconsSmall/banshees",
+			"iconLarge" : "deathvalley/iconsBig/bansheel",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1.4,

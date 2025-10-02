@@ -153,8 +153,8 @@
 		"graphics" : {
 			"animation" : "deathvalley/battle/creatures/bansheeUpg.def",
 			"map" : "deathvalley/map/bansm2.def",
-			"iconSmall" : "deathvalley/iconsSmall/bansma1.bmp",
-			"iconLarge" : "deathvalley/iconsBig/banbig1.bmp",
+			"iconSmall" : "deathvalley/iconsSmall/bansma1",
+			"iconLarge" : "deathvalley/iconsBig/banbig1",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

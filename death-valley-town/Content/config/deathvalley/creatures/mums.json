@@ -169,8 +169,8 @@
 		"graphics" : {
 			"animation" : "deathvalley/battle/creatures/mums2.def",
 			"map" : "deathvalley/map/mums2mini.def",
-			"iconSmall" : "deathvalley/iconsSmall/m145sma.bmp",
-			"iconLarge" : "deathvalley/iconsBig/m145big.bmp",
+			"iconSmall" : "deathvalley/iconsSmall/m145sma",
+			"iconLarge" : "deathvalley/iconsBig/m145big",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

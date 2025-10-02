@@ -188,8 +188,8 @@
 		"graphics" : {
 			"animation" : "deathvalley/battle/creatures/gghost.def",
 			"map" : "deathvalley/map/gghostmini.def",
-			"iconSmall" : "deathvalley/iconsSmall/CPrS062N.bmp",
-			"iconLarge" : "deathvalley/iconsBig/CPrL062N.bmp",
+			"iconSmall" : "deathvalley/iconsSmall/CPrS062N",
+			"iconLarge" : "deathvalley/iconsBig/CPrL062N",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

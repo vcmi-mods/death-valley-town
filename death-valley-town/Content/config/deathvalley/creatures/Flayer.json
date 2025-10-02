@@ -25,8 +25,8 @@
 		"graphics" : {
 			"animation" : "deathvalley/battle/creatures/Flayer.def",
 			"map" : "deathvalley/map/Flayer.def",
-			"iconSmall" : "deathvalley/iconsSmall/Flayer.bmp",
-			"iconLarge" : "deathvalley/iconsBig/Flayer.bmp",
+			"iconSmall" : "deathvalley/iconsSmall/Flayer",
+			"iconLarge" : "deathvalley/iconsBig/Flayer",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
 				"walk" : 1,

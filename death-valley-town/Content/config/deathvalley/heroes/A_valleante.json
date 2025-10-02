@@ -4,8 +4,8 @@
 		"female" : false,
 
 		"images" : {
-			"specialtySmall" : "deathvalley/heroes/valleante/Un32Defe.bmp",
-			"specialtyLarge" : "deathvalley/heroes/valleante/Un44Defe.bmp",
+			"specialtySmall" : "deathvalley/heroes/valleante/Un32Defe",
+			"specialtyLarge" : "deathvalley/heroes/valleante/Un44Defe",
 			"large" : "deathvalley/heroes/valleante/ValLeAnteL.png",
 			"small" : "deathvalley/heroes/valleante/ValLeAnteS.png"
 		},

@@ -4,8 +4,8 @@
 		"female" : true,
 
 		"images" : {
-			"specialtySmall" : "deathvalley/heroes/mortadella/Un32Firs.bmp",
-			"specialtyLarge" : "deathvalley/heroes/mortadella/Un44Firs.bmp",
+			"specialtySmall" : "deathvalley/heroes/mortadella/Un32Firs",
+			"specialtyLarge" : "deathvalley/heroes/mortadella/Un44Firs",
 			"large" : "deathvalley/heroes/mortadella/mortadellaL.png",
 			"small" : "deathvalley/heroes/mortadella/mortadellaS.png"
 		},

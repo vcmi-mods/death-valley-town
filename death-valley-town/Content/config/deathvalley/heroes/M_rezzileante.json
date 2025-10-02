@@ -4,8 +4,8 @@
 		"female" : true,
 
 		"images" : {
-			"specialtySmall" : "deathvalley/heroes/rezzileante/Un32Ston.bmp",
-			"specialtyLarge" : "deathvalley/heroes/rezzileante/Un44Ston.bmp",
+			"specialtySmall" : "deathvalley/heroes/rezzileante/Un32Ston",
+			"specialtyLarge" : "deathvalley/heroes/rezzileante/Un44Ston",
 			"large" : "deathvalley/heroes/rezzileante/RezziLeAnteL.png",
 			"small" : "deathvalley/heroes/rezzileante/RezziLeAnteS.png"
 		},

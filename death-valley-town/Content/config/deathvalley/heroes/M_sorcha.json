@@ -4,8 +4,8 @@
 		"female" : true,
 
 		"images" : {
-			"specialtySmall" : "deathvalley/heroes/sorcha/Un32Sorc.bmp",
-			"specialtyLarge" : "deathvalley/heroes/sorcha/Un44Sorc.bmp",
+			"specialtySmall" : "deathvalley/heroes/sorcha/Un32Sorc",
+			"specialtyLarge" : "deathvalley/heroes/sorcha/Un44Sorc",
 			"large" : "deathvalley/heroes/sorcha/SorchaL.png",
 			"small" : "deathvalley/heroes/sorcha/SorchaS.png"
 		},

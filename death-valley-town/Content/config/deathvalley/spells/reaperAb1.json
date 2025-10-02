@@ -42,7 +42,7 @@
 		},
 
 		"graphics" : {
-			"iconEffect" : "deathvalley/spells/skill 4-2.bmp"
+			"iconEffect" : "deathvalley/spells/skill 4-2"
 		},
 
 		"sounds" : {

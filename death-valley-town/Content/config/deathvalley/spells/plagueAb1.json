@@ -38,7 +38,7 @@
 		},
 
 		"graphics" : {
-			"iconEffect" : "deathvalley/spells/skill 3-2.bmp"
+			"iconEffect" : "deathvalley/spells/skill 3-2"
 		},
 
 		"sounds" : {

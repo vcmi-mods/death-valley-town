@@ -97,10 +97,9 @@
 		"1.55" : [
 			"Fixed configs after BMPs to PNGs conversion"
 		],
-		"1.60":
-		[
+		"1.60" : [
 			"New townscreen and puzzle maps"
-		]		
+		]
 	},
 	"chinese" : {
 		"name" : "死亡谷",

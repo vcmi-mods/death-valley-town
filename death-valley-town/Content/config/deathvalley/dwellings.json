@@ -3,154 +3,84 @@
 		"types" : {
 			"dvGraveyard" : {
 				"name" : "Cemetery",
-				"creatures" : [
-					[
-						"skelh"
-					]
-				],
-				"sounds" : {
-					"ambient" : [
-						"dwellings/dvdwl1.wav"
-					]
-				},
+				"creatures" : [[ "skelh" ]],
+				"kingdomOverviewImage" : "deathvalley/adventure-map/flagport/dv1.def",
 				"templates" : {
 					"default" : {
 						"animation" : "deathvalley/adventure-map/dwelling-1.def",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VAB"
-						]
+						"mask" : [ "VVV", "VVV", "VAB" ]
 					}
-				},
-				"kingdomOverviewImage" : "deathvalley/adventure-map/flagports/deathvalleydw01.def"
+				}
 			},
 			"dvWasteMountain" : {
 				"name" : "Barrow Mound",
-				"creatures" : [
-					[
-						"boneHook"
-					]
-				],
+				"creatures" : [[ "boneHook" ]],
+				"kingdomOverviewImage" : "deathvalley/adventure-map/flagport/dv2.def",
 				"templates" : {
 					"default" : {
 						"animation" : "deathvalley/adventure-map/dwelling-2.def",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VAB"
-						]
+						"mask" : [ "VVV", "VVV", "VAB" ]
 					}
-				},
-				"kingdomOverviewImage" : "deathvalley/adventure-map/flagports/deathvalleydw02.def"
+				}
 			},
 			"dvPyramid" : {
-				"name" : "Steeple",
-				"creatures" : [
-					[
-						"mums"
-					]
-				],
+				"name" : "Decayed Vault",
+				"creatures" : [[ "mums" ]],
+				"kingdomOverviewImage" : "deathvalley/adventure-map/flagport/dv3.def",
 				"templates" : {
-					"default" : {
+					"default" : {	
 						"animation" : "deathvalley/adventure-map/dwelling-3.def",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VAB"
-						]
+						"mask" : [ "VVV", "VVV", "VAB" ]
 					}
-				},
-				"kingdomOverviewImage" : "deathvalley/adventure-map/flagports/deathvalleydw03.def"
+				}
 			},
 			"dvValley" : {
-				"name" : "Haunted Temple",
-				"creatures" : [
-					[
-						"gghost"
-					]
-				],
-				"sounds" : {
-					"ambient" : [
-						"dwellings/dvdwl4.wav"
-					]
-				},
+				"name" : "Haunted Tower",
+				"creatures" : [[ "gghost" ]],
+				"kingdomOverviewImage" : "deathvalley/adventure-map/flagport/dv4.def",
 				"templates" : {
 					"default" : {
 						"animation" : "deathvalley/adventure-map/dwelling-4.def",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VAB"
-						]
+						"mask" : [ "VVV", "VBB", "VAB" ]
 					}
-				},
-				"kingdomOverviewImage" : "deathvalley/adventure-map/flagports/deathvalleydw04.def"
+				}
 			},
 			"dvAbode" : {
 				"name" : "Abode of Night",
-				"creatures" : [
-					[
-						"banshee"
-					]
-				],
+				"creatures" : [[ "banshee" ]],
+				"kingdomOverviewImage" : "deathvalley/adventure-map/flagport/dv5.def",
+				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "deathvalley/adventure-map/dwelling-5.def",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VBA"
-						]
+						"mask" : [ "VVV", "VVV", "VBA" ]
 					}
-				},
-				"kingdomOverviewImage" : "deathvalley/adventure-map/flagports/deathvalleydw05.def"
+				}
 			},
 			"dvHallOfDarkness" : {
 				"name" : "Hall of Darkness",
-				"creatures" : [
-					[
-						"reaper1"
-					]
-				],
+				"creatures" : [[ "reaper1" ]],
+				"kingdomOverviewImage" : "deathvalley/adventure-map/flagport/dv6.def",
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "deathvalley/adventure-map/dwelling-6.def",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VAB"
-						]
+						"mask" : [ "VVV", "VVV", "VAB" ]
 					}
-				},
-				"kingdomOverviewImage" : "deathvalley/adventure-map/flagports/deathvalleydw06.def"
+				}
 			},
 			"dvTemple" : {
-				"name" : "Canyon of Death",
-				"creatures" : [
-					[
-						"bonegolem"
-					]
-				],
-				"sounds" : {
-					"ambient" : [
-						"dwellings/dvdwl7.wav"
-					]
-				},
+				"name" : "Bone Laboratory",
+				"creatures" : [[ "bonegolem" ]],
+				"kingdomOverviewImage" : "deathvalley/adventure-map/flagport/dv7.def",
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "deathvalley/adventure-map/dwelling-7.def",
-						"mask" : [
-							"VVV",
-							"VBB",
-							"VAB"
-						]
+						"mask" : [ "VVV", "VVV", "VAB" ]
 					}
-				},
-				"kingdomOverviewImage" : "deathvalley/adventure-map/flagports/deathvalleydw07.def"
+				}
 			}
-		}
+		}		
 	}
 }

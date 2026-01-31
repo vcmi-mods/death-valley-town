@@ -3,10 +3,10 @@
 	"description" : "Necro town",
 	"author" : "VCMI ROFL and Turbanellos(Ben Yan), Andruids",
 	"contact" : "forum.vcmi.eu",
-	"version" : "1.55",
+	"version" : "1.60",
 	"modType" : "Town",
 	"compatibility" : {
-		"min" : "1.7.0"
+		"min" : "1.7.1"
 	},
 	"changelog" : {
 		"1.00" : [
@@ -96,7 +96,11 @@
 		],
 		"1.55" : [
 			"Fixed configs after BMPs to PNGs conversion"
-		]
+		],
+		"1.60":
+		[
+			"New townscreen and puzzle maps"
+		]		
 	},
 	"chinese" : {
 		"name" : "死亡谷",

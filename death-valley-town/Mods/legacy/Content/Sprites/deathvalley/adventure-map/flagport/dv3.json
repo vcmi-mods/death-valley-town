@@ -1,0 +1,10 @@
+{
+	"basepath" : "deathvalley/adventure-map/flagports/",
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "deathvalleydw03"
+		}
+	]
+}

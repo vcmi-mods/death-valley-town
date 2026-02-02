@@ -1,0 +1,36 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"dvPyramid" : {
+				"name" : "Steeple"
+			},
+			"dvValley" : {
+				"name" : "Haunted Temple",
+				"templates" : {
+					"default" : {
+						"animation" : "deathvalley/adventure-map/dwelling-4.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
+					}
+				}
+			},
+
+			"dvTemple" : {
+				"name" : "Canyon of Death",
+				"templates" : {
+					"default" : {
+						"animation" : "deathvalley/adventure-map/dwelling-7.def",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
+					}
+				}
+			}
+		}
+	}
+}

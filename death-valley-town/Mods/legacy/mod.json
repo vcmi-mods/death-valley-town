@@ -1,0 +1,12 @@
+{
+	"name" : "Legacy view",
+	"description" : "This mod restores legacy design of town and related objects.",
+	"author" : "VCMI ROFL and Turbanellos(Ben Yan), Andruids",
+	"contact" : "forum.vcmi.eu",
+	"version" : "1.0",
+	"modType" : "Other",
+	"keepDisabled" : true,
+	"objects" : [
+		"config/deathvalley/dwellings"
+	]
+}

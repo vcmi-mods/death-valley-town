@@ -2,8 +2,8 @@
 	"deathvalley" : {
 		"alignment" : "evil",
 		"creatureBackground" : {
-			"120px" : "deathvalley/creature-bg-120px.bmp",
-			"130px" : "deathvalley/creature-bg-130px.bmp"
+			"120px" : "deathvalley/creature-bg-120px.png",
+			"130px" : "deathvalley/creature-bg-130px.png"
 		},
 		"name" : "Death Valley",
 		"description" : "{Death Valley}\nDeath Valley was originally part of the Dejya necromancers, but the Cathedral's successful counterattack against Dejya led some necromancers to pursue the beauty of life. They no longer chose to believe in pure death, but rather in rebirth within death. They also had their own dogmas regarding life.",
@@ -760,7 +760,7 @@
 					"ghostgolem"
 				]
 			],
-			"guildBackground" : "TPMAGE.bmp",
+			"guildBackground" : "TPMAGE.png",
 			"guildSpells" : {
 				"bloodlust" : 15,
 				"cure" : 6,
@@ -853,22 +853,22 @@
 			"icons" : {
 				"village" : {
 					"normal" : {
-						"small" : "deathvalley/icons/hall-small.bmp",
-						"large" : "deathvalley/icons/hall-big.bmp"
+						"small" : "deathvalley/icons/hall-small.png",
+						"large" : "deathvalley/icons/hall-big.png"
 					},
 					"built" : {
-						"small" : "deathvalley/icons/hall-builded-small.bmp",
-						"large" : "deathvalley/icons/hall-builded-big.bmp"
+						"small" : "deathvalley/icons/hall-builded-small.png",
+						"large" : "deathvalley/icons/hall-builded-big.png"
 					}
 				},
 				"fort" : {
 					"normal" : {
-						"small" : "deathvalley/icons/fort-small.bmp",
-						"large" : "deathvalley/icons/fort-big.bmp"
+						"small" : "deathvalley/icons/fort-small.png",
+						"large" : "deathvalley/icons/fort-big.png"
 					},
 					"built" : {
-						"small" : "deathvalley/icons/fort-builded-small.bmp",
-						"large" : "deathvalley/icons/fort-builded-big.bmp"
+						"small" : "deathvalley/icons/fort-builded-small.png",
+						"large" : "deathvalley/icons/fort-builded-big.png"
 					}
 				}
 			},

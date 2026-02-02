@@ -1,0 +1,151 @@
+{
+	"death-valley-town:deathvalley" : {
+		"town" : {
+			"buildings" : {
+				"special2#override" : {
+					"description" : "The Death Knight Statuary adds +2 to Luck for visiting hero.",
+					"name" : "Death Knight Statuary",
+					"cost" : {
+						"gold" : 2000,
+						"ore" : 5
+					},
+					"configuration" : {
+						"visitMode" : "bonus",
+						"rewards" : [
+							{
+								"message" : "A sinister aura fills the air. The Death Knight Statuary's power bestows your hero with +2 Luck for the end of the week, tipping the scales of fate in your favor.",
+								"bonuses" : [
+									{
+										"type" : "LUCK",
+										"val" : 2,
+										"valueType" : "ADDITIVE_VALUE",
+										"duration" : "ONE_WEEK"
+									}
+								]
+							}
+						]
+					}
+				},
+				"grail#override" : {
+					"description" : "The presence of the Glass Pyramid increases weekly creature generation by 50%, provides your empire with an additional 5000 gold each day. It will also change types of resurrected creatures (Shades or Banshees) from all visiting heroes.",
+					"name" : "Glass Pyramid",
+					"bonuses" : [
+						{
+							"duration" : "PERMANENT",
+							"type" : "IMPROVED_NECROMANCY",
+							"subtype" : "gghost"
+						}
+					]
+				},
+				"extraTownHall" : {
+					"description" : "Valley",
+					"name" : "Valley"
+				},
+				"extraCityHall" : {
+					"description" : "Flag",
+					"name" : "Flag"
+				},
+				"extraCapitol" : {
+					"description" : "Birds",
+					"name" : "Birds"
+				},
+				"dwellingLvl3" : {
+					"description" : "The Steeple allows you to recruit Outcasts.",
+					"name" : "Steeple"
+				},
+				"dwellingLvl4" : {
+					"description" : "The Haunted Temple allows you to recruit Shades.",
+					"name" : "Haunted Temple"
+				},
+				"dwellingLvl6" : {
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl4"
+						],
+						[
+							"dwellingLvl5"
+						]
+					]
+				},
+				"dwellingLvl7" : {
+					"description" : "The Canyon of Death allows you to recruit Bone Golems.",
+					"name" : "Canyon of Death",
+					"cost" : {
+						"gold" : 12000,
+						"wood" : 15,
+						"ore" : 15,
+						"mercury" : 10
+					},
+					"requires" : [
+						"dwellingLvl6"
+					]
+				},
+				"dwellingUpLvl3" : {
+					"description" : "The Upgraded Steeple allows you to recruit Lepers.",
+					"name" : "Upg. Steeple"
+				},
+				"dwellingUpLvl4" : {
+					"description" : "The Upgraded Haunted Temple allows you to recruit Banshees.",
+					"name" : "Upg. Haunted Temple"
+				},
+				"dwellingUpLvl6" : {
+					"requires" : [
+						"dwellingUpLvl5"
+					],
+					"upgrades" : "dwellingLvl6"
+				},
+				"dwellingUpLvl7" : {
+					"description" : "The Upgraded Canyon of Death allows you to recruit Ghost Golems.",
+					"name" : "Upg. Canyon of Death",
+					"cost" : {
+						"ore" : 10,
+						"gold" : 15000,
+						"wood" : 10,
+						"mercury" : 20
+					},
+					"requires" : [
+						"dwellingUpLvl6"
+					],
+					"upgrades" : "dwellingLvl7"
+				}
+			},
+			"structures" : {
+
+				"resourceSilo" : {
+					"z" : 2
+				},
+				"blacksmith" : {
+					"z" : 4
+				},
+				"extraTownHall" : {
+					"animation" : "deathvalley/town-screen/buildings/water2.def"
+				},
+				"dwellingLvl1" : {
+					"z" : 2
+				},
+				"dwellingLvl2" : {
+					"z" : 1
+				},
+				"dwellingLvl4" : {
+					"z" : 3
+				},
+				"dwellingLvl7" : {
+					"z" : 2
+				},
+				"dwellingUpLvl1" : {
+					"z" : 2
+				},
+				"dwellingUpLvl2" : {
+					"z" : 1
+				},
+				"dwellingUpLvl4" : {
+					"z" : 3
+				},
+				"dwellingUpLvl7" : {
+					"z" : 2
+				}
+			}
+		}
+	}
+}

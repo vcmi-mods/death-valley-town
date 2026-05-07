@@ -5,7 +5,24 @@
 	"contact" : "forum.vcmi.eu",
 	"version" : "1.0",
 	"modType" : "Other",
+	"depends" : [
+		"death-valley-town"
+	],
 	"keepDisabled" : true,
+	"chinese" : {
+		"name" : "旧版外观",
+		"description" : "此模组将使死亡谷城市和其中建筑物恢复旧版外观。",
+		"translations" : [
+			"translation/deathvalley/chinese.json"
+		]
+	},
+	"czech" : {
+		"name" : "Původní vzhled",
+		"description" : "Tato modifikace oboví původní vzhled města a dalších objektů",
+		"translations" : [
+			"translation/deathvalley/czech.json"
+		]
+	},
 	"objects" : [
 		"config/deathvalley/dwellings"
 	]

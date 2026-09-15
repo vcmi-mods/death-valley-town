@@ -76,7 +76,7 @@
 	"building.death-valley-town.deathvalley.resourceSilo.name" : "物资仓库",
 	"building.death-valley-town.deathvalley.special1.description" : "了望塔可扩大城镇周围的可视范围。",
 	"building.death-valley-town.deathvalley.special1.name" : "了望塔",
-	"building.death-valley-town.deathvalley.special2.description" : "死亡骑士雕像使每个来访的英雄士气+2。",
+	"building.death-valley-town.deathvalley.special2.description" : "死亡骑士雕像使每个来访的英雄幸运+2。",
 	"building.death-valley-town.deathvalley.special2.name" : "死亡骑士雕像",
 	"building.death-valley-town.deathvalley.special2.rewards.0" : "一股阴森的气息弥漫在空气中。死亡骑士雕像为你的英雄提供了+2幸运，持续到本周结束，使命运的天平向你倾斜。",
 	"building.death-valley-town.deathvalley.special3.description" : "宝物商店允许你购买宝物。",

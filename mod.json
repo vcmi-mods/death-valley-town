@@ -105,42 +105,42 @@
 		"name" : "死亡谷",
 		"description" : "死亡谷是一个新的亡灵种族，和教廷一样有着独特的宗教性艺术感。听闻教廷幸存者传播教义后，一些亡灵巫师开始追随死亡中的新生。于是他们离开迪雅，和这些幸存者一起建立了新的国度。虽然和墓园同为不死阵营，但他们不喜欢巫妖和吸血鬼。",
 		"translations" : [
-			"translation/deathvalley/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"french" : {
 		"name" : "Vallée de la Mort",
 		"description" : "Ville de la Vallée de la Mort",
 		"translations" : [
-			"translation/deathvalley/french.json"
+			"translation/french.json"
 		]
 	},
 	"german" : {
 		"name" : "Tal des Todes",
 		"description" : "Tal des Todes Stadt",
 		"translations" : [
-			"translation/deathvalley/german.json"
+			"translation/german.json"
 		]
 	},
 	"polish" : {
 		"name" : "Dolina Śmierci",
 		"description" : "Dodaje alternatywne miasto nieumarłych Dolina Śmierci",
 		"translations" : [
-			"translation/deathvalley/polish.json"
+			"translation/polish.json"
 		]
 	},
 	"russian" : {
 		"name" : "Долина Смерти",
 		"description" : "Новый город Долина Смерти, более зловещий некрополь, заселенный жуткой нежитью.",
 		"translations" : [
-			"translation/deathvalley/russian.json"
+			"translation/russian.json"
 		]
 	},
 	"czech" : {
 		"name" : "Údolí Smrti",
 		"description" : "Údolí smrti je město vybudované na troskách dávných pohřebišť, kde vládne temná magie a moc nekromancie. Vládci tohoto města povolávají padlé zpět do služby a jejich armády nikdy skutečně nepřestanou růst.<br/><br/>Jeho armádu tvoří <b>kostění psi</b>, <b>kostění lučištníci</b>, <b>vyhnanci</b>, <b>stíny</b>, <b>temné čarodějnice</b> a strašliví <b>smrťáci</b>, posílení <b>kostěnými golemy</b> a mocnými pány smrti.<br/><br/>Údolí smrti se specializuje na <b>nekromancii</b> a <b>oživení</b>, temné rituály a nekonečný proud nemrtvých, který drtí nepřátele svou neúnavností. Hrdinové této frakce dokáží z každého bojiště učinit místo, kde smrt není koncem, ale začátkem.<br/><br/>Je to frakce pro hráče, kteří touží po ovládnutí sil temnoty, oživování padlých a po armádě, která nikdy nezahyne.",
 		"translations" : [
-			"translation/deathvalley/czech.json"
+			"translation/czech.json"
 		]
 	},
 	"factions" : [

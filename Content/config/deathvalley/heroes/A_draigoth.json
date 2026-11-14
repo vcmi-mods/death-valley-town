@@ -45,10 +45,10 @@
 			},
 			"bonuses" : {
 				"walkingDead2leaper" : {
-					"subtype" : "skeleton"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "skeleton" } ]
 				},
 				"zombieLord2leaper" : {
-					"subtype" : "skeletonWarrior"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "skeletonWarrior" } ]
 				}
 			}
 		},

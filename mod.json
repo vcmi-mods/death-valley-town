@@ -3,10 +3,10 @@
 	"description" : "Necro town",
 	"author" : "VCMI ROFL and Turbanellos(Ben Yan), Andruids",
 	"contact" : "forum.vcmi.eu",
-	"version" : "1.60",
+	"version" : "1.61",
 	"modType" : "Town",
 	"compatibility" : {
-		"min" : "1.7.1"
+		"min" : "1.8.0"
 	},
 	"changelog" : {
 		"1.00" : [
@@ -99,6 +99,9 @@
 		],
 		"1.60" : [
 			"New townscreen and puzzle maps"
+		],
+		"1.61" : [
+			"Updated to VCMI 1.8 format"
 		]
 	},
 	"chinese" : {

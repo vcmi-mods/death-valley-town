@@ -49,34 +49,39 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"damageReduction" : {
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"subtype" : "damageTypeAll",
-						"val" : 100,
-						"duration" : [
-							"UNTIL_ATTACK",
-							"N_TURNS"
-						],
-						"turns" : 3
-					},
-					"magicDamageReduction" : {
-						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "any",
-						"val" : 100,
-						"duration" : [
-							"UNTIL_ATTACK",
-							"N_TURNS"
-						],
-						"turns" : 3
-					},
-					"noRetaliation" : {
-						"type" : "NO_RETALIATION",
-						"duration" : [
-							"UNTIL_ATTACK",
-							"N_TURNS"
-						],
-						"turns" : 3
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"damageReduction" : {
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"subtype" : "damageTypeAll",
+								"val" : 100,
+								"duration" : [
+									"UNTIL_ATTACK",
+									"N_TURNS"
+								],
+								"turns" : 3
+							},
+							"magicDamageReduction" : {
+								"type" : "SPELL_DAMAGE_REDUCTION",
+								"subtype" : "any",
+								"val" : 100,
+								"duration" : [
+									"UNTIL_ATTACK",
+									"N_TURNS"
+								],
+								"turns" : 3
+							},
+							"noRetaliation" : {
+								"type" : "NO_RETALIATION",
+								"duration" : [
+									"UNTIL_ATTACK",
+									"N_TURNS"
+								],
+								"turns" : 3
+							}
+						}
 					}
 				}
 			},

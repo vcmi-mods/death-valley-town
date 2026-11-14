@@ -55,34 +55,39 @@
 					"smart" : false
 				},
 				"description" : "{Plague}\n\nNo description.",
-				"effects" : {
-					"poison" : {
-						"val" : 30,
-						"type" : "POISON",
-						"valueType" : "INDEPENDENT_MAX",
-						"duration" : "N_TURNS",
-						"turns" : 3
-					},
-					"stackHealth" : {
-						"val" : -5,
-						"type" : "STACK_HEALTH",
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS",
-						"turns" : 3
-					},
-					"attack" : {
-						"val" : -2,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "attack",
-						"duration" : "N_TURNS",
-						"turns" : 3
-					},
-					"defence" : {
-						"val" : -2,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "defence",
-						"duration" : "N_TURNS",
-						"turns" : 3
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"poison" : {
+								"val" : 30,
+								"type" : "POISON",
+								"valueType" : "INDEPENDENT_MAX",
+								"duration" : "N_TURNS",
+								"turns" : 3
+							},
+							"stackHealth" : {
+								"val" : -5,
+								"type" : "STACK_HEALTH",
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "N_TURNS",
+								"turns" : 3
+							},
+							"attack" : {
+								"val" : -2,
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "attack",
+								"duration" : "N_TURNS",
+								"turns" : 3
+							},
+							"defence" : {
+								"val" : -2,
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "defence",
+								"duration" : "N_TURNS",
+								"turns" : 3
+							}
+						}
 					}
 				}
 			},

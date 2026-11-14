@@ -22,7 +22,6 @@
 		},
 
 		"flags" : {
-			"offensive" : true,
 			"damage" : true,
 			"negative" : true
 		},
@@ -56,6 +55,9 @@
 				},
 				"description" : "{Plague}\n\nNo description.",
 				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					},
 					"timed" : {
 						"type" : "core:timed",
 						"bonus" : {

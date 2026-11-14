@@ -7,7 +7,9 @@
 		},
 		"name" : "Death Valley",
 		"description" : "{Death Valley}\nDeath Valley was originally part of the Dejya necromancers, but the Cathedral's successful counterattack against Dejya led some necromancers to pursue the beauty of life. They no longer chose to believe in pure death, but rather in rebirth within death. They also had their own dogmas regarding life.",
-		"nativeTerrain" : [ "dirt" ],
+		"nativeTerrain" : [
+			"dirt"
+		],
 		"boat" : "boatNecropolis",
 		"puzzleMap" : {
 			"prefix" : "deathvalley/puzzle-map/PUZ",
